@@ -1,0 +1,65 @@
+#!/bin/bash
+
+#script that wellcome the user on the morning
+#gifs, asci photos, zines, animations, and livestream activation
+
+
+
+#get today images on tumblr (tumblr_ls7tlbQ3Lk1qi0kfro1_500.gifv)
+
+
+
+
+
+#print images
+
+TEST1=$((1 + $RANDOM % 8))
+
+
+if [ "$TEST1" = "1" ] ; then
+ catimg -l 1 -w 200 ./Downloads/goodmorningpics/athenians-what-have-we-done-to-deserve-this-invasion-at-the-v0-13eth0fscq2c1.webp
+
+fi
+if [ "$TEST1" = "2" ] ; then
+ catimg -l 1 -w 200 ./Downloads/goodmorningpics/code-geass-good-morning.gif       
+fi 
+
+if [ "$TEST1" = "3" ] ; then
+ catimg -l 1 -w 200 ./Downloads/goodmorningpics/eminence-in-shadow-alexia-midgar-3930366458.gif
+       
+fi 
+
+if [ "$TEST1" = "4" ] ; then
+ catimg -l 1 -w 200  ./Downloads/goodmorningpics/geomeme1.jpg     
+fi 
+
+if [ "$TEST1" = "5" ] ; then
+ catimg -l 1 -w 200  ./Downloads/goodmorningpics/shadow-cid-kagenou.gif      
+fi 
+
+if [ "$TEST1" = "6" ] ; then
+ catimg -l 1 -w 200  ./Downloads/goodmorningpics/souljaboy-superbowlchamps.gif
+fi 
+
+if [ "$TEST1" = "7" ] ; then
+ catimg -l 1 -w 200  ./Downloads/goodmorningpics/yuni-luna-yuni.gif
+fi 
+
+if [ "$TEST1" = "8" ] ; then
+ catimg -l 1 -w 200  ./Downloads/goodmorningpics/the-eminence-in-shadow-the-eminence-of-shadow.gif
+fi 
+
+
+#print RANDOM QUOTE goodmorning !!
+TEST=$((1 + $RANDOM % 3))
+
+if [ "$TEST" = "1" ] ; then
+echo "welcome, how is your day going? >.< "
+fi
+if [ "$TEST" = "2" ] ; then
+	echo "lets start a new day, tought "
+fi
+if [ "$TEST" = "3" ] ; then
+echo "wake up lil bro .-. "
+fi
+

@@ -1,0 +1,2 @@
+#!/bin/bash
+ps aux | grep '/usr/local/bin/timer' | awk '{print $2}' | xargs kill

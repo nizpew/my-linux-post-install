@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#help
+
+if [ '$#'='0' ]; then
+
+echo
+'
+SYNTAX: chgetinnotaudio https://invidious.slipfox.xyz/watch/p02DFmB0160&itag=18&lo
+-h
+'
+fi
+
+if [ '$1'='-h' ]; then
+echo
+'
+SYNTAX: chgetinnotaudio https://invidious.slipfox.xyz/watch/p02DFmB0160&itag=18&lo
+-h
+
+'
+fi
+#PLAYLISTS
+#CHANNELS
+
+if [ '$(echo "$1" | grep -o "channel")'='channel' ]; then
+curl "$1" | grep '<a tabindex="-1"' | grep -o '/watch..............' | sed 's%^%https://invidious.slipfox.xyz%' | xargs curl | grep -o '...................................=18&local=true' | sed 's%^%https://invidious.slipfox.xyz%' | xargs wget 
+fi
+
+
+#FOR SINGLE VIDEOSI
+if [ '$(echo "$1" | grep -o "watch")'='watch' ]; then
+curl "$1" | grep -o '...................................=18&local=true' | sed 's%^%https://invidious.slipfox.xyz%' | xargs wget 
+fi
+#| grep '=140"' | grep -oE ....................................140 | sed "s%^%https://invidious.slipfox.xyz%" | xargs -n 1 wget
+

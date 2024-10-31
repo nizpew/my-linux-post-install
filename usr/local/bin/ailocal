@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+
+~/gpt4all/bin/chat >/dev/null 2>&1
+
+
+
+
+
+

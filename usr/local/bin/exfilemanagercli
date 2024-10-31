@@ -1,0 +1,15 @@
+#!/bin/bash
+if [ "$#" = '0' ] ; then
+/home/$USER/exfilemanager/exfilemanager-fzf-implementation
+fi
+
+
+
+
+
+
+if [ "$1" = '-ai' ] ; then
+
+/home/$USER/exfilemanager/ex-file-manager -ai
+fi
+

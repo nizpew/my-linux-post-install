@@ -1,0 +1,56 @@
+#!/bin/sh
+
+
+#start already cded on the desired directiory!!
+	#chget https://invidious.slipfox.xyz/channel/UCukwGwBD-pAbGzoJo6ZXPtQ ./Docs/outro/temporaryscrpit/
+	#only https://invidious.slipfox.xyz/channel/UCukwGwBD-pAbGzoJo6ZXPtQ type args
+
+
+
+cd
+#sleep 2
+cd '$2'
+
+#if is a youtube link, make it indivious slipfox
+ 
+if [ '$(echo "$1" | grep -o "youtube.com")' = 'youtube.com' ]; then
+$(echo 'S1' ) | sed 's@https://www.youtube.com/watch?v=@https://invidious.slipfox.xyz/watch?v=@g' 
+else [ 'SLIPFURL' = '$1' ]
+fi
+
+#SEE IF TITS AN PLAYLIST
+
+if [ '$(echo "$SLIPFURL" | grep -o "playlist")' = 'playlist' ]; then
+curl "$1" | grep -o '.............................................................listen=1' | sed 's%^%https://invidious.slipfox.xyz%' | xargs curl | grep '=140"' | grep -oE ....................................140 | sed 's%^%https://invidious.slipfox.xyz%' | xargs -n 1 wget 
+
+
+fi
+
+# to playlists 
+#
+#curl $1 | grep -o '.............................................................listen=1' | sed 's%^%https://invidious.slipfox.xyz%' | xargs curl | grep '=140"' | grep -oE ....................................140 | sed 's%^%https://invidious.slipfox.xyz%' | xargs -n 1 wget 
+
+
+
+
+#IF IS NOT A PLAYLIST
+if [ '$(echo "$SLIPFURL" | grep -o "playlist")' =!'playlist' ]; then
+
+curl "$SLIPFURL" | grep -o ".....................listen=1" | sed 's%^%https://invidious.slipfox.xyz%' |xargs curl | grep '=140"' | grep -oE ....................................140 | sed "s%^%https://invidious.slipfox.xyz%" | xargs -n 1 wget 
+
+fi
+
+#ls -v | cat -n | while read n f; do mv -n "$f" "$n.mp3"; done
+
+
+#curl "$SLIPFURL" | grep -Eo ">.*</p></a>" | sed 's@"</p></a>"@@g' | sed 's@$@":\n:"@g'  > table-of-contents.txt
+#cd
+
+
+
+#MAKE NEXT PAGE OF AN CHANNEL IF IT HAS
+if [ '$(curl $SLIPFURL | grep -o '?continuation=')' = '?continuation=' ]; then
+
+	curl '$(curl $SLIPFURL | grep '?continuation='}'
+
+fi

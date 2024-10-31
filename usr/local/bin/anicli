@@ -1,0 +1,31 @@
+#!/bin/bash
+
+output=$(ani-cli -l | awk '/ani-cli\[[0-9]+\]:/ {for (i=6; i<=NF; i++) printf "%s%s", $i, (i<NF ? " " : "\n")}'| tail | tac)
+
+
+
+
+
+
+
+    # Use fzf to select an entry with a custom bind for 'd'
+    selected=$(echo "$output" | fzf --height 40% --reverse --border --bind 'ctrl-d:execute(echo "cant delete {} yet bro" )')
+
+    # If the user presses Esc or no selection was made, exit the script
+    if [ -z "$selected" ]; then
+        echo "Exiting..."
+        exit 0
+    fi
+    # If something was selected, process it
+    echo "Entering : $selected"
+
+
+#searching the anime_name -e EP_NUM 
+anime_name=$(echo $selected | awk '{$NF=""; print $0}' | sed 's/[[:space:]]*$//')
+episode_number=$(echo $selected | awk '{print $NF}')
+
+
+echo "name's: $anime_name and ep's $episode_number"
+
+    ani-cli "$anime_name" -e "$episode_number"
+

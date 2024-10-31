@@ -1,0 +1,9 @@
+#! /bin/sh
+
+
+
+#rain sounds :D
+
+mpv --ao=pulse --volume=30 ./Documents/1HrThunderstorm.mp3 &
+
+

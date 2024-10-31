@@ -1,0 +1,92 @@
+#!/bin/sh
+# todo list, minimal and fast
+# args: l, k, a, d, r , rr, h.
+
+
+
+#no arg
+if [ "$#" = "0" ] ; then
+    cat ./Documents/constant-files/todolist
+fi
+
+
+# 'l' = list tasks
+if [ "$1" = "-l" ] ; then
+    cat ./Documents/constant-files/todolist
+fi
+
+
+#if $1 !=="k" then #kill task ID
+# Syntax: todolist k TASKNUMBER 
+#if [ "$1" = "-k" ] && [ "$2" != "" ]; then                  
+#	sed $($2)d ./Documents/constant-files/todolist > ./Documents/constant-files/todolist
+#fi
+
+#add DONE to tasks
+# Syntax: todolist d TASKNUMBER
+#if [ "$1" = "-d" ] && [ "$2" = "1" ] ; then  
+#	sed -i '1s/$/-DONE/' ./Documents/constant-files/todolist
+#fi
+#if [ "$1" = "-d" ] && [ "$2" = "2" ] ; then  
+#        sed -i '2s/$/-DONE/' ./Documents/constant-files/todolist     
+#fi
+#if [ "$1" = "-d" ] && [ "$2" = "3" ] ; then  
+#        sed -i '3s/$/-DONE/' ./Documents/constant-files/todolist     
+#fi
+if [ "$1" = "-d" ]; then  
+        sed -i "$2s/$/-DONE/" ./Documents/constant-files/todolist     
+fi
+
+
+
+
+#'-m' = modify raw list
+if [ "$1" = "-m" ] ; then
+    vim ./Documents/constant-files/todolistvirgem 
+fi
+
+
+
+
+# '-h' = help
+if [ "$1" = "-h" ] ; then                  
+    echo "args: l, k, a, d.
+Syntax: todolist argument TASKNUMBER
+	'-l' = list tasks
+
+	'-r' = renew tasks
+
+	'-rr' = renew tasks daily automatically
+
+	'-d' = #add DONE to tasks
+	
+	'-m' = modify raw list
+	"
+fi
+
+# '-r' = renew tasks
+if [ "$1" = "-r" ] ; then                  
+	rm ./Documents/constant-files/todolist; cp ./Documents/constant-files/todolistvirgem ./Documents/constant-files/todolist
+fi
+
+
+# '-rr' = renew tasks daily automatically
+#put this script to run on boot! "todolist -rr", or each hour, whatever
+if [ "$1" = "-rr" ] ; then                  
+ rm ./Documents/constant-files/todolistdaycounter1; touch ./Documents/constant-files/todolistdaycounter1; echo $(date +"%D") > ./Documents/constant-files/todolistdaycounter1
+	if [ "$(cat ./Documents/constant-files/todolistdaycounter2)" != "$(cat ./Documents/constant-files/todolistdaycounter1)" ]; then
+	cp ./Documents/constant-files/todolistvirgem ./Documents/constant-files/todolist
+	rm ./Documents/constant-files/todolistdaycounter2
+	cp ./Documents/constant-files/todolistdaycounter1 ./Documents/constant-files/todolistdaycounter2
+	fi
+fi
+
+
+
+
+#fi
+#if timedatectl | grep Local | sed 's/ /_/g' | sed 's/_______________Local_time:_Thu_//g' | sed 's/_............//g' 
+#if [ date +"%T" = 00:00:00 ] ; then
+#	rm ./Documents/constant-files/todolist; cp ./Documents/constant-files/todolistvirgem ./Documents/constant-files/todolist
+#fi
+

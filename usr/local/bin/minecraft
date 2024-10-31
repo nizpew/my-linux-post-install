@@ -1,0 +1,4 @@
+#!/bin/bash
+
+java -jar Downloads/apps/TLauncher.v10/TLauncher.jar
+

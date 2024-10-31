@@ -1,0 +1,97 @@
+#!/bin/sh
+
+# Define variables
+PASSWORD="SUPERHARDpassword123"  # Consider using a secure method for passwords
+JOURNAL_DIR="$HOME/Documents/journaling"
+LOG_FILE="$HOME/Documents/constant-files/journalinglog"
+DEFAULT_MODEL="$HOME/Documents/constant-files/journaling-default-model"
+CURRENT_DATE=$(date -I)
+ENC_FILE="$CURRENT_DATE.enc"
+DECRYPTED_FILE="decrypted_file"
+
+# Navigate to the home directory
+cd "$HOME" || { echo "Failed to navigate to home directory"; exit 1; }
+
+# No arguments provided - create and encrypt journal entry
+if [ "$#" -eq 0 ]; then
+    echo "$CURRENT_DATE" >> "$LOG_FILE" || { echo "Failed to write to log file"; exit 1; }
+    todolist -d 3
+
+    cd "$JOURNAL_DIR" || { echo "Failed to navigate to journaling directory"; exit 1; }
+    cat "$DEFAULT_MODEL" >> "$CURRENT_DATE" || { echo "Failed to append default model"; exit 1; }
+    
+    RANDOM_BOOK=$((1 + RANDOM % 10))
+    RANDOM_CHAPTER=$((1 + RANDOM % 10))
+    bible -f psalms${RANDOM_BOOK}:${RANDOM_CHAPTER} >> "$CURRENT_DATE" || { echo "Failed to append Bible passage"; exit 1; }
+    
+    vim "$CURRENT_DATE" || { echo "Failed to open file in vim"; exit 1; }
+
+    openssl enc -aes-256-cbc -salt -in "$CURRENT_DATE" -out "$ENC_FILE" -k "$PASSWORD" || { echo "Failed to encrypt file"; exit 1; }
+    rm "$CURRENT_DATE" || { echo "Failed to remove original file"; exit 1; }
+    cd "$HOME" || { echo "Failed to return to home directory"; exit 1; }
+fi
+
+# Decrypt file if '-o' option is provided
+if [ "$1" = "-o" ]; then
+    if [ -z "$2" ]; then
+        echo "Please provide an encrypted file to decrypt"
+        exit 1
+    fi
+    openssl enc -aes-256-cbc -d -in "$2" -out "$DECRYPTED_FILE" -k "$PASSWORD" || { echo "Failed to decrypt file"; exit 1; }
+    vim "$DECRYPTED_FILE" || { echo "Failed to open decrypted file in vim"; exit 1; }
+    rm "$DECRYPTED_FILE" || { echo "Failed to remove decrypted file"; exit 1; }
+fi
+
+# Show history if '-H' option is provided
+if [ "$1" = "-H" ]; then
+    cat "$LOG_FILE" || { echo "Failed to read log file"; exit 1; }
+fi
+
+# Print help if '-h' option is provided
+if [ "$1" = "-h" ]; then
+    echo "
+    NOARG = open vim file with NOWDATE name
+
+    '-H' = show history
+
+    '-h' = print help
+
+    '-m' = modify log
+
+    '-o' = open decrypting - Documents/journaling
+
+    '-g' = graph , freuency of entries/logs
+    "
+fi
+
+# Modify log if '-m' option is provided
+if [ "$1" = "-m" ]; then
+    vim "$LOG_FILE" || { echo "Failed to open log file in vim"; exit 1; }
+fi
+
+# Perform metacog if '-metacog' option is provided
+if [ "$1" = "-metacog" ]; then
+    echo "1) What is the book about as a whole?;
+    2) What is being said in detail, and how?;
+    3) Is the book true, in whole or part?;
+    4) What of it? The last question is meant to prompt you to action. If you agree with what’s written in the book, you should now begin to execute the parts you comply with."
+    sleep 5
+
+    echo "$CURRENT_DATE" >> "$LOG_FILE" || { echo "Failed to write to log file"; exit 1; }
+    todolist -d 3
+
+    cd "$JOURNAL_DIR" || { echo "Failed to navigate to journaling directory"; exit 1; }
+    touch "$CURRENT_DATE" || { echo "Failed to create file"; exit 1; }
+
+    echo "1) What is the book about as a whole?;
+    2) What is being said in detail, and how?;
+    3) Is the book true, in whole or part?;
+    4) What of it? The last question is meant to prompt you to action. If you agree with what’s written in the book, you should now begin to execute the parts you comply with." >> "$CURRENT_DATE" || { echo "Failed to append metacog questions"; exit 1; }
+
+    cd "$HOME" || { echo "Failed to return to home directory"; exit 1; }
+fi
+
+
+if [ "$1" = "-g" ]; then
+python3 /usr/local/bin/plot_frequency.py
+fi

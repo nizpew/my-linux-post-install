@@ -1,0 +1,25 @@
+#!/bin/sh
+
+
+
+	#chget https://invidious.slipfox.xyz/channel/UCukwGwBD-pAbGzoJo6ZXPtQ ./Docs/outro/temporaryscrpit/
+	#only https://invidious.slipfox.xyz/channel/UCukwGwBD-pAbGzoJo6ZXPtQ type args
+
+
+
+cd
+cd $2
+
+
+
+
+#curl $1 | grep -o '.....................listen=1' | sed 's%^%https://invidious.slipfox.xyz%' | xargs curl --progress-bar --verbose --silent | grep '=140"' | grep -oE ....................................140 | sed 's%^%https://invidious.slipfox.xyz%' | xargs -n 1 wget 
+yt-dlp -x -f bestaudio $1
+
+
+
+
+for file in *; do mv "$file" "$(echo $file | sed 's/ /_/g')"; done
+for file in * ; do   echo "${file##*/}"; done | xargs -n1 >> table-of-contents
+
+cd

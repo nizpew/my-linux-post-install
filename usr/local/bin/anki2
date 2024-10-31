@@ -1,0 +1,36 @@
+﻿#!/bin/bash
+#anki2: a personal script based on metacognition studies, to upgrade memory
+
+
+#T-
+#10000000 00
+#0 0 1111
+#}
+#ANKIQ
+#10
+#10000000 0 #10
+#1
+#0 | 1111} .] 0 0 11 119/111} /
+
+
+
+
+#1book-writing
+#biblia
+#inverse-cramming
+#faz os dois de uma vez‡ pega sobre 'oq vai falar' da biblia, e esscreve um livro sobre, com quotes
+echo 'INITIAL PHASE: one page per day, write about bible topic, and quote bible at least 3 times.'
+sleep 5
+cd ./Documents/metacog/
+vim $(date -I)
+cd
+todolist -d 1
+gnome-www-browser $(sed -n '$(cat ./Documents/constant-files/metacogteotopiccounter)p'./Documents/constant-files/bibleorder)
+echo [$(cat./Documents/constant-files/metacogteotopiccounter)+1] >>./Documents/constant-files/metacogteotopiccounter
+
+sed '1d'./Documents/constant-files/metacogteotopiccounter
+#2journaling
+#PE
+#OUTRO
+#commonplace notebook.
+#biblia notes

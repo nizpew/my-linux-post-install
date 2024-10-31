@@ -1,0 +1,5 @@
+#!/bin/bash
+##$(find Downloads/books/) |
+##grep '*.epub' |
+##for file in *.epub; do ebook-convert "${file}" "${file}.pdf"; done
+for file in $(find Downloads/books/ | grep '*.epub'); do ebook-convert "${file}" "${file}.pdf"; done

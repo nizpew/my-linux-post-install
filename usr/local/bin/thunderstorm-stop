@@ -1,0 +1,8 @@
+#! /bin/sh
+
+
+
+#rain sounds stoppin :D
+pidof mpv | xargs kill -9
+
+

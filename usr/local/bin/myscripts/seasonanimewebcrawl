@@ -1,0 +1,59 @@
+#!/bin/python3
+
+
+#=================================================================================================================
+#░▄▀▀▒██▀▒▄▀▄░▄▀▀░▄▀▄░█▄░█░░▒▄▀▄░█▄░█░█░█▄▒▄█▒██▀░░░▀█▀░█░▀█▀░█▒░▒██▀░▄▀▀░░░▄▀▀▒█▀▄▒▄▀▄░█░░▒█░█▒░▒██▀▒█▀▄
+#▒▄██░█▄▄░█▀█▒▄██░▀▄▀░█▒▀█▒░░█▀█░█▒▀█░█░█▒▀▒█░█▄▄▒░░▒█▒░█░▒█▒▒█▄▄░█▄▄▒▄██▒░░▀▄▄░█▀▄░█▀█░▀▄▀▄▀▒█▄▄░█▄▄░█▀▄
+#========================================================================================================
+#__________________________________________________________________
+
+
+
+
+
+
+####################take arguments from CLI
+############https://stackoverflow.com/questions/22846858/python-pass-arguments-to-a-script
+
+import optparse #import optparse
+parser=optparse.OptionParser()
+parser.add_option('-t',help='take titles')
+parser.add_option('-p','--position',help='column position in the file',type=int)
+parser.add_option('-s','--sample',help='sample size',type=int)
+#opts.position
+
+
+
+
+
+
+
+import requests
+
+res = requests.get('https://myanimelist.net/anime/season/schedule')
+
+
+txt = res.text
+status = res.status_code
+
+
+
+
+#####################################regular expresion
+
+#import re
+#re.search('^<h2 class="h2_anime_title">', txt)
+
+from bs4 import BeautifulSoup                                                   
+
+
+
+
+def match_class(target):                                                        
+    def do_match(tag):                                                          
+        classes = tag.get('class', [])                                          
+        return all(c in classes for c in target)                                
+    return do_match                                                             
+
+soup = BeautifulSoup(txt, "html.parser")                                                    
+print (soup.find_all(match_class(["h2_anime_title"])))

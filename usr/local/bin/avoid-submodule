@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir avoidsubmodule
+mv .git avoidsubmodule
+mv .github avoidsubmodule
+

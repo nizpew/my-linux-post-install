@@ -1,0 +1,42 @@
+#!/bin/python3
+
+
+import matplotlib.pyplot as plt
+
+S, F, W, X = 1, 2, 0, None
+FIELD = [[X,S,W,W,W,W],
+         [W,W,W,W,W,W],
+         [W,W,W,W,W,W],
+         [W,W,W,W,W,F],
+         [W,W,W,X,W,W],
+         [W,W,W,W,W,W]]
+ROWS = len(FIELD)
+COLS = len(FIELD[0])
+
+START_POS  = [(i, line.index(S)) for i, line in enumerate(FIELD) if S in line][0]
+FINISH_POS = [(i, line.index(F)) for i, line in enumerate(FIELD) if F in line][0]
+STEPS      = sum(line.count(W) for line in FIELD) + 1
+
+print("Start:", START_POS, "\nFinish:", FINISH_POS, "\nTotal steps:", STEPS)
+
+def do_step(level, path, points):
+    global FIELD
+    r, c = points[-1]   
+    if r<0 or c<0 or r>=ROWS or c>=COLS or FIELD[r][c] == X:
+        return
+    if level == STEPS and (r, c) == FINISH_POS:
+        print("Found path:", path) 
+        yy, xx = zip(*points)
+        plt.plot(xx, yy, "-ok")
+        plt.gca().invert_yaxis()
+        plt.show()
+        exit()
+
+    current = FIELD[r][c] 
+    FIELD[r][c] = X      
+    for dr, dc, dir in ((-1,0,'^'), (0,1,'>'), (1,0,'v'), (0,-1,'<')):
+        do_step(level+1, path+dir, points+[(r+dr,c+dc)])
+    FIELD[r][c] = current 
+do_step(0, "", [START_POS])
+print("No path's found.")
+

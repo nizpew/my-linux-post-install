@@ -1,0 +1,30 @@
+#!/bin/python3
+
+import os
+import pytesseract
+from PIL import Image
+
+def extract_text_from_image(image_path):
+    # Check if the image file exists
+    if not os.path.exists(image_path):
+        raise FileNotFoundError(f"Image file not found at path: {image_path}")
+
+    # Open the image file
+    img = Image.open(image_path)
+
+    # Extract text from the image using Portuguese language
+    text = pytesseract.image_to_string(img, lang='por')
+
+    return text.strip()  # Remove leading and trailing whitespace
+
+if __name__ == "__main__":
+    # Path to the image file
+    image_path = "./Downloads/uni/testocr.jpg"  # Adjust the file extension if it's different
+
+    # Extract text from the image
+    extracted_text = extract_text_from_image(image_path)
+
+    # Print the extracted text
+    print("Extracted Text:")
+    print(extracted_text)
+

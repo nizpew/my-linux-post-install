@@ -1,0 +1,2 @@
+if [ "$(ps aux | grep openvpn | grep -o "openvpn" | wc -l)" -eq 7 ]; then notify-send "open vpn on";fi
+

@@ -1,0 +1,37 @@
+#!/bin/sh
+
+stance='https://inv.us.projectsegfau.lt'
+
+# Function to parse and count videos
+count_videos() {
+    local url="$1"
+    curl "$url" | grep -oP '(?<=href=")[^"]*listen=1[^"]*(?=")' | wc -l
+}
+
+# Function to simulate download progress
+simulate_download_progress() {
+    local total_videos="$1"
+    local avg_time_per_video="$2"
+    local total_time=$((total_videos * avg_time_per_video))
+
+    echo "Total videos: $total_videos"
+    echo "Average time per video: $avg_time_per_video seconds"
+    echo "Estimated total time: $total_time seconds"
+
+    # Simulate progress bar
+    for ((i=0; i<$total_videos; i++)); do
+        sleep $avg_time_per_video
+        printf "\rProgress: [%-50s] %d/%d videos downloaded" "$(printf '%*s' ${1:-50} | tr ' ' '#')" $((i+1)) $total_videos
+    done
+    echo ""
+}
+
+# Main logic
+if [ $(echo "$1" | grep -o "playlist") = 'playlist' ]; then
+    total_videos=$(count_videos "$1")
+    avg_time_per_video=60 # Example average time per video in seconds, adjust based on actual measurements
+    simulate_download_progress $total_videos $avg_time_per_video
+else
+    # Handle single video case or other scenarios as needed
+fi
+

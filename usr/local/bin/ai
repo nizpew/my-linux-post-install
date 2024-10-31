@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+
+piper $(tgpt -q << EOF 
+$1 
+EOF)& > /dev/null 2>&1 
+
+
+ 
+tgpt -q << EOF
+$1 
+EOF

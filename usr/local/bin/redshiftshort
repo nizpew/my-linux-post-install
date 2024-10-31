@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ "$1" = "-up" ] ; then
+redshift -P -O 1000
+fi
+
+if [ "$1" = "-down" ] ; then
+redshift -x
+fi
+

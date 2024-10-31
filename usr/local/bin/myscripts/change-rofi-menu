@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo vim /usr/local/bin/myscripts/rofi-dmenu-commands.sh
