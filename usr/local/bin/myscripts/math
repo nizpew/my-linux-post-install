@@ -1,0 +1,24 @@
+#!/bin/python3
+
+
+
+
+
+#matrizes, multiplicacao de matrizes
+import numpy as np
+A = np.array([[2, 3]])
+B = np.array([[4],[1]])
+
+
+conta = 2*A
+conta2 = conta - B
+
+
+
+print(conta, conta2)
+
+
+#expressoes
+import sympy
+expr = C + conta2 = 0
+sympy.solve(expr, C)

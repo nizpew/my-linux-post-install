@@ -1,0 +1,50 @@
+#!/bin/python3
+import requests
+from bs4 import BeautifulSoup
+import os
+from PIL import Image
+
+def download_images(url, directory, num_images=50):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    image_tags = soup.find_all('img')
+
+    os.makedirs(directory, exist_ok=True)
+    count = 0
+    for img_tag in image_tags:
+        if count >= num_images:
+            break
+        image_url = img_tag.get('src')
+        if image_url and image_url.endswith('.avif') and 'http' in image_url:
+            try:
+                image_response = requests.get(image_url)
+                image_file = os.path.join(directory, f"image_{count+1}.avif")
+                with open(image_file, "wb") as f:
+                    f.write(image_response.content)
+                print(f"Downloaded: {image_file}")
+                count += 1
+            except Exception as e:
+                print(f"Error downloading {image_url}: {e}")
+
+def convert_avif_to_jpg(directory):
+    for filename in os.listdir(directory):
+        if filename.endswith('.avif'):
+            avif_file = os.path.join(directory, filename)
+            jpg_file = os.path.join(directory, f"{os.path.splitext(filename)[0]}.jpg")
+            img = Image.open(avif_file).convert("RGB")
+            img.save(jpg_file, "JPEG")
+            os.remove(avif_file)
+            print(f"Converted: {avif_file} to {jpg_file}")
+
+# Specify the URL of the webpage
+url = "https://cat-milk.github.io/Anime-Girls-Holding-Programming-Books/"
+
+# Specify the directory to save the images
+directory = os.path.join(os.path.expanduser("~"), "Downloads", "anime-hold-programming-books")
+
+# Download AVIF images
+download_images(url, directory)
+
+# Convert AVIF images to JPEG
+convert_avif_to_jpg(directory)
+

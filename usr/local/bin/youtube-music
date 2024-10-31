@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Diretório de downloads
+DOWNLOADS_DIR="/home/$USER/Downloads"
+
+# Encontrar o arquivo mais recente do YouTube Music
+$(ls -1 "${DOWNLOADS_DIR}/YouTube-Music-"*.AppImage 2>/dev/null | sort -V | tail -n 1) --no-sandbox & 2>/dev/nul

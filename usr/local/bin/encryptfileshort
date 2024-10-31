@@ -1,0 +1,131 @@
+#/!/bin/bash
+#ACTUALLY DOES NOT WORK
+#encryptfileshort;
+#make encrpting files, or entire directories, faster and easier to remember.
+#using openssl -[aes256] cypher -[base64]
+
+#fast manual
+#encrypt 
+#openssl enc -k secretpassword123 -aes256 -base64 -e -in plain.txt -out cipher.txt
+#decrypt
+#openssl enc -k Test35 -aes256 -base64 -d -in ./Documents/archpostinstallfiles/my-arch-post-install-NIZPEW/not\ license\ nor\ readme/Documents/journallogcrypt -out ./Documents/archpostinstallfiles/my-arch-post-install-NIZPEW/not\ license\ nor\ readme/Documents/journallogdecrypt
+
+
+
+
+#OUTRO
+
+if [ $# = "0" ] ; then 
+echo 'arguments expected.'
+encryptfileshort -h
+fi
+
+
+
+#ENCRYPT
+#0. for one file
+#SYNTAX: encryptfileshort -ef [INPUTFILE] [OUTPUTFILE]
+
+
+
+
+if [ "$1" = "-ef" ] ; then                  
+PASS=$(whiptail --passwordbox "imput encrypt password?" 8 39 Blue --title "encryptfileshort dialog" 3>&1 1>&2 2>&3)
+exitstatus=$?
+if [ $exitstatus = 0 ]; then
+openssl enc -k $PASS -aes256 -base64 -e -in $2 -out $3
+echo "sucessfully encrypted"
+
+else
+    echo "User selected Cancel;
+
+review syntax:"
+    encryptfileshort -h
+fi
+fi
+
+
+
+
+
+
+#1. for entire dir
+if [ "$1" = "-ed" ] ; then 
+#whiptail imput $PASS and $FINALFILENAME
+#SYNTAX: encryptfileshort -ca [DIR] [FILE]
+
+PASS=$(whiptail --passwordbox "imput encrypt password?" 8 39 Blue --title "encryptfileshort dialog" 3>&1 1>&2 2>&3)
+                                                                        # A trick to swap stdout and stderr.
+## Again, you can pack this inside if, but it seems really long for some 80-col terminal users.
+exitstatus=$?
+if [ $exitstatus == 0 ]; then
+for file in $2*  ; do openssl enc -k $PASS -aes256 -base64 -e ${file##*/} ; done
+else
+    echo "User selected Cancel."
+fi
+
+##echo "(Exit status was $exitstatus)"
+
+
+##for file in $2*  ; do openssl e
+#nc -k $PASS -aes256 -base64 -e -in ${file##*/ -out $FINALFILENAME
+fi
+
+
+
+
+
+
+
+
+
+#2. make an entire folder cat append on one file
+if [ "$1" = "-ca" ] ; then
+
+for file in $2*  ; do   cat "$2${file##*/}"; done >> $3
+fi
+
+
+
+# '-h' = print help
+if [ "$1" = "-h" ] ; then                  
+	echo "
+	SYNTAX = encryptfileshort [arg] [FILE or DIR]
+	'-ed' = encript for entire dir
+	#SYNTAX: encryptfileshort -ed [DIR]
+	'-dd' = dencript for entire dir
+	#SYNTAX: encryptfileshort -dd [DIR]
+	'-h' = print help
+	'-ef' = encrypt for one file
+	#SYNTAX: encryptfileshort -ef [INPUTFILE] [OUTPUTFILE]
+	'-ca' = make an entire folder cat append on one file.
+	SYNTAX: encryptfileshort -ca [DIR] [FILE]
+	'-df' = decript individual file
+	#SYNTAX: encryptfileshort -ef [INPUTFILE] [OUTPUTFILE]
+	
+	"
+fi
+
+#DECRYPT
+#file
+if [ "$1" = "-dd" ] ; then
+
+#decrypt dir
+	PASS=$(whiptail --passwordbox 8 39 Blue --title "encryptfileshort dialog (decrypting directrory)" 3>&1 1>&2 2>&3)
+
+                                                                        # A trick to swap stdout and stderr.
+
+## Again, you can pack this inside if, but it seems really long for some 80-col terminal users.
+
+	exitstatus=$?
+
+	if [ $exitstatus = 0 ]; then
+
+	for file in $2*  ; do openssl enc -k $PASS -aes256 -base64 -d -in ${file##*/} -out $FINALFILENAME ; done
+
+	else
+
+	    echo "User selected Cancel."
+
+	fi
+fi

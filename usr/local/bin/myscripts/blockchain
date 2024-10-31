@@ -1,0 +1,51 @@
+#!/bin/python3
+from web3 import Web3, HTTPProvider
+from solcx import compile_source
+import json
+
+# Conexão com um nó Ethereum local
+w3 = Web3(HTTPProvider('http://localhost:8545'))
+
+# Endereço do contrato e ABI
+contract_address = "0x1234567890123456789012345678901234567890"
+contract_abi = json.loads('[{"constant":true,"inputs":[],"name":"getSoftwareComponent","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_softwareComponent","type":"string"}],"name":"addSoftwareComponent","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]')
+
+# Carregando o contrato inteligente
+contract = w3.eth.contract(address=contract_address, abi=contract_abi)
+
+def add_component(name):
+    # Adiciona um novo componente de software
+    tx_hash = contract.functions.addSoftwareComponent(name).transact()
+    receipt = w3.eth.waitForTransactionReceipt(tx_hash)
+    print("Componente adicionado com sucesso.")
+
+def get_components():
+    # Retorna todos os componentes de software
+    components = contract.functions.getSoftwareComponent().call()
+    return components
+
+def main():
+    print("Bem-vindo à Plataforma de Desenvolvimento de Software Baseada em Blockchain")
+    while True:
+        print("\n1. Adicionar Componente de Software")
+        print("2. Ver Componentes de Software")
+        print("3. Sair")
+        choice = input("Escolha uma opção: ")
+
+        if choice == '1':
+            name = input("Digite o nome do componente de software: ")
+            add_component(name)
+        elif choice == '2':
+            components = get_components()
+            print("Componentes de Software:")
+            for component in components:
+                print(component)
+        elif choice == '3':
+            print("Saindo...")
+            break
+        else:
+            print("Opção inválida. Tente novamente.")
+
+if __name__ == "__main__":
+    main()
+

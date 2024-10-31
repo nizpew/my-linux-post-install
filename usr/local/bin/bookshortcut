@@ -1,0 +1,58 @@
+#!/bin/bash
+# a shortcut to open books and notetake
+
+
+if [ '$#'='0' ];then
+echo '''
+-ll = print quotes of link [-ll {LINK}]
+-l = list
+-s = transform epub to pdf
+NOARG = print help
+
+'''
+fi
+
+
+
+#READ -r
+##if [ '$1'='-r' ];then
+##echo SYNTAX: boookshort.. ./Downloads/books/Mortimer..boookshort..
+
+
+##ls ./Documents/books-to-read-without-net/ &>/dev/null > $1
+##echo $1
+
+##mupdf '$2'; ;read input
+##if [ '$input'='' ]; then vim $(echo "'$1.vim'"
+##	       todolist -d 1
+##	       exit
+##       fi
+ 
+##fi
+
+
+
+
+if [ '$2'='-l' ];then
+	echo '''
+https://www.goodreads.com/genres/productivity
+https://www.goodreads.com/book/quotes/55723020-dopamine-nation
+https://www.goodreads.com/book/quotes/40672036-digital-minimalism
+https://www.goodreads.com/book/quotes/54898389-the-almanack-of-naval-ravikant
+https://www.goodreads.com/book/quotes/125063314-be-useful
+https://www.goodreads.com/book/quotes/58503121-dopamine-detox
+https://www.goodreads.com/book/quotes/197773418-slow-productivity
+https://www.goodreads.com/work/quotes/59110456-the-5-am-club-own-your-morning-elevate-your-life
+https://www.goodreads.com/work/quotes/7413929-the-4-hour-body
+https://www.goodreads.com/work/quotes/62221762-atomic-habits
+https://www.goodreads.com/work/quotes/16402639-thinking-fast-and-slow
+https://www.goodreads.com/work/quotes/52114847-make-your-bed-little-things-that-can-change-your-life-and-maybe-the
+'''
+fi
+
+
+
+
+if [ '$1'='-ll' ];then
+curl $2 | grep '&ldquo;' 
+fi

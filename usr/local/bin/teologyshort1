@@ -1,0 +1,89 @@
+#!/bin/bash
+
+# Lista de livros da Bíblia
+books=(
+    "Genesis" "Exodus" "Leviticus" "Numbers" "Deuteronomy"
+    "Joshua" "Judges" "Ruth" "Samuel" "Kings" "Chronicles"
+    "Ezra" "Nehemiah" "Tobit" "Judith" "Esther" "Maccabees"
+    "Job" "Psalms" "Proverbs" "Ecclesiastes" "Song of Solomon"
+    "Wisdom of Solomon" "Sirach" "Isaiah" "Jeremiah" "Lamentations"
+    "Baruch & Letter of Jeremiah" "Ezekiel" "Daniel" "Hosea" "Joel"
+    "Amos" "Obadiah" "Jonah" "Micah" "Nahum" "Habakkuk" "Zephaniah"
+    "Haggai" "Zechariah" "Malachi" "Matthew" "Mark" "Luke" "John"
+    "Acts" "Romans" "Corinthians" "Galatians" "Ephesians" "Philippians"
+    "Colossians" "Thessalonians" "Timothy" "Titus" "Philemon" "Hebrews"
+    "James" "Peter" "John" "Jude" "Revelation"
+)
+
+# Função para obter o próximo livro
+get_next_book() {
+    local current_book="$1"
+    local next_book=""
+    for i in "${!books[@]}"; do
+        if [ "${books[i]}" = "$current_book" ]; then
+            if (( i < ${#books[@]} - 1 )); then
+                next_book="${books[i+1]}"
+            fi
+            break
+        fi
+    done
+    echo "$next_book"
+}
+
+# Função para analisar o output da função bible e determinar o próximo versículo
+analyze_bible_output() {
+    local output="$1"
+    local book=$(echo "$output" | head -n 1 | sed 's/^[0-9]* //')
+    local chapter=$(echo "$output" | head -n 1 | cut -d' ' -f2)
+    local verse=$(echo "$output" | tail -n 1 | cut -d':' -f1)
+
+    # Verificar se estamos no último capítulo do livro
+    local next_book=$(get_next_book "$book")
+    if [ -z "$next_book" ]; then
+        echo "Fim da Bíblia alcançado"
+        return
+    fi
+
+    # Avançar para o próximo versículo ou capítulo
+    if (( verse < 5 )); then
+        echo "${book}:${chapter}:$((verse+1))-$((verse+5))"
+    else
+        echo "${book}:${chapter+1}:1-5"
+    fi
+}
+
+# Modificar a função '-rr' para usar a nova lógica
+if [ "$1" = "-rr" ] ; then
+    local last_log=$(sed -n '$p' ./Documents/constant-files/teologylog)
+    local book=$(echo "$last_log" | cut -d '|' -f 2 | cut -d ':' -f 1)
+    local chapter=$(echo "$last_log" | cut -d '|' -f 2 | cut -d ':' -f 2 | cut -d '-' -f 1)
+    local verse_range=$(echo "$last_log" | cut -d '|' -f 2 | cut -d ':' -f 2 | cut -d '-' -f 2)
+
+    # Obter o output da função bible para análise
+    local bible_output=$(bible "${book}:${chapter}:$((verse_range+1))-$((verse_range+5))")
+
+    # Analisar o output e determinar o próximo versículo
+    local next_verse=$(analyze_bible_output "$bible_output")
+    
+    echo "$(date -I) | $next_verse" >> ./Documents/constant-files/teologylog
+    
+    # Resto do código da função '-rr' permanece o mesmo
+    todolist -d 1
+    echo "Syntax: _write 3 quotes of that specific book (E.G. Jhon)"
+    echo "ex:     Jn1:1-5"
+    sleep 2
+    piper "$(tgpt -q "summary in 4 lines: $(bible $next_verse)" sleep 6)" & 
+
+    eog Downloads/photos/$(ls Downloads/photos/*gif | shuf | shuf | shuf) &
+
+    tgpt -q "summary in 4 lines: $(bible $next_verse)"
+    read input
+
+    bible $next_verse ;read input
+
+    if [ '$input'='' ]; then
+        cd; cd ./Documents/teologydir ; vim $(date -I)
+        todolist -d 1 > /dev/null 2>&1
+    fi
+fi
+

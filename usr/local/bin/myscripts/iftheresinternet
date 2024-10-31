@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#if theres alr a job of this script
+
+#jobs | if [ '$(grep -o /usr/local/bin/myscripts/iftheresinternet)' != '/usr/local/bin/myscripts/iftheresinternet' ]; then
+
+watch -g -n 5 'ping -c 1 -q https://support.mozilla.org/1/firefox/125.0.2/Linux/en-US/preferences'>&/dev/null; notify-send "theres internet now!"
+mpv /usr/share/sounds/gnome/default/alerts/drip.ogg >&/dev/null 
+#fi
+exit

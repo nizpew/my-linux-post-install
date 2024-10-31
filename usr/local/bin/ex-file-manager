@@ -1,0 +1,45 @@
+#!/bin/bash
+#
+#
+#to help yo find whats taking the disk space of yur linux machine, with ai capabilities 
+#
+#Dependencies: andrew/tgpt, ranger, st.
+
+
+
+if [ "$#" = '0' ] ; then
+echo "Actual free space in the root disk: $(df -h --output=avail / | tail -n 1)"
+
+sudo du -cha --max-depth=1 /home/$USER | grep -E "M|G" | sort
+fi
+
+if [ "$1" = "-h" ] ; then
+echo '
+SYNTAX = ex-filemanager [-arg] 
+
+'-ai' = ai tells which folders are taking most space on you machine
+
+'-no args' = print folder and storage taken
+
+'-h' = print help
+
+'-s' = specify dir to search
+
+
+'
+fi
+
+
+if [ "$1" = '-ai' ] ; then
+sudo du -cha --max-depth=1 /home/$USER | grep -E "M|G" | sort | tgpt -q "help me find what is taking most of my disk space" 
+fi
+
+
+if [ "$1" = "-s" ] ; then 
+	if [ "$2" = "" ] ; then
+		echo "Actual free space in the root disk: $(df -h --output=avail / | tail -n 1)"
+		sudo du -cha --max-depth=1 /home/$USER | grep -E "M|G" | sort
+	fi
+sudo du -cha --max-depth=1 $2 | grep -E "M|G" | sort
+fi
+

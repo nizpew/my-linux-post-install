@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# Generate a unique directory name
+dir=$(uuidgen | cut -d'-' -f1)
+
+# Create a temporary directory
+mkdir /tmp/$dir || { echo "Failed to create directory"; exit 1; }
+
+# Copy the specified file to the temporary directory
+cp "$1" /tmp/$dir || { echo "Failed to copy file"; exit 1; }
+
+# Create a zip archive of the directory
+zip -r /tmp/$dir.zip /tmp/$dir || { echo "Failed to create zip archive"; exit 1; }
+
+# Encrypt the zip file
+zipcloak /tmp/$dir.zip || { echo "Failed to encrypt zip file"; exit 1; }
+
+# Upload the zip file
+curl -F "file=@/tmp/$dir.zip" 0x0.st || { echo "Failed to upload file"; exit 1; }
+

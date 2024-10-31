@@ -1,0 +1,53 @@
+#!/bin/bash
+# AARGS: brightnessctl 0.3
+
+
+xrandr --output eDP-1 --brightness $1
+
+if [ "$#" = '0' ] ; then
+	echo 'INVALID: NO ARGS
+	'
+echo '
+# AARGS: brightnessctl 0.3
+
+
+'low' 
+
+'high'
+
+'
+fi
+
+
+#'-h' = print help
+if [ "$1" = "-h" ] ; then
+echo '
+# AARGS: brightnessctl 0.3
+
+
+'low' 
+
+'high'
+
+'
+fi
+
+
+if [ "$1" = "high" ] ; then
+brightnessctl 0.9
+fi
+
+if [ "$1" = "low" ] ; then
+brightnessctl 0.3
+fi
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+#!/bin/bash
+#!/bin/python3
+from time import sleep
+from tqdm import tqdm
+import subprocess32 as subprocess
+
+
+
+bartime = 0
+
+
+
+#bartime = numero de videos * duracao dos videos * quao boa ta a net
+for line in subprocess.run([curl "$1", |, grep -Eo ">.*</p></a>" | sed 's@"</p></a>"@@g' | sed 's@$@":\n:"@g']):
+    bartime += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+for i in tqdm(range(bartime)):
+    sleep(0.1)
+
+
+

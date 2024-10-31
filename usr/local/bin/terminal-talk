@@ -1,0 +1,9 @@
+#!/bin/sh
+
+X =[
+"It's not like I wanted to do it for you or anything.",
+"I'm not doing this for you again.",
+"Ugh, what a bother.",
+]
+
+echo X

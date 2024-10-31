@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Check if argument is provided and not '-stop'
+if [ "$1" != "-stop" ]; then
+    seconds=$(($1 * 60))  # Convert minutes to seconds
+    for ((i = $seconds; i >= 0; i--)); do
+        printf "\r%02d:%02d:%02d" $((i / 3600)) $(((i / 60) % 60)) $((i % 60)) >./Documents/constant-files/pomodorotimer
+        sleep 1  # Wait for 1 second
+    done
+    vlc --volume=200 Downloads/kitchen-timer-33043.mp3  # Play audio file when countdown is finished
+fi
+
+# Check if argument is '-stop' to stop the timer or soundfile
+if [ "$1" = "-stop" ]; then
+    # Code to stop the timer or soundfile (uncomment and modify as needed)
+    echo "Stopping timer or soundfile"
+fi
+

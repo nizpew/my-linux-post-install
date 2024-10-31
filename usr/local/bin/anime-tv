@@ -1,0 +1,82 @@
+#!/bin/bash
+#make an anime schedule that plays automatically on a second monitor
+
+
+#TEST get current day schedule anime names
+#curl https://animeschedule.net/ | grep 'class="timetable-column-date-format' | grep '<h1 class="timetable-column-date" onclick="return expandDayMobile(this);"><span class="timetable-column-date-format">29 Nov</span> <span class="timetable-column-day">' | sed 's@<h1 class="timetable-column-date" onclick="return expandDayMobile(this);"><span class="timetable-column-date-format">29 Nov</span> <span class="timetable-column-day">@@g' | sed 's@</span></h1>@@g'
+
+
+#get anime names
+#!/bin/bash
+
+
+
+
+#TODO search on gogoanime
+
+
+# Fetch anime names from the website
+anime_list=$(curl -s https://animeschedule.net/ | grep 'class="show-title-bar show-title-small' | sed 's@<h2 class="show-title-bar show-title-small show-title-super-small">@@g' | sed 's@</h2>@@g' | sed 's@<[^>]*>@@g' | uniq)
+
+# Array to store found anime
+found_anime=()
+
+# URL of the website to search
+website_url="https://www.gogoanime2.to/anime-list.html"
+
+# Iterate over each anime name
+while IFS= read -r anime_name; do
+    # Fetch the webpage content
+    webpage_content=$(curl -s "$website_url" | grep -i "$anime_name")
+    # Check if the anime name is present in the webpage content
+    if [ -n "$webpage_content" ]; then
+        found_anime+=("$anime_name")
+    fi
+done <<< "$anime_list"
+
+# Print found anime
+echo "Found anime:"
+for anime in "${found_anime[@]}"; do
+    echo "$anime"
+done
+
+
+# URL of the website to search
+
+# Anime name to search for
+
+# Fetch the webpage content
+webpage_content=$(curl -s "$website_url")
+
+# Check if the anime name is present in the webpage content
+if grep -q "$anime_name" <<< "$webpage_content"; then
+    echo "Anime found: $anime_name"
+else
+    echo "Anime not found: $anime_name"
+fi
+
+
+
+#TODO open as stream url on vlc
+
+
+#TODO print an 'table of contents' of day schedule
+
+
+
+#see if day changed (On boot)
+# '-rr' = renew tasks daily automatically
+#put this script to run on boot! "todolist -rr", or each hour, whatever
+if [ "$1" = "-rr" ] ; then                  
+ rm ./Documents/constant-files/anime-tvdaycounter1; touch ./Documents/constant-files/anime-tvdaycounter1; echo $(date +"%D") > ./Documents/constant-files/anime-tvdaycounter1
+        if [ "$(cat ./Documents/constant-files/anime-tvdaycounter2)" != "$(cat ./Documents/constant-files/anime-tvdaycounter1)" ]; then
+        # get current day schedule
+
+
+
+        rm ./Documents/constant-files/anime-tvdaycounter2
+        cp ./Documents/constant-files/anime-tvdaycounter1 ./Documents/constant-files/anime-tvdaycounter2
+        fi
+fi
+
+

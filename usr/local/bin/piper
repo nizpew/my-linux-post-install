@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/Downloads/apps/piper/piper_linux_x86_64/piper
+echo $@ | ./piper --model en_US-libritts-high.onnx --output-raw | aplay -r 22050 -f S16_LE -t raw -

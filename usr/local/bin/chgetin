@@ -1,0 +1,48 @@
+#!/bin/sh
+
+
+# you have to be in the directory where fles will be outputed. USAGE: cd Donwloads/music ; chgetin https://inv.us.projectsegfau.lt/*
+#indivious stanec, you can change, if it is down, lol
+
+stance='https://inv.us.projectsegfau.lt'
+
+
+#start already cded on the desired directiory!!
+	#chget https://invidious.slipfox.xyz/channel/UCukwGwBD-pAbGzoJo6ZXPtQ ./Docs/outro/temporaryscrpit/
+	#only https://invidious.slipfox.xyz/channel/UCukwGwBD-pAbGzoJo6ZXPtQ type args
+
+
+
+#cd
+#sleep 2
+#cd $2
+
+
+#SEE IF TITS AN PLAYLIST
+
+if [ $(echo "$1" | grep -o "playlist") = 'playlist' ]; then
+	curl "$1" | grep -oP '(?<=href=")[^"]*listen=1[^"]*(?=")' | sed 's%^%https://inv.us.projectsegfau.lt%' | xargs curl | grep '=140"' | grep -oE ....................................140 | sed 's%^%https://inv.us.projectsegfau.lt%' | xargs -n 1 wget 
+
+
+
+fi
+
+# to playlists 
+#
+#curl $1 | grep -o '.............................................................listen=1' | sed 's%^%https://invidious.slipfox.xyz%' | xargs curl | grep '=140"' | grep -oE ....................................140 | sed 's%^%https://invidious.slipfox.xyz%' | xargs -n 1 wget 
+
+
+
+
+#IF IS NOT A PLAYLIST
+if [ $(echo $1 | grep -o "list") =! 'list' ]; then
+
+	curl "$1" | grep -oP '(?<=href=")[^"]*listen=1[^"]*(?=")' | sed 's%^%https://inv.us.projectsegfau.lt%' | xargs curl | grep '=140"' | grep -oE ....................................140 | sed 's%^%https://inv.us.projectsegfau.lt%' | xargs -n 1 wget 
+
+fi
+
+ls -v | cat -n | while read n f; do mv -n "$f" "$n.mp3"; done
+
+
+curl "$1" | grep -Eo ">.*</p></a>" | sed 's@"</p></a>"@@g' | sed 's@$@":\n:"@g'  > table-of-contents.txt
+#cd

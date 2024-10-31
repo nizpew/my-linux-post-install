@@ -1,0 +1,74 @@
+#!/bin/bash
+
+#'-h' = print help
+if [ "$1" = "-h" ] ; then
+echo '
+SYNTAX = teologyshort [-arg] [text to search, if -s arg]
+
+'-H' = show history
+    If the -H option is used, it displays the search history.
+
+'-m' = modify log
+    If the -m option is used, it allows modification of the search log.
+
+'-h' = print help
+    Displays this help message.
+
+'-rr' = recurrent automatic
+    If the -rr option is used, it activates recurrent automatic mode.
+
+'-s' = search verse
+    If the -s option is used, it searches for the provided text.
+'
+fi
+
+
+
+if [ "$#" -eq 0 ]; then
+    echo "Usage: teologyshort [-arg] [text to search, if -s arg]"
+    teologyshort -h
+    exit 1
+fi
+
+# Check if '-s' option is provided for searching verse
+if [ "$1" = "-s" ]; then
+    if [ "$#" -lt 2 ]; then
+        echo "Error: Please provide text to search."
+        exit 1
+    fi
+
+    search_text="${@:2}"
+    echo "Searching for \"$search_text\"..."
+    result=$(bible "$search_text")
+    echo "$result"
+    exit 0
+fi
+
+# Check if '-H' option is provided for showing history
+if [ "$1" = "-H" ]; then
+    echo "Teology Log History:"
+    cat ./Documents/constant-files/teologylog
+    exit 0
+fi
+
+# Check if '-m' option is provided for modifying log
+if [ "$1" = "-m" ]; then
+    echo "Modifying Teology Log..."
+    vim ./Documents/constant-files/teologylog
+    exit 0
+fi
+
+# Check if '-rr' option is provided for recurrent automatic
+if [ "$1" = "-rr" ]; then
+    echo "Recurent Automatic Mode..."
+
+    # Add your recurrent automatic logic here
+
+    exit 0
+fi
+
+# Default case: assume user wants to search for a verse
+echo "Searching for \"$1\"..."
+result=$(bible "$1")
+echo "$result"
+
