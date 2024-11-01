@@ -19,6 +19,9 @@ Este repositório contém minhas configurações pessoais (dotfiles) para um amb
 
 ## Como Usar
 
+(aperte Y enter quando falar de zsh
+depois digite "exit" e clique enter pra sair da zsh
+
 1. Clone o Repositório:
    ```bash
    git clone https://github.com/nizpew/my-linux-post-install.git
@@ -31,28 +34,11 @@ Este repositório contém minhas configurações pessoais (dotfiles) para um amb
    ./setup.sh
    ```
 
-3. Configure o Papel de Parede:
-   Adicione a linha de comando no arquivo de configuração do i3 para definir seu papel de parede.
-
 4. Reinicie o i3:
-   Após as alterações, reinicie o i3 para aplicar as novas configurações.
-   Use Mod+Shift+R para reiniciar.
+   Após as alterações, reinicie sistema e escolha o i3 na xsession do greeeter.
 
-## Instalação
 
-Para Windows:
-```bash
-git clone https://github.com/seu_sario/my-linux-post-install.git
-cd my-linux-post-install
-./setup.sh
-```
 
-Para Linux:
-```bash
-git clone https://github.com/seu_sario/my-linux-post-install.git
-cd my-linux-post-install
-./setup.sh
-```
 
 ## Executar o Ambiente
 
@@ -65,7 +51,10 @@ Mod+Shift+R
 
 ## Screenshots
 
-[Adicione screenshots relevantes aqui]
+![image](https://github.com/user-attachments/assets/492bf385-005f-467a-bda8-5df643c22fba)
+
+![image](https://github.com/user-attachments/assets/ae9cb264-6e2e-4631-9b76-3273bdcf011b)
+
 
 ## Contribuições
 
@@ -73,7 +62,7 @@ Sinta-se à vontade para fazer fork deste repositório e personalizá-lo de acor
 
 ## Licença
 
-Este projeto está licenciado sob a MIT License.
+Este projeto está licenciado sob a GPLv3 License.
 ```
 
 Esta versão organizada mantém a estrutura geral do seu README original, mas melhora a legibilidade e separa os diferentes seções em blocos de código mais claros. As instruções passo a passo fram agrupadas e formatadas de forma mais consistente.
