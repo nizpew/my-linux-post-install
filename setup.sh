@@ -173,18 +173,12 @@ echo "Todas as dependências foram instaladas com sucesso."
 # movendo as paradas
 cd
 
-
-
-
-
-cp -r ./my-linux-post-install/usr/local/bin/* /usr/local/bin/
+# Copiando arquivos para /usr/local/bin com sudo
+sudo cp -r ./my-linux-post-install/usr/local/bin/* /usr/local/bin/
 echo "Copying .zshrc to the user's home directory..."
 
-
-
-
-
+# Criando diretório para wallpapers
 mkdir ~/Downloads/wallpapers/
 
-
+# Copiando imagem para o diretório de wallpapers
 cp ./my-linux-post-install/purplecyb.jpg ~/Downloads/wallpapers/
