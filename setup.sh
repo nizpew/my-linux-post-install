@@ -40,13 +40,12 @@ check_dependencies() {
         echo "All dependencies are installed."
     fi
 
-
     # Install NVM if not installed
     if [ ! -d "$HOME/.nvm" ]; then
         echo "Installing NVM..."
         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
         export NVM_DIR="$HOME/.nvm"
-                [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+        [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
         [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
     else
         echo "NVM is already installed."
@@ -86,10 +85,10 @@ cp ./my-linux-post-install/.bashrc ~/
 echo "Configuration files have been copied successfully."
 echo "Setup completed. Please restart your terminal to apply changes."
 
-# Atualizar a lista de pacotes
+# Update the package list
 sudo apt update
 
-# Instalar dependências essenciais
+# Install essential dependencies
 sudo apt install -y \
     i3 \
     i3lock \
@@ -113,83 +112,79 @@ sudo apt install -y \
     git \
     build-essential
 
-# Instalar o i3blocks se você estiver usando
+# Install i3blocks if you are using it
 sudo apt install -y i3blocks
 
-# Instalar o st (se ainda não estiver instalado)
+# Install st (if not already installed)
 if [ ! -d "$HOME/st" ]; then
-    echo "Clonando st do GitHub..."
+    echo "Cloning st from GitHub..."
     git clone https://github.com/mrdotx/st.git "$HOME/st"
     cd "$HOME/st" || exit
-    echo "Construindo e instalando st..."
+    echo "Building and installing st..."
     make clean install
     cd ..
 else
-    echo "st já está instalado."
+    echo "st is already installed."
 fi
 
-echo "Todas as dependências foram instaladas com sucesso."
+echo "All dependencies have been installed successfully."
 
-# movendo as paradas
+# Moving to home directory
 cd
 
-# Copiando arquivos para /usr/local/bin com sudo
+# Copying files to /usr/local/bin with sudo
 sudo cp -r ./my-linux-post-install/usr/local/bin/* /usr/local/bin/ 
 sudo chmod +x /usr/local/bin/*
 
-
-# Criando diretório para wallpapers
+# Creating a directory for wallpapers
 mkdir ~/Downloads/wallpapers/
 
-# Copiando imagem para o diretório de wallpapers
+# Copying image to the wallpapers directory
 cp ./my-linux-post-install/purplecyb.jpg ~/Downloads/wallpapers/
 
-
-
-
 echo "Copying .zshrc to the user's home directory..."
-echo '(aperte Y enter quando falar de zsh depois digite "exit" e clique enter pra sair da zsh'
+echo '(Press Y and enter when prompted about zsh, then type "exit" and hit enter to leave zsh)'
 sleep 2
-    # Install Oh My Zsh if not installed
-    if [ ! -d "$HOME/.oh-my-zsh" ]; then
-        echo "Installing Oh My Zsh..."
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    else
-        echo "Oh My Zsh is already installed."
-    fi
+# Install Oh My Zsh if not installed
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+    echo "Installing Oh My Zsh..."
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+else
+    echo "Oh My Zsh is already installed."
+fi
 
-    # Install Powerlevel10k if not installed
-    if [ ! -d "$HOME/.oh-my-zsh/custom/themes/powerlevel10k" ]; then
-        echo "Installing Powerlevel10k..."
-        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$HOME/.oh-my-zsh/custom/themes/powerlevel10k"
-    else
-        echo "Powerlevel10k is already installed."
-    fi
+# Install Powerlevel10k if not installed
+if [ ! -d "$HOME/.oh-my-zsh/custom/themes/powerlevel10k" ]; then
+    echo "Installing Powerlevel10k..."
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$HOME/.oh-my-zsh/custom/themes/powerlevel10k"
+else
+    echo "Powerlevel10k is already installed."
+fi
 
-    # Install zsh-autosuggestions if not installed
-    if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions" ]; then
-        echo "Installing zsh-autosuggestions..."
-        git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-    else
-        echo "zsh-autosuggestions is already installed."
-    fi
+# Install zsh-autosuggestions if not installed
+if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions" ]; then
+    echo "Installing zsh-autosuggestions..."
+    git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+else
+    echo "zsh-autosuggestions is already installed."
+fi
 
-    # Install zsh-syntax-highlighting if not installed
-    if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting" ]; then
-        echo "Installing zsh-syntax-highlighting..."
-        git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-    else
-        echo "zsh-syntax-highlighting is already installed."
-    fi
+# Install zsh-syntax-highlighting if not installed
+if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting" ]; then
+    echo "Installing zsh-syntax-highlighting..."
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+else
+    echo "zsh-syntax-highlighting is already installed."
+fi
 
-    # Install pokemon-colorscripts if not installed
-    if ! command -v pokemon-colorscripts &> /dev/null; then
-        echo "Installing pokemon-colorscripts..."
-        sudo apt install -y python3-pip
-        git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
-        cd pokemon-colorscripts
-        sudo ./install.sh
-        cd
-    else
-        echo "pokemon-colorscripts is already installed."
-    fi
+# Install pokemon-colorscripts if not installed
+if ! command -v pokemon-colorscripts &> /dev/null; then
+    echo "Installing pokemon-colorscripts..."
+    sudo apt install -y python3-pip
+    git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
+    cd pokemon-colorscripts
+    sudo ./install.sh
+    cd
+else
+    echo "pokemon-colorscripts is already installed."
+fi
