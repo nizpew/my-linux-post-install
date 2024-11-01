@@ -63,7 +63,19 @@ Sinta-se à vontade para fazer fork deste repositório e personalizá-lo de acor
 ## Licença
 
 Este projeto está licenciado sob a GPLv3 License.
-```
 
-Esta versão organizada mantém a estrutura geral do seu README original, mas melhora a legibilidade e separa os diferentes seções em blocos de código mais claros. As instruções passo a passo fram agrupadas e formatadas de forma mais consistente.
 
+## Credits
+
+- **Distribution**: Ubuntu (or the distribution you are using)
+- **Package Managers**: APT, Snap
+- **Tools**: Git, Curl
+- **Shell**: Zsh and Oh My Zsh
+- **Themes and Plugins**:
+  - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- **Repositories**:
+  - [st](https://github.com/mrdotx/st)
+- **Documentation and Tutorials**: (mention here if applicable)
+- **Open Source Community**: Thanks to all contributors.
