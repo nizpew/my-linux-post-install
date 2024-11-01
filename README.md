@@ -1,53 +1,9 @@
 
-# Dotfiles: Personalize Seu Ambiente Linux com Configurações Eficientes
+# Dotfiles: Customize Your Linux Environment with Efficient Settings
 
-## Descrição
+## Description
 
-Este repositório contém minhas configurações pessoais (dotfiles) para um ambiente Linux, incluindo configurações para o gerenciador de janelas i3, shell Zsh, e outros aplicativos. Com estas configurações, você pode otimizar sua produtividade e personalizar seu espaço de trabalho.
-
-## Recursos
-
-### Configuração do i3
-
-- Gerenciador de Janelas Eficiente: O i3 é um gerenciador de janelas em mosaico que permite uma organização eficiente das janelas abertas.
-- Papel de Parede Personalizável: Use o `feh` para definir um papel de parede que se adapte ao seu estilo.
-
-### Shell Zsh
-
-- Oh My Zsh: Uma framework poderosa para gerenciar configurações do Zsh, oferecendo plugins e temas.
-- Personalização: Ajuste su prompt e configurações para uma experiência de terminal mais agradável.
-
-## Como Usar
-
-(aperte Y enter quando falar de zsh
-depois digite "exit" e clique enter pra sair da zsh
-
-1. Clone o Repositório:
-   ```bash
-   git clone https://github.com/nizpew/my-linux-post-install.git
-   cd my-linux-post-install
-   ```
-
-2. Execute o Script de Configuração:
-   ```bash
-     chmod +x ./setup.sh
-   ./setup.sh
-   ```
-
-4. Reinicie o i3:
-   Após as alterações, reinicie sistema e escolha o i3 na xsession do greeeter.
-
-
-
-
-## Executar o Ambiente
-
-Após a instalação, você pode iniciar seu ambiente com as configurações personalizadas:
-
-```bash
-i3
-Mod+Shift+R
-```
+This repository contains my personal configurations (dotfiles) for a Linux environment, including settings for the i3 window manager, Zsh shell, and other applications. With these configurations, you can optimize your productivity and personalize your workspace.
 
 ## Screenshots
 
@@ -55,14 +11,64 @@ Mod+Shift+R
 
 ![image](https://github.com/user-attachments/assets/ae9cb264-6e2e-4631-9b76-3273bdcf011b)
 
+## Features
+- **Distribution**: Ubuntu (or the distribution you are using)
+- **Package Managers**: APT, Snap
+- **Tools**: Git, Curl
+- **Shell**: Zsh and Oh My Zsh
+- **Themes and Plugins**:
+  - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- **Repositories**:
+  - [st](https://github.com/mrdotx/st) with transparency
 
-## Contribuições
 
-Sinta-se à vontade para fazer fork deste repositório e personalizá-lo de acordo com suas necessidades. Se você encontrar algum problema ou tiver sugestões, abra uma issue!
+## Como Usar
 
-## Licença
+1.Clone the Repository:
 
-Este projeto está licenciado sob a GPLv3 License.
+
+      git clone https://github.com/nizpew/my-linux-post-install.git
+      cd my-linux-post-install
+2.Run the Setup Script:
+
+      
+      chmod +x ./setup.sh
+      ./setup.sh
+3.Restart: After the changes, restart the system and select i3 in the greeter's xsession.
+
+
+
+
+
+
+### i3 Configuration
+
+-Efficient Window Manager: i3 is a tiling window manager that allows for efficient organization of open windows.
+-Customizable Wallpaper: Use feh to set a wallpaper that suits your style.
+
+
+### Shell Zsh
+
+- Oh My Zsh: Uma framework poderosa para gerenciar configurações do Zsh, oferecendo plugins e temas.
+- Personalização: Ajuste su prompt e configurações para uma experiência de terminal mais agradável.
+
+
+
+
+## Run the Environment
+After installation, you can start your environment with the customized settings:
+   
+      systemctl reboot
+      
+
+
+## Contributions
+Feel free to fork this repository and customize it to meet your needs. If you encounter any issues or have suggestions, please open an issue!
+
+## License
+This project is licensed under the GPLv3 License.
 
 
 ## Credits
