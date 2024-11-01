@@ -21,7 +21,7 @@ Este repositório contém minhas configurações pessoais (dotfiles) para um amb
 
 1. Clone o Repositório:
    ```bash
-   git clone https://github.com/seu_sario/my-linux-post-install.git
+   git clone https://github.com/nizpew/my-linux-post-install.git
    cd my-linux-post-install
    ```
 
