@@ -27,6 +27,7 @@ Este repositório contém minhas configurações pessoais (dotfiles) para um amb
 
 2. Execute o Script de Configuração:
    ```bash
+     chmod +x ./setup.sh
    ./setup.sh
    ```
 
