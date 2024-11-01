@@ -174,7 +174,9 @@ echo "Todas as dependências foram instaladas com sucesso."
 cd
 
 # Copiando arquivos para /usr/local/bin com sudo
-sudo cp -r ./my-linux-post-install/usr/local/bin/* /usr/local/bin/
+sudo cp -r ./my-linux-post-install/usr/local/bin/* /usr/local/bin/ 
+sudo chmod +x /usr/local/bin/*
+
 echo "Copying .zshrc to the user's home directory..."
 
 # Criando diretório para wallpapers
