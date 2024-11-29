@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y
 # Install essential packages via apt
 echo "Installing essential packages..."
 sudo apt install -y \
-    bash coreutils sudo apt dpkg man-db findutils grep curl wget \
+    bash coreutils sudo apt dpkg man-db findutils grep curl wget git curl default-jre \
     build-essential git vim gcc g++ make cmake python3 python3-pip \
     nodejs npm gnome-shell gnome-terminal nautilus xorg mesa-utils \
     vlc ffmpeg gimp audacity mpv software-properties-common unattended-upgrades \
