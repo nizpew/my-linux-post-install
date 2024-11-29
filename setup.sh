@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y
 # Install essential packages via apt
 echo "Installing essential packages..."
 sudo apt install -y \
-    bash coreutils sudo apt dpkg man-db findutils grep curl wget git curl default-jre \
+    kitty bash coreutils sudo apt dpkg man-db findutils grep curl wget git curl default-jre \
     build-essential git vim gcc g++ make cmake python3 python3-pip \
     nodejs npm gnome-shell gnome-terminal nautilus xorg mesa-utils \
     vlc ffmpeg gimp audacity mpv software-properties-common unattended-upgrades \
@@ -188,3 +188,5 @@ if ! command -v pokemon-colorscripts &> /dev/null; then
 else
     echo "pokemon-colorscripts is already installed."
 fi
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+exec zsh
