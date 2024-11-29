@@ -85,6 +85,15 @@ This project is licensed under the GPLv3 License.
   - [st](https://github.com/mrdotx/st)
 - **Documentation and Tutorials**: (mention here if applicable)
 - **Open Source Community**: Thanks to all contributors.
+https://gitlab.com/phoneybadger/pokemon-colorscripts
+
+#post install:
+-login on firefox: girhub, pinterest, web discord
+-install tlaucher
+
+
+
+
 
 TODOS
 add apt-install chromium
