@@ -27,5 +27,75 @@ episode_number=$(echo $selected | awk '{print $NF}')
 
 echo "name's: $anime_name and ep's $episode_number"
 
-    ani-cli "$anime_name" -e "$episode_number"
+kill -9 $(pgrep ani-cli)  > /dev/null 2>&1 
+ani-cli -S 1 "$anime_name" -e "$episode_number"  > /dev/null 2>&1 &
+
+last_next_ep_time=0
+next_episode=0
+
+# Função para verificar se o mpv está ativo
+check_mpv() {
+    while true; do
+        # Verifica se o mpv está rodando com uma URL https
+        if ps aux | grep -v grep | grep "mpv" | grep "https:" > /dev/null; then
+		echo "mpv running"
+        else
+            # Verifica o tempo desde a última chamada de next_ep
+            current_time=$(date +%s)
+            time_since_last_call=$((current_time - last_next_ep_time))
+
+            if [ $time_since_last_call -ge 5 ]; then  #default: 600 , changed for debugging
+                last_next_ep_time=$current_time  # Atualiza o último tempo em que next_ep foi chamada
+		
+
+		 #trying to fix the auto next ep error, that not plays the second time 
+
+
+
+ 		if [ "$next_episode" -ne 0 ]; then
+			#do smth
+			notify-send "now playing the next ep" "now playing the next ep $episode_number"
+			echo "Going to the next ep..."
+			echo "Entering : $anime_name $episode_number"
+			kill -9 $(pgrep rofi)  > /dev/null 2>&1 
+			kill -9 $(pgrep ani-cli)  > /dev/null 2>&1 
+
+			ani-cli -S 1 "$anime_name" -e "$next_episode" > /dev/null 2>&1 &
+		fi
+		sleep 5   #default: 300 , changed for debugging
+                next_ep
+            else
+                echo "next_ep cannot be called yet. Time remaining: $((600 - time_since_last_call)) seconds."
+            fi
+        fi
+        sleep 5  # Checa a cada 5 minutos
+    done
+}
+
+# Função que chama o próximo episódio
+next_ep() {
+    episode_number=$((episode_number + 1))
+    next_episode=$episode_number
+}
+
+# Inicia a verificação
+check_mpv
+##kill -9 $(pgrep anicli)
+
+
+
+
+#ctrl c command
+cleanup() {
+    echo "You pressed Ctrl+C!"
+    # Place your specific command or cleanup code here
+    #
+    kill -9 $(pgrep anicli)  > /dev/null 2>&1
+    
+    exit 0  # Exit the script
+}
+
+# Set up the trap to catch SIGINT (Ctrl+C)
+trap cleanup SIGINT
+
 

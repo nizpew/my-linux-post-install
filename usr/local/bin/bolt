@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Log file for errors
+LOG_FILE="error.log"
+
+# Clear the previous log file
+> "$LOG_FILE"
+
+# Function to run a command and log errors
+run_command() {
+    "$@" 2>> "$LOG_FILE" || echo "Command '$*' failed." >> "$LOG_FILE"
+}
+
+# Navigate to the bolt.new-any-llm directory
+cd bolt.new-any-llm || { echo "Directory not found"; exit 1; }
+
+# Build the Docker image for development
+docker build . --target bolt-ai-development
+
+# Build the Docker image for production
+docker build . --target bolt-ai-production
+
+# Bring up the Docker Compose services for the development environment
+docker-compose --profile development up
+
+# Bring up the Docker Compose services for the production environment
+docker-compose --profile production up 
