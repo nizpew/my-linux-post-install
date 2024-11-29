@@ -310,8 +310,7 @@ bindsym $mod+b exec chromium
 bindsym $mod+d exec dmenu_run 
 bindsym $mod+Shift+d exec /usr/local/bin/myscripts/rofi-dmenu-commands.sh 
 
-bindsym $mod+t exec kitty 
-
+bindsym $mod+t exec kitty
 ##bindsym $mod+t exec st -f 'Monospace:size=16' 
 bindsym $mod+w exec firefox 
 bindsym $mod+f exec chromium
@@ -329,6 +328,6 @@ bar {
 #LOW BATTERY NOTIFICATION
 exec --no-startup-id dunst &
 exec --no-startup-id ~/check_battery.sh &
-exec --no-startup-id xinput set-prop 9 "libinput Tapping Enabled" 1
 
+exec --no-startup-id xinput set-prop 9 "libinput Tapping Enabled" 1
 
