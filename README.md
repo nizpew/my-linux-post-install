@@ -1,15 +1,25 @@
 
 # Dotfiles: Customize Your Linux Environment with Efficient Settings
 
-## Description
 
-This repository contains my personal configurations (dotfiles) for a Linux environment, including settings for the i3 window manager, Zsh shell, and other applications. With these configurations, you can optimize your productivity and personalize your workspace.
 
-## Screenshots
+
+## you can make gnome look like this
+![image](https://github.com/user-attachments/assets/66656864-82e2-40f1-9815-f67fa7439efb)
+
+## or i3 like this
 
 ![image](https://github.com/user-attachments/assets/492bf385-005f-467a-bda8-5df643c22fba)
 
 ![image](https://github.com/user-attachments/assets/ae9cb264-6e2e-4631-9b76-3273bdcf011b)
+
+
+
+
+## Description
+
+This repository contains my personal configurations (dotfiles) for a Linux environment, including settings for the i3 window manager, Zsh shell, and other applications. With these configurations, you can optimize your productivity and personalize your workspace.
+
 
 ## Features
 - **Distribution**: Ubuntu (or the distribution you are using)
