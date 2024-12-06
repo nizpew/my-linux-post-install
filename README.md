@@ -96,6 +96,7 @@ This project is licensed under the GPLv3 License.
 - **Documentation and Tutorials**: (mention here if applicable)
 - **Open Source Community**: Thanks to all contributors.
 https://gitlab.com/phoneybadger/pokemon-colorscripts
+https://github.com/pystardust/ani-cli
 
 #post install:
 -login on firefox: girhub, pinterest, web discord

@@ -1,3 +1,0 @@
-#!/bin/sh
-export PYTHONPATH='/var/cache/pypr/package.whl'
-exec python -m pyprland.command $@
