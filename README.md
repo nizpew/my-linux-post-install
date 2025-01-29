@@ -12,6 +12,8 @@
 
 ## Description
 
+this version has more apps and better journaling, teologyshort, palavra-do-dia workflow
+
 This repository contains my personal configurations (dotfiles) for a Linux environment, including settings for the i3 window manager, Zsh shell, and other applications. With these configurations, you can optimize your productivity and personalize your workspace.
 
 
