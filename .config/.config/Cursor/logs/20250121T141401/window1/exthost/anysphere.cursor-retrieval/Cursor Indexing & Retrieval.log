@@ -1,0 +1,46 @@
+2025-01-21 14:14:15.287 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-01-21 14:14:15.287 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-01-21 14:14:15.287 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-01-21 14:14:15.287 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:519:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)
+2025-01-21 14:14:15.287 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-01-21 14:14:15.287 [info] Creating merkle client.
+2025-01-21 14:14:15.287 [info] Done creating merkle client.
+2025-01-21 14:14:15.287 [info] Doing a startup handshake.
+2025-01-21 14:14:15.509 [info] Finished initializing merkle tree in 174.62834699999985 ms.
+2025-01-21 14:14:15.545 [info] Doing the initial handshake with hash: e9d9c3d1bb6f9a1f1b82fe02939dde7cb734710a000cdafefbd3039cf89b0509
+2025-01-21 14:14:15.975 [info] Handshake start
+2025-01-21 14:14:17.568 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-01-21 14:14:17.579 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-01-21 14:14:17.581 [info] Indexing job successfully done or aborted.
+2025-01-21 14:14:17.601 [info] Creating merkle client.
+2025-01-21 14:14:17.601 [info] Done creating merkle client.
+2025-01-21 14:14:17.601 [info] Doing a startup handshake.
+2025-01-21 14:14:17.683 [info] Finished initializing merkle tree in 76.55133500000011 ms.
+2025-01-21 14:14:17.798 [info] Doing the initial handshake with hash: e9d9c3d1bb6f9a1f1b82fe02939dde7cb734710a000cdafefbd3039cf89b0509
+2025-01-21 14:14:17.813 [info] Handshake start
+2025-01-21 14:14:18.619 [info] Handshake timing: 815.1509330000008
+2025-01-21 14:14:18.622 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"fe75d4c8-d43f-4e0f-a9ba-a84142ae1338"}
+2025-01-21 14:14:18.625 [info] Starting fast remote sync.
+2025-01-21 14:14:18.733 [info] Total num embeddable files: 35
+2025-01-21 14:14:18.780 [info] Root hash: e9d9c3d1bb6f9a1f1b82fe02939dde7cb734710a000cdafefbd3039cf89b0509
+2025-01-21 14:14:18.781 [info] In the out of sync case.
+2025-01-21 14:14:18.795 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"e9d9c3d1bb6f9a1f1b82fe02939dde7cb734710a000cdafefbd3039cf89b0509"}
+2025-01-21 14:14:18.809 [info] Waiting on semaphore to be released 1
+2025-01-21 14:14:19.426 [info] Waiting on semaphore to be released 1
+2025-01-21 14:14:19.630 [info] setting numJobsToGo to 1
+2025-01-21 14:14:19.630 [info] [startSync]: numJobs: 1
+2025-01-21 14:14:19.632 [info] Uploading 1 files.
+2025-01-21 14:14:20.901 [info] Finished indexing repository.
+2025-01-21 14:14:20.902 [info] Indexing job successfully done or aborted.

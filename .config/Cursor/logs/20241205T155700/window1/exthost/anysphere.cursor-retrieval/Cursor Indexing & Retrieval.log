@@ -1,0 +1,210 @@
+2024-12-05 15:57:04.394 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:519:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)
+2024-12-05 15:57:04.616 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2024-12-05 15:59:58.229 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 15:59:58.229 [error] NoWorkspaceUriError
+2024-12-05 15:59:58.374 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 15:59:58.374 [error] NoWorkspaceUriError
+2024-12-05 15:59:58.579 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 15:59:58.579 [error] NoWorkspaceUriError
+2024-12-05 15:59:58.781 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 15:59:58.782 [error] NoWorkspaceUriError
+2024-12-05 15:59:58.985 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 15:59:58.985 [error] NoWorkspaceUriError
+2024-12-05 15:59:59.190 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 15:59:59.190 [error] NoWorkspaceUriError
+2024-12-05 15:59:59.338 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 15:59:59.338 [error] NoWorkspaceUriError
+2024-12-05 15:59:59.489 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 15:59:59.489 [error] NoWorkspaceUriError
+2024-12-05 16:00:00.191 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 16:00:00.191 [error] NoWorkspaceUriError
+2024-12-05 16:00:23.416 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 16:00:23.417 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:519:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)
+2024-12-05 16:00:23.637 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2024-12-05 16:00:23.650 [info] Creating merkle client.
+2024-12-05 16:00:23.650 [info] Done creating merkle client.
+2024-12-05 16:00:23.650 [info] Doing a startup handshake.
+2024-12-05 16:00:23.672 [info] Finished initializing merkle tree in 15.901759999999967 ms.
+2024-12-05 16:00:23.673 [info] Doing the initial handshake with hash: 806379f708f7169965da20f235a932c1e27d74951e31db95687c809aefd24d29
+2024-12-05 16:00:23.675 [info] Handshake start
+2024-12-05 16:00:23.677 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/zero/.config/Cursor/User/workspaceStorage/27c26c084b9ab052e537890525271e35/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2024-12-05 16:00:27.677 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2024-12-05 16:00:27.677 [info] Handshake start
+2024-12-05 16:00:30.677 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 16:00:30.677 [warning] Error computing full high level folder description. Ignoring. [canceled] This operation was aborted
+2024-12-05 16:00:34.680 [warning] Retrying handshake with timeout 8000. Error:  [canceled] This operation was aborted
+2024-12-05 16:00:34.680 [info] Handshake start
+2024-12-05 16:00:35.680 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 16:00:39.150 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 16:00:39.151 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2024-12-05 16:00:39.151 [info] Indexing job successfully done or aborted.
+2024-12-05 16:00:39.164 [info] Creating merkle client.
+2024-12-05 16:00:39.164 [info] Done creating merkle client.
+2024-12-05 16:00:39.164 [info] Doing a startup handshake.
+2024-12-05 16:00:39.174 [info] Finished initializing merkle tree in 4.277654000001348 ms.
+2024-12-05 16:00:39.174 [info] Doing the initial handshake with hash: 806379f708f7169965da20f235a932c1e27d74951e31db95687c809aefd24d29
+2024-12-05 16:00:39.176 [info] Handshake start
+2024-12-05 16:00:39.624 [info] Handshake timing: 449.1452629999985
+2024-12-05 16:00:39.625 [info] Handshake result: {"status":"STATUS_EMPTY","repoName":"fe75d4c8-d43f-4e0f-a9ba-a84142ae1338"}
+2024-12-05 16:00:39.625 [info] Starting fast remote sync.
+2024-12-05 16:00:39.625 [info] Total num embeddable files: 28
+2024-12-05 16:00:39.633 [info] Root hash: 806379f708f7169965da20f235a932c1e27d74951e31db95687c809aefd24d29
+2024-12-05 16:00:39.633 [info] Starting repository upload from scratch.
+2024-12-05 16:00:39.635 [info] Uploading 28 files.
+2024-12-05 16:00:44.467 [info] Finished indexing repository.
+2024-12-05 16:00:44.467 [info] Indexing job successfully done or aborted.
+2024-12-05 16:01:46.942 [info] Search by message took 26.765025999993668ms for query ""
+2024-12-05 16:01:46.944 [info] Search by sha took 14.884533000004012ms for query ""
+2024-12-05 16:01:51.584 [info] Search by message took 29.553085999999894ms for query ""
+2024-12-05 16:01:51.587 [info] Search by sha took 17.83670300000813ms for query ""
+2024-12-05 16:01:57.252 [info] Search by message took 33.60945799999172ms for query ""
+2024-12-05 16:01:57.310 [info] Search by message took 15.301765999989584ms for query ""
+2024-12-05 16:01:57.310 [info] Search by sha took 22.16293200000655ms for query ""
+2024-12-05 16:01:57.310 [info] Search by message took 29.109070000005886ms for query ""
+2024-12-05 16:01:57.310 [info] Search by sha took 41.16147799999453ms for query ""
+2024-12-05 16:01:57.310 [info] Search by message took 57.22773500000767ms for query ""
+2024-12-05 16:01:57.310 [info] Search by sha took 78.97594299999764ms for query ""
+2024-12-05 16:01:57.310 [info] Search by sha took 9.290208000005805ms for query ""
+2024-12-05 16:03:00.750 [info] Search by message took 28.297228999988874ms for query ""
+2024-12-05 16:03:00.802 [info] Search by message took 14.929364000010537ms for query ""
+2024-12-05 16:03:00.802 [info] Search by sha took 22.19637000001967ms for query ""
+2024-12-05 16:03:00.802 [info] Search by message took 28.889686000009533ms for query ""
+2024-12-05 16:03:00.802 [info] Search by sha took 37.65465799998492ms for query ""
+2024-12-05 16:03:00.802 [info] Search by message took 52.344773000018904ms for query ""
+2024-12-05 16:03:00.802 [info] Search by sha took 67.63372499999241ms for query ""
+2024-12-05 16:03:00.803 [info] Search by sha took 8.956360000011045ms for query ""
+2024-12-05 16:03:30.222 [info] Search by message took 27.90019200000097ms for query ""
+2024-12-05 16:03:30.267 [info] Search by message took 13.376193999982206ms for query ""
+2024-12-05 16:03:30.267 [info] Search by sha took 19.690314999985276ms for query ""
+2024-12-05 16:03:30.267 [info] Search by message took 26.02972900000168ms for query ""
+2024-12-05 16:03:30.267 [info] Search by sha took 33.00983199998154ms for query ""
+2024-12-05 16:03:30.267 [info] Search by message took 44.58281600000919ms for query ""
+2024-12-05 16:03:30.267 [info] Search by sha took 60.50409299999592ms for query ""
+2024-12-05 16:03:30.268 [info] Search by sha took 8.15754200000083ms for query ""
+2024-12-05 16:03:52.484 [info] Search by message took 51.54100200001267ms for query ""
+2024-12-05 16:03:52.487 [info] Search by sha took 27.414160000014817ms for query ""
+2024-12-05 16:10:39.159 [info] Creating merkle client.
+2024-12-05 16:10:39.160 [info] Done creating merkle client.
+2024-12-05 16:10:39.160 [info] Doing a startup handshake.
+2024-12-05 16:10:39.218 [info] Finished initializing merkle tree in 32.78557399997953 ms.
+2024-12-05 16:10:39.219 [info] Doing the initial handshake with hash: 0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519
+2024-12-05 16:10:39.231 [info] Handshake start
+2024-12-05 16:10:43.240 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2024-12-05 16:10:43.240 [info] Handshake start
+2024-12-05 16:10:46.240 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 16:10:50.243 [warning] Retrying handshake with timeout 8000. Error:  [canceled] This operation was aborted
+2024-12-05 16:10:50.243 [info] Handshake start
+2024-12-05 16:10:51.241 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 16:10:56.244 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2024-12-05 16:10:59.249 [warning] Retrying handshake with timeout 16000. Error:  [canceled] This operation was aborted
+2024-12-05 16:10:59.249 [info] Handshake start
+2024-12-05 16:11:04.991 [info] Handshake timing: 5746.0025510001
+2024-12-05 16:11:04.992 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"fe75d4c8-d43f-4e0f-a9ba-a84142ae1338"}
+2024-12-05 16:11:04.992 [info] Starting fast remote sync.
+2024-12-05 16:11:04.997 [info] Total num embeddable files: 32
+2024-12-05 16:11:04.998 [info] Root hash: 0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519
+2024-12-05 16:11:04.998 [info] In the out of sync case.
+2024-12-05 16:11:04.998 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519"}
+2024-12-05 16:11:05.000 [info] Waiting on semaphore to be released 1
+2024-12-05 16:11:05.199 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"1a80fe9aea7b9c8d7f56e7bd67665159bc7c2e475324ea8546f313325bc6f70b"}
+2024-12-05 16:11:05.201 [info] Waiting on semaphore to be released 1
+2024-12-05 16:11:05.399 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/pages","hash":"e26a21ffc361915265daaaa3334cce6dc03031648646cbe7c4e238cff6da6dc7"}
+2024-12-05 16:11:05.402 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/components","hash":"1b89db5b26ea0b4033054b827963686c30992648411bcaa2a3d6987b12f22a11"}
+2024-12-05 16:11:05.403 [info] Waiting on semaphore to be released 2
+2024-12-05 16:11:05.602 [info] setting numJobsToGo to 6
+2024-12-05 16:11:05.603 [info] [startSync]: numJobs: 6
+2024-12-05 16:11:05.604 [info] Uploading 6 files.
+2024-12-05 16:11:08.576 [info] Finished indexing repository.
+2024-12-05 16:11:08.576 [info] Indexing job successfully done or aborted.
+2024-12-05 16:20:39.205 [info] Creating merkle client.
+2024-12-05 16:20:39.205 [info] Done creating merkle client.
+2024-12-05 16:20:39.205 [info] Doing a startup handshake.
+2024-12-05 16:20:39.210 [info] Finished initializing merkle tree in 2.7157169999554753 ms.
+2024-12-05 16:20:39.211 [info] Doing the initial handshake with hash: 0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519
+2024-12-05 16:20:39.211 [info] Handshake start
+2024-12-05 16:20:39.734 [info] Handshake timing: 523.0810150001198
+2024-12-05 16:20:39.734 [info] Handshake result: {"status":"STATUS_UP_TO_DATE","repoName":"fe75d4c8-d43f-4e0f-a9ba-a84142ae1338"}
+2024-12-05 16:20:39.734 [info] Starting fast remote sync.
+2024-12-05 16:20:39.734 [info] Total num embeddable files: 32
+2024-12-05 16:20:39.734 [info] Root hash: 0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519
+2024-12-05 16:20:39.734 [info] Finished indexing repository.
+2024-12-05 16:20:39.735 [info] Indexing job successfully done or aborted.
+2024-12-05 16:30:39.156 [info] Creating merkle client.
+2024-12-05 16:30:39.156 [info] Done creating merkle client.
+2024-12-05 16:30:39.156 [info] Doing a startup handshake.
+2024-12-05 16:30:39.167 [info] Finished initializing merkle tree in 6.446107000112534 ms.
+2024-12-05 16:30:39.168 [info] Doing the initial handshake with hash: 0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519
+2024-12-05 16:30:39.169 [info] Handshake start
+2024-12-05 16:30:43.174 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2024-12-05 16:30:43.174 [info] Handshake start
+2024-12-05 16:30:44.650 [info] Handshake timing: 1476.7383139999583
+2024-12-05 16:30:44.650 [info] Handshake result: {"status":"STATUS_UP_TO_DATE","repoName":"fe75d4c8-d43f-4e0f-a9ba-a84142ae1338"}
+2024-12-05 16:30:44.650 [info] Starting fast remote sync.
+2024-12-05 16:30:44.651 [info] Total num embeddable files: 32
+2024-12-05 16:30:44.652 [info] Root hash: 0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519
+2024-12-05 16:30:44.652 [info] Finished indexing repository.
+2024-12-05 16:30:44.652 [info] Indexing job successfully done or aborted.
+2024-12-05 16:40:39.157 [info] Creating merkle client.
+2024-12-05 16:40:39.158 [info] Done creating merkle client.
+2024-12-05 16:40:39.158 [info] Doing a startup handshake.
+2024-12-05 16:40:39.195 [info] Finished initializing merkle tree in 3.9671899997629225 ms.
+2024-12-05 16:40:39.195 [info] Doing the initial handshake with hash: 0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519
+2024-12-05 16:40:39.197 [info] Handshake start
+2024-12-05 16:40:43.200 [warning] Retrying handshake with timeout 4000. Error:  [deadline_exceeded] the operation timed out
+2024-12-05 16:40:43.201 [info] Handshake start
+2024-12-05 16:40:44.692 [info] Handshake timing: 1493.1488800002262
+2024-12-05 16:40:44.693 [info] Handshake result: {"status":"STATUS_UP_TO_DATE","repoName":"fe75d4c8-d43f-4e0f-a9ba-a84142ae1338"}
+2024-12-05 16:40:44.693 [info] Starting fast remote sync.
+2024-12-05 16:40:44.693 [info] Total num embeddable files: 32
+2024-12-05 16:40:44.694 [info] Root hash: 0e64035234de1b2f48620b795b60be09b8daea812069ba8230d202c1d8200519
+2024-12-05 16:40:44.694 [info] Finished indexing repository.
+2024-12-05 16:40:44.694 [info] Indexing job successfully done or aborted.
+2024-12-05 16:50:39.201 [info] Creating merkle client.
+2024-12-05 16:50:39.201 [info] Done creating merkle client.
+2024-12-05 16:50:39.201 [info] Doing a startup handshake.
+2024-12-05 16:50:39.208 [info] Finished initializing merkle tree in 2.912165000103414 ms.
+2024-12-05 16:50:39.208 [info] Doing the initial handshake with hash: 7dc1dedc6508cf5b7bce1973793f301de6357adca516d8898ec0e46bee1cc382
+2024-12-05 16:50:39.209 [info] Handshake start
+2024-12-05 16:50:39.974 [info] Handshake timing: 766.0836530001834
+2024-12-05 16:50:39.975 [info] Handshake result: {"status":"STATUS_OUT_OF_SYNC","repoName":"fe75d4c8-d43f-4e0f-a9ba-a84142ae1338"}
+2024-12-05 16:50:39.975 [info] Starting fast remote sync.
+2024-12-05 16:50:39.976 [info] Total num embeddable files: 34
+2024-12-05 16:50:39.976 [info] Root hash: 7dc1dedc6508cf5b7bce1973793f301de6357adca516d8898ec0e46bee1cc382
+2024-12-05 16:50:39.976 [info] In the out of sync case.
+2024-12-05 16:50:39.976 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":".","hash":"7dc1dedc6508cf5b7bce1973793f301de6357adca516d8898ec0e46bee1cc382"}
+2024-12-05 16:50:39.977 [info] Waiting on semaphore to be released 1
+2024-12-05 16:50:40.177 [info] Waiting on semaphore to be released 1
+2024-12-05 16:50:40.378 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src","hash":"a2bea6b442a88dc3efe2efe8ae967a7d60eeea7624eeee2e18f3e3254f0df7bd"}
+2024-12-05 16:50:40.379 [info] Waiting on semaphore to be released 1
+2024-12-05 16:50:40.579 [info] [startSync]: ----------------------
+syncing point nextSubtree{"relativePath":"./src/components","hash":"c0f7a02d92eab2ed1a85cf2fd40ee6d484c2fa277a235a4767d57d9b3f270c76"}
+2024-12-05 16:50:40.581 [info] Waiting on semaphore to be released 1
+2024-12-05 16:50:40.780 [info] setting numJobsToGo to 2
+2024-12-05 16:50:40.780 [info] [startSync]: numJobs: 2
+2024-12-05 16:50:40.780 [info] Uploading 2 files.
+2024-12-05 16:50:42.737 [info] Finished indexing repository.
+2024-12-05 16:50:42.737 [info] Indexing job successfully done or aborted.

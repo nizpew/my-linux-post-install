@@ -1,0 +1,28 @@
+# GIMP action-history
+
+(history-item "layers-new" 5)
+(history-item "image-new" 3)
+(history-item "file-quit" 1)
+(history-item "tools-unified-transform" 0)
+(history-item "layers-duplicate" 0)
+(history-item "select-all" 0)
+(history-item "edit-cut" 0)
+(history-item "file-save" 2)
+(history-item "edit-clear" 1)
+(history-item "file-export-as" 0)
+(history-item "edit-paste" 1)
+(history-item "view-zoom-in" 1)
+(history-item "dialogs-undo-history" 0)
+(history-item "layers-new-group" 0)
+(history-item "brushes-edit" 1)
+(history-item "file-save-a-copy" 0)
+(history-item "file-open" 0)
+(history-item "file-save-as" 0)
+(history-item "file-open-recent-02" 0)
+(history-item "filters-lens-distortion" 0)
+(history-item "layers-edit" 0)
+(history-item "edit-copy" 0)
+(history-item "tools-vector" 0)
+(history-item "tools-size-set-to-default" 1)
+
+# end of action-history

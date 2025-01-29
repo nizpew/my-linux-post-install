@@ -1,0 +1,22 @@
+2025-01-21 14:27:21.258 [info] Uninstalling extension from the profile: supermaven.supermaven@1.1.5 vscode-userdata:/home/zero/.vscode-oss/extensions/extensions.json
+2025-01-21 14:27:21.272 [info] Marked extension as uninstalled supermaven.supermaven-1.1.5-universal
+2025-01-21 14:27:21.344 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zero/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zero/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)
+2025-01-21 14:27:21.981 [info] Successfully uninstalled extension from the profile supermaven.supermaven@1.1.5 vscode-userdata:/home/zero/.vscode-oss/extensions/extensions.json
+2025-01-21 14:29:06.660 [info] Getting Manifest... rjmacarthy.twinny
+2025-01-21 14:29:08.199 [info] Installing extension: rjmacarthy.twinny {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/zero/.vscode-oss/extensions/extensions.json","path":"/home/zero/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-17T18:22:12.298Z"}}
+2025-01-21 14:29:47.947 [info] Extracted extension to file:///home/zero/.vscode-oss/extensions/rjmacarthy.twinny-3.21.13-linux-x64: rjmacarthy.twinny
+2025-01-21 14:29:47.964 [info] Renamed to /home/zero/.vscode-oss/extensions/rjmacarthy.twinny-3.21.13-linux-x64
+2025-01-21 14:29:47.974 [info] Extension installed successfully: rjmacarthy.twinny vscode-userdata:/home/zero/.vscode-oss/extensions/extensions.json
+2025-01-21 14:29:48.050 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/zero/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/zero/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Kv.create (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44554)
+    at xi (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44661)
+    at jn.toFileSystemProviderError (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:28652)
+    at jn.stat (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:20509)
+    at async vu.stat (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:103140)
+    at async du.onDidFilesChange (file:///snap/codium/440/usr/share/codium/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:80829)

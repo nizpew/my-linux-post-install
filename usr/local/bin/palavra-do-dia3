@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -s -q https://www.bibliaon.com/palavra_do_dia/ | grep '<p>'                

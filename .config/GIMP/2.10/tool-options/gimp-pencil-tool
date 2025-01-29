@@ -1,0 +1,8 @@
+# GIMP gimp-pencil-tool options
+
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+
+# end of gimp-pencil-tool options

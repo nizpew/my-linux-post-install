@@ -1,0 +1,4 @@
+2025-01-21 14:14:02.520 [info] update#setState disabled
+2025-01-21 14:14:02.522 [info] update#ctor - updates are disabled as there is no update URL
+2025-01-21 14:14:04.771 [error] vscode-file: Refused to load resource /tmp/.mount_cursorTpv2V8/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_cursorTpv2V8/resources/app/extensions/theme-seti/icons/seti.woff)
+2025-01-21 14:14:53.034 [info] Extension host with pid 16748 exited with code: 0, signal: unknown.

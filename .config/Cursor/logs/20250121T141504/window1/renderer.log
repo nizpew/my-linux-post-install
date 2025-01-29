@@ -1,0 +1,15 @@
+2025-01-21 14:15:06.811 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-21 14:15:06.811 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-21 14:15:06.812 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-21 14:15:06.849 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-01-21 14:15:06.850 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-01-21 14:15:07.350 [info] Started local extension host with pid 17508.
+2025-01-21 14:15:17.373 [info] [perf] Render performance baseline is 102ms
+2025-01-21 14:15:28.175 [error] Model is disposed!: Error: Model is disposed!
+    at J.lb (vscode-file://vscode-app/tmp/.mount_cursorDGbxzP/resources/app/out/vs/workbench/workbench.desktop.main.js:1303:263)
+    at J.getVersionId (vscode-file://vscode-app/tmp/.mount_cursorDGbxzP/resources/app/out/vs/workbench/workbench.desktop.main.js:1305:2586)
+    at Kt.formatDiffHistory (vscode-file://vscode-app/tmp/.mount_cursorDGbxzP/resources/app/out/vs/workbench/workbench.desktop.main.js:4689:15449)
+    at async Kt.fireCppSuggestionDebouncedDiffHistory (vscode-file://vscode-app/tmp/.mount_cursorDGbxzP/resources/app/out/vs/workbench/workbench.desktop.main.js:4677:2512)
+    at async Kt.fireOnCacheMiss (vscode-file://vscode-app/tmp/.mount_cursorDGbxzP/resources/app/out/vs/workbench/workbench.desktop.main.js:4675:73678)
+    at async Kt.continueModelChangeListener (vscode-file://vscode-app/tmp/.mount_cursorDGbxzP/resources/app/out/vs/workbench/workbench.desktop.main.js:4675:75683) Model is disposed!
+2025-01-21 14:15:30.302 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zero/Downloads/bolt-pinterest-clone_1_part/project/package.json 

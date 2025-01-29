@@ -14,9 +14,215 @@ sudo apt install -y \
     network-manager openssh-client net-tools iptables htop tmux rsync zip unzip tar zsh snapd flatpak \
     i3 i3status i3lock dmenu feh rofi compton xinit xorg ranger
 
+#!/bin/bash
+
+# Atualizar repositórios e pacotes
+sudo apt update && sudo apt upgrade -y
+
+# Instalar pacotes listados
+sudo apt install -y \
+aria2 \
+bash \
+bible-kjv \
+bridge-utils \
+bsdutils \
+build-essential \
+chromium-browser \
+cmake \
+compton \
+coreutils \
+curl \
+dash \
+dbus-x11 \
+default-jre \
+deluge \
+deluged \
+diffutils \
+dpkg \
+efibootmgr \
+eog \
+espeak \
+eza \
+feh \
+ffmpeg \
+findutils \
+firefox \
+flameshot \
+flatpak \
+fuse \
+fzf \
+g++ \
+gcc \
+gimp \
+git \
+gnome-shell \
+gnome-shell-extensions \
+gnome-shell-pomodoro \
+gnome-terminal \
+gnome-tweaks \
+gparted \
+gpg-agent \
+grep \
+grub-efi-amd64 \
+grub-efi-amd64-signed \
+gzip \
+hostname \
+htop \
+i3 \
+i3blocks \
+i3lock \
+i3status \
+ibus-table-cangjie-big \
+ibus-table-cangjie3 \
+ibus-table-cangjie5 \
+init \
+intel-level-zero-gpu \
+intel-media-va-driver-non-free \
+intel-opencl-icd \
+iptables \
+kitty \
+language-pack-en \
+language-pack-en-base \
+language-pack-gnome-en \
+language-pack-gnome-en-base \
+level-zero \
+libapr1t64 \
+libaprutil1t64 \
+libarchive-tools \
+libasound2-dev \
+libasound2t64 \
+libbz2-dev \
+libc6 \
+libc6:i386 \
+libchewing3 \
+libchewing3-data \
+libegl1 \
+libegl1:i386 \
+libffi-dev \
+libfuse2t64 \
+libgbm1 \
+libgbm1:i386 \
+libgl1 \
+libgl1-mesa-dri \
+libgl1-mesa-dri:i386 \
+libgl1:i386 \
+libglib2.0-0t64 \
+liblzma-dev \
+libm17n-0 \
+libmarisa0 \
+libmfx1 \
+libncurses-dev \
+libopencc-data \
+libopencc1.1 \
+libotf1 \
+libpinyin-data \
+libpinyin15 \
+libreadline-dev \
+libreoffice \
+libsqlite3-dev \
+libssl-dev \
+libvirt-clients \
+libvirt-daemon-system \
+libxml2-dev \
+libxslt1-dev \
+linux-generic-hwe-24.04 \
+llvm \
+m17n-db \
+make \
+man-db \
+markdown \
+mesa-utils \
+mpv \
+nautilus \
+ncurses-base \
+ncurses-bin \
+net-tools \
+network-manager \
+nodejs \
+npm \
+nvidia-driver-550 \
+obs-studio \
+openshot-qt \
+openssh-client \
+pandoc \
+pavucontrol \
+picom \
+pipx \
+pulseaudio \
+pulseaudio-utils \
+python3 \
+python3-dev \
+python3-openssl \
+python3-pandas \
+python3-pip \
+qemu-system-x86 \
+ranger \
+redshift \
+rofi \
+rsync \
+shim-signed \
+snapd \
+software-properties-common \
+steam-launcher \
+steam-libs-amd64 \
+suckless-tools \
+sudo \
+tar \
+tk-dev \
+tmux \
+tree \
+ubuntu-desktop-minimal \
+ubuntu-minimal \
+ubuntu-restricted-addons \
+ubuntu-standard \
+ubuntu-wallpapers \
+unattended-upgrades \
+unzip \
+v4l2loopback-dkms \
+vim \
+virt-manager \
+vlc \
+wbritish \
+wget \
+winbind \
+wine \
+wine32:i386 \
+winetricks \
+wpasupplicant \
+xdotool \
+xinit \
+xorg \
+xserver-xorg-video-all \
+xz-utils \
+zip \
+zlib1g-dev \
+zsh
+
+
+
+
 # Install clipboard via snap
 echo "Installing clipboard via snap..."
 sudo snap install clipboard
+# List of Snap packages to install
+snap install android-studio --classic
+snap install bare --classic
+snap install chromium
+snap install clipboard
+snap install codium --classic
+snap install core20
+snap install core22
+snap install cups
+snap install desktop-security-center
+snap install firefox
+snap install firmware-updater
+snap install gnome-42-2204
+snap install gtk-common-themes
+snap install prompting-client
+snap install snap-store
+snap install snapd
+snap install snapd-desktop-integration
+
 
 # Function to check and install dependencies
 check_dependencies() {

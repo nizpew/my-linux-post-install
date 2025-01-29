@@ -1,0 +1,41 @@
+2025-01-21 14:15:16.659 [error] Failed to check if file sync is enabled for user {}
+2025-01-21 14:15:16.660 [error] Failed to fetch fsConfig File sync is disabled
+2025-01-21 14:15:16.660 [error] Failed to fetch fsConfig File sync is disabled
+2025-01-21 14:15:16.660 [info] [registerEventListeners] Registering event listeners
+2025-01-21 14:15:17.077 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-01-21 14:15:17.569 [info] Fetched fsConfig in 487.4241999999995ms
+2025-01-21 14:15:17.569 [info] FSConfig response: {"checkFilesyncHashPercent":1,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-01-21 14:15:19.110 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-01-21 14:15:19.541 [info] Fetched fsConfig in 429.73651900000004ms
+2025-01-21 14:15:19.541 [info] FSConfig response: {"checkFilesyncHashPercent":1,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-01-21 14:15:19.546 [info] File sync enabled status: true
+2025-01-21 14:15:19.546 [info] Starting sync of visible tabs
+2025-01-21 14:15:19.571 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-01-21 14:15:19.638 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-01-21 14:15:19.731 [info] Uploaded file cursospinterest1 modelVersion=1 in 183.5864760000004ms
+2025-01-21 14:15:19.732 [info] Synced all visible tabs in 191.45231700000113ms
+2025-01-21 14:15:19.745 [info] Fetched fsConfig in 172.94928299999992ms
+2025-01-21 14:15:19.745 [info] FSConfig response: {"checkFilesyncHashPercent":1,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-01-21 14:15:19.748 [info] File sync enabled status: true
+2025-01-21 14:15:19.748 [info] Starting sync of visible tabs
+2025-01-21 14:15:19.748 [info] Synced all visible tabs in 2.594219000000521ms
+2025-01-21 14:15:20.039 [info] Fetched fsConfig in 400.8143689999997ms
+2025-01-21 14:15:20.040 [info] FSConfig response: {"checkFilesyncHashPercent":1,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-01-21 14:15:20.040 [info] File sync enabled status: true
+2025-01-21 14:15:20.040 [info] Starting sync of visible tabs
+2025-01-21 14:15:20.040 [info] Synced all visible tabs in 0.28721000000041386ms
+2025-01-21 14:15:20.090 [info] Starting sync of visible tabs
+2025-01-21 14:15:20.306 [info] Handled visible editors change in 0.007815999999365886ms
+2025-01-21 14:15:20.457 [info] Uploaded file cursospinterest1 modelVersion=1 in 366.2597710000009ms
+2025-01-21 14:15:20.457 [info] Synced all visible tabs in 381.1383310000001ms
+2025-01-21 14:15:20.460 [info] [ENABLED STATUS] Filesync enabled from server.
+2025-01-21 14:15:20.623 [info] Fetched fsConfig in 162.59163699999954ms
+2025-01-21 14:15:20.623 [info] FSConfig response: {"checkFilesyncHashPercent":1,"rateLimiterBreakerResetTimeMs":300000,"rateLimiterRps":10,"rateLimiterBurstCapacity":50,"maxRecentUpdatesStored":100,"maxModelVersionCacheSize":100,"maxFileSizeToSyncBytes":500000,"syncRetryMaxAttempts":3,"syncRetryInitialDelayMs":20,"syncRetryTimeMultiplier":2,"fileSyncStatusMaxCacheSize":5,"successiveSyncsRequiredForReliance":5,"extraSuccessfulSyncsNeededAfterErrors":0,"bigChangeStrippingThresholdBytes":10000,"lastNUpdatesToSend":15,"fileSyncStatusTtlMs":300000,"syncDebounceMs":250,"syncUpdateThreshold":10}
+2025-01-21 14:15:20.720 [info] Handled visible editors change in 2.1370540000007168ms
+2025-01-21 14:15:20.969 [info] Uploaded file src/components/Pin.tsx modelVersion=1 in 249.1221459999997ms
+2025-01-21 14:15:23.705 [info] Handled visible editors change in 0.004208000000289758ms
+2025-01-21 14:15:23.795 [info] Handled visible editors change in 2.7169990000002144ms
+2025-01-21 14:15:24.055 [info] Uploaded file src/styles/masonry.css modelVersion=1 in 258.320294000001ms
+2025-01-21 14:15:28.050 [info] Handled visible editors change in 0.0012710000009974465ms
+2025-01-21 14:15:28.090 [info] Handled visible editors change in 0.16126600000279723ms
+2025-01-21 14:15:28.782 [info] Synced file src/styles/masonry.css modelVersion=2 in 485.110052ms

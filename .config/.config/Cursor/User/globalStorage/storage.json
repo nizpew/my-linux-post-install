@@ -1,0 +1,63 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/zero/Downloads/bolt-pinterest-clone_1_part/project": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "60ef28dd319214a0543d692e3ac900dbaf11e83c9ddfc3c7432b3aae51bbebf2",
+    "telemetry.machineId": "5f66272d1a37c136e2b5f6b61061ed985245c6e435a2706c3ba71eb45f5fa670",
+    "telemetry.devDeviceId": "e8875dde-6f70-4565-a9c2-b658dcfc4b4b",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/zero/Downloads/bolt-pinterest-clone_1_part/project"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "theme": "vs-dark",
+    "themeBackground": "#181818",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#d6d6dd",
+            "background": "#181818",
+            "editorBackground": "#181818",
+            "titleBarBackground": "#181818",
+            "activityBarBackground": "#181818",
+            "sideBarBackground": "#181818",
+            "statusBarBackground": "#181818",
+            "statusBarNoFolderBackground": "#181818"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/zero/Downloads/bolt-pinterest-clone_1_part/project",
+            "backupPath": "/home/zero/.config/Cursor/Backups/4724f91136d3903ed69f5c3f19f72331",
+            "uiState": {
+                "mode": 1,
+                "x": 1284,
+                "y": 11,
+                "width": 625,
+                "height": 1039
+            }
+        },
+        "openedWindows": []
+    }
+}

@@ -1,0 +1,21 @@
+# i3blocks config file
+
+# Global properties
+command=/usr/share/i3blocks/$BLOCK_NAME
+separator_block_width=15
+markup=none
+
+# Date
+[date]
+command=echo "Date: $(date '+%Y-%m-%d')"
+interval=60
+
+# Hour
+[time]
+command=echo "Hour: $(date '+%H:%M:%S')"
+interval=1
+
+[battery]
+command=sh -c 'battery_info=$(acpi -b); percentage=$(echo "$battery_info" | grep -P -o "[0-9]+(?=%)"); time_left=$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep "time to empty" | awk "{print $4}"); echo "Battery: $percentage% -$time_left";'
+interval=30
+
