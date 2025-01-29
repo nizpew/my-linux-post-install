@@ -4,15 +4,9 @@
 
 
 
-## you can make gnome look like this
-![image](https://github.com/user-attachments/assets/66656864-82e2-40f1-9815-f67fa7439efb)
+## you can make i3 look like this
 
-## or i3 like this
-
-![image](https://github.com/user-attachments/assets/492bf385-005f-467a-bda8-5df643c22fba)
-
-![image](https://github.com/user-attachments/assets/ae9cb264-6e2e-4631-9b76-3273bdcf011b)
-
+![image](https://github.com/user-attachments/assets/72dbaaae-9194-48d6-8511-328973290871)
 
 
 
