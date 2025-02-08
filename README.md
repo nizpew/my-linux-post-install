@@ -2,16 +2,8 @@
 # Dotfiles: Customize Your Linux Environment with Efficient Settings
 
 
-
-
-## you can make gnome look like this
-![image](https://github.com/user-attachments/assets/66656864-82e2-40f1-9815-f67fa7439efb)
-
-## or i3 like this
-
-![image](https://github.com/user-attachments/assets/492bf385-005f-467a-bda8-5df643c22fba)
-
-![image](https://github.com/user-attachments/assets/ae9cb264-6e2e-4631-9b76-3273bdcf011b)
+## you can make i3 look like this
+![image](https://github.com/user-attachments/assets/2e284ac2-3d96-4438-a843-cc5310eeff3b)
 
 
 
