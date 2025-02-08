@@ -1,0 +1,53 @@
+file:///home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/pages/Home.tsx {"mtime":1733429435541,"ctime":1733429386554,"size":4330,"etag":"3de5ggiim4fl","orphaned":false,"typeId":""}
+import React, { useState, useEffect } from 'react';
+import Masonry from 'react-masonry-css';
+import { Box, Container } from '@mui/material';
+import Pin from '../components/Pin';
+import MainLayout from '../components/layout/MainLayout';
+
+// Temporary mock data
+const MOCK_PINS = [
+  {
+    id: '1',
+    title: 'Beautiful Landscape',
+    image: 'https://source.unsplash.com/random/800x1200?landscape',
+    user: {
+      id: '1',
+      name: 'John Doe',
+      avatar: 'https://source.unsplash.com/random/100x100?portrait'
+    }
+  },
+  // Add more mock pins here
+];
+
+const breakpointColumns = {
+  default: 5,
+  1536: 4,
+  1200: 3,
+  900: 2,
+  600: 1
+};
+
+export default function Home() {
+  const [pins, setPins] = useState(MOCK_PINS);
+
+  return (
+    <MainLayout>
+      <Container maxWidth="xl">
+        <Box sx={{ mt: 2 }}>
+          <Masonry
+            breakpointCols={breakpointColumns}
+            className="masonry-grid"
+            columnClassName="masonry-grid_column"
+          >
+            {pins.map((pin) => (
+              <Box key={pin.id} sx={{ mb: 2 }}>
+                <Pin {...pin} />
+              </Box>
+            ))}
+          </Masonry>
+        </Box>
+      </Container>
+    </MainLayout>
+  );
+} 

@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# Verificando se o nome da branch foi passado como argumento
+if [ -z "$1" ]; then
+  echo "Por favor, forneça o nome da branch como argumento."
+  exit 1
+fi
+
+# Clonando o repositório
+git clone https://github.com/nizpew/my-linux-post-install
+cd my-linux-post-install
+
+# Criando uma nova branch com o nome fornecido como argumento e trocando para ela
+git branch
+git checkout -b "$1"
+
+# Listando os arquivos e diretórios
+ls
+tree
+
+# Copiando todos os arquivos de /usr/local/bin para usr/local/bin
+sudo cp /usr/local/bin/* usr/local/bin/
+
+# Removendo arquivos grandes
+rm usr/local/bin/webcrawlerceub.py
+rm usr/local/bin/XRv3.zip usr/local/bin/XRvE.zip usr/local/bin/XRvf.zip usr/local/bin/XRvI.zip usr/local/bin/XRvl.zip usr/local/bin/XRvp.zip usr/local/bin/XRv_.zip
+ls /usr/local/bin
+
+# Copiando o arquivo de configuração .zshrc
+cp ~/.zshrc .
+
+# Copiando a configuração do diretório ~/.config
+cp -r ~/.config .
+
+# Usando o tgpt para gerar bash scripts para instalação de pacotes
+snap list | tgpt -q -w "write me bash code to install these packages in snap"
+
+# Usando o tgpt para gerar bash scripts para instalação de pacotes no apt
+apt-mark showmanual | tgpt -q -w "write me bash code to install these packages in apt"
+
+# Preparando as alterações para commit no Git
+git add .
+git commit -m "Descrição do que foi alterado"
+
+# Enviando a nova branch para o GitHub
+git push -u origin "$1"
+
+# Instalando o git-filter-repo para remover arquivos grandes
+sudo apt install git-filter-repo
+
+# Removendo arquivos grandes do histórico do Git
+git filter-repo --path .config/.config/VSCodium/CachedExtensionVSIXs/.trash/rjmacarthy.twinny-3.21.13-linux-x64 --invert-paths
+
+# Finalizando o script
+cd ..
+

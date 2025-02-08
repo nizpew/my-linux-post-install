@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Concatenate all files into output.txt
+##find . -type f -exec cat {} + | head -n 3800  > output.txt
+
+
+tgpt -w -q "in bullet points, code output $(find . -type f -exec head -n 110 {} + | head -n 110 2>/dev/null)" 2>/dev/null | clipboard
+
+
+
+##var1=$(find . -type f -exec cat {} + | head -n 50)
+
+# Use the contents of output.txt to generate a README
+##tgpt -q "I will show you my codes, and you make me a README , and return me only the readme made from the code i sent you. here is the template:\n\n# TaskMaster: Organize Your Tasks with Priority and Customize Your Wallpaper\n\n## Description\n\nTaskMaster is a powerful task management application designed to help you prioritize and organize your tasks effectively. With a focus on importance, deadline, and difficulty, TaskMaster ensures that your most critical tasks are handled first, optimizing your productivity. Additionally, you can personalize your workspace by uploading and setting your own wallpaper, creating a visually pleasing and customized environment.\n\n## Features\n\n### Smart Task Organization\n\n- **Priority-Based Management**: Organize tasks based on their importance, deadline, and difficulty.\n- **Intelligent Scheduling**: Automatically arranges tasks to ensure high-priority items are completed on time.\n\n### Customizable Wallpaper\n\n- **Image Upload**: Upload your own wallpaper to personalize the look and feel of the application.\n- **Adjustable Appearance**: Customize the opacity and overlay effects of the wallpaper to match the dark theme of the app.\n\n## How to Use\n\n- **Add Tasks**: Input tasks with their details including name, importance, deadline, and duration.\n- **View and Organize**: Check the task list and see how tasks are organized based on priority and deadlines.\n- **Upload Wallpaper**: Use the “Upload Image” button to select and set a new wallpaper for the application.\n- **Customize**: Adjust wallpaper settings to fit your personal style and preferences.\n\n## Installation\n\n### For Windows\nRun the exe in the file\ngit clone https://github.com/yourusername/taskmaster.git cd taskmaster/todopy/dist/todopy2\n\nor install it manually by downloading the zip file from the top right on GitHub, extracting the zip, and executing the .exe in the folder.\n\n### For Linux\nClone the repository and install the required dependencies:\ngit clone https://github.com/yourusername/taskmaster.git cd taskmaster pip install -r requirements.txt\n\nRun the application\npython3 todopy3.py\n\n## Run the application:\npython3 taskmaster.py\n\nReact update\nphp -S localhost:8000\n\n## Screenshots.  now, My code: $var2 . and tree structure : $(tree)"
+
+
+
+

@@ -1,0 +1,14 @@
+2025-01-21 14:15:16.660 [info] Using repo backend url https://repo42.cursor.sh
+2025-01-21 14:15:18.068 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-01-21 14:15:18.911 [info] Using repo backend url https://repo42.cursor.sh
+2025-01-21 14:15:18.911 [info] Git graph is disabled. shouldIndex: true isEnabled: false
+2025-01-21 14:15:21.861 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/components/Pin.tsx
+2025-01-21 14:15:21.867 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/components/Pin.tsx
+2025-01-21 14:15:21.867 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/components/Pin.tsx
+2025-01-21 14:15:23.965 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/styles/masonry.css
+2025-01-21 14:15:23.970 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/styles/masonry.css
+2025-01-21 14:15:23.971 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/styles/masonry.css
+2025-01-21 14:15:28.107 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/components/Pin.tsx
+2025-01-21 14:15:28.107 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/components/Pin.tsx
+2025-01-21 14:15:28.109 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/components/Pin.tsx
+2025-01-21 14:15:28.110 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/src/components/Pin.tsx

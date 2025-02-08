@@ -1,0 +1,3 @@
+2025-01-21 14:13:38.233 [info] update#setState disabled
+2025-01-21 14:13:38.235 [info] update#ctor - updates are disabled as there is no update URL
+2025-01-21 14:13:40.456 [error] vscode-file: Refused to load resource /tmp/.mount_cursorBbOWMk/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/extensions/theme-seti/icons/seti.woff)

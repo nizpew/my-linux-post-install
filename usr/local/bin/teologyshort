@@ -1,103 +1,45 @@
-#! /bin/sh
-#INTRO: "piper" é um text to speech
-#"bible" é uma "biblia local" que e abre partes da biblia de acordo com o seguinte padrao exodus21:20-25
+#!/bin/bash
 
-#if no arg, prints help
+# Caminho do arquivo que vai armazenar o último intervalo utilizado
+FILE_LAST_INTERVAL="last_interval.txt"
 
-
-#first boot
-#sudo apt-get install bible-kjv espeak; mkdir ./Documents/constant-files; touch ./Documents/constant-files/teologylog
-
-
-if [ "$#" = '0' ] ; then
-	echo 'INVALID: NO ARGS
-	'
-	teologyshort -rr
+# Verifica se o arquivo existe, caso contrário, inicializa com o intervalo 1-5
+if [ ! -f "$FILE_LAST_INTERVAL" ]; then
+  echo "1-5" > "$FILE_LAST_INTERVAL"
 fi
 
-#'-s' = search
-if [ "$1" = '-s' ] ; then
+# Lê o último intervalo salvo no arquivo
+LAST_INTERVAL=$(cat "$FILE_LAST_INTERVAL")
 
-echo $(date -I) '|'	$2$3$4 >> ./Documents/constant-files/teologylog
-	    	    
-	       todolist -d 1
-	echo "Syntax:
-	_write 3 quotes of that specific book (E.G. Jhon)_
-	ex:	Jn1:1-5
-	"
-	sleep 2
-	piper "$(bible $2)" & bible $2 ;read input
-	if [ '$input'='' ]; then	cd; cd ./Documents/teologydir ; vim $(date -I) 
-	       todolist -d 1 > /dev/null 2>&1
-	       exit
-	       
-       fi
+# Extrai os números do intervalo (ex: "1-5" vira 1 e 5)
+START=$(echo $LAST_INTERVAL | cut -d '-' -f 1)
+END=$(echo $LAST_INTERVAL | cut -d '-' -f 2)
 
+# Calcula o novo intervalo (ex: de 1-5 para 5-10, de 10-15 para 15-20, etc.)
+NEW_START=$END
+NEW_END=$((END + 5))  # Agora incrementa de 5 em 5
 
-fi 
+# Salva o novo intervalo no arquivo
+echo "$NEW_START-$NEW_END" > "$FILE_LAST_INTERVAL"
 
-#'-h' = print help
-if [ "$1" = "-h" ] ; then
-echo '
-SYNTAX = teologyshort [-arg] [text to search, if -s arg]
+# Exemplo do comando original com o novo intervalo
+COMMAND="bible leviticus5:$NEW_START-$NEW_END"
 
-'-H' = show history
+# Executa a consulta para o intervalo atual
+RESULT=$(eval $COMMAND)
 
-'-m' = modify log 
+# Executa a consulta apenas para o novo START (início do intervalo)
+FIRST_RESULT=$(bible leviticus5:$NEW_START)
 
-'-h' = print help
-
-'-rr' = recurrent automatic; predict from last log argument and send as automatic output
-
-'-s' = search versicle
-'
+# Verifica se o conteúdo do intervalo atual é igual ao conteúdo do primeiro número do intervalo
+if [ "$RESULT" == "$FIRST_RESULT" ]; then
+  echo "need to change bible book"
+  rm last_interval.txt
+else
+  # Caso contrário, executa o comando normalmente
+  ##echo "Executando: $COMMAND | tgpt -q -w \"sumarize in 4 lines\" ; $COMMAND | tgpt -q -w \"sumarize in 4 lines\" | espeak ; $COMMAND"
+  
+  # Aqui você poderia executar o comando real, caso deseje:
+  eval "$COMMAND | tgpt -q -w \"sumarize in 4 bullet points\" ; $COMMAND | tgpt -q -w \"sumarize in 4 bullet points\" | espeak ; $COMMAND"
 fi
 
-
-#'-H' = show history
-if [ "$1" = "-H" ] ; then
-    cat ./Documents/constant-files/teologylog
-fi
-
-#'-m' = modify log
-if [ "$1" = "-m" ] ; then
-    vim ./Documents/constant-files/teologylog
-fi
-
-
-#'-rr' = recurrent automatic; predict from last log argument and send as automatic output
-#automatic search by log
-if [ "$1" = "-rr" ] ; then 
-
-	
-
-		echo $(date -I) '|'     $(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d ':' -f 1):$(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)-$(($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)+5)) >> ./Documents/constant-files/teologylog
-	                    
-		todolist -d 1
-		echo "Syntax: _write 3 quotes of that specific book (E.G. Jhon)
-	       	ex:     Jn1:1-5
-		"
-		sleep 2
-		piper "$(tgpt -q "summary in 4 lines: $(bible $(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 1)-$(($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)))) " sleep 6)" & 
-
-
-
-		eog Downloads/photos/$(ls Downloads/photos/*gif | shuf | shuf | shuf) &
-
-
-		tgpt -q "summary in 4 lines: $(bible $(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 1)-$(($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)))) "
-		read input
-
-	       	
-		bible $(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f                         3 | cut -d ':' -f 1):$($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2)-5)-$(($(echo $(sed -n '$p' ./Documents/constant-files/teologylog) | cut -d ' ' -f 3 | cut -d '-' -f 2))) ;read input
-
-
-
-
-
-		if [ '$input'='' ]; then        cd; cd ./Documents/teologydir ; vim $(date -I) 
-			todolist -d 1 > /dev/null 2>&1
-		fi
-	
-fi
-exit

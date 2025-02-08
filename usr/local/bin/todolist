@@ -6,7 +6,7 @@
 
 #no arg
 if [ "$#" = "0" ] ; then
-    cat ./Documents/constant-files/todolist
+    cat ./Documents/constant-files/todolistvirgem
 fi
 
 

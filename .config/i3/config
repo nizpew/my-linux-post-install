@@ -252,7 +252,10 @@ mode "$mode_gaps_outer" {
 bindsym $mod+z exec rofi -show run -lines 20 -eh 1.3 -opacity "85" -bw 0 -font "System San Francisco Display 10"
 
 
-exec_always feh --bg-fill Downloads/wallpapers/purplecyb.jpg
+
+exec_always feh --bg-fill 'https://pbs.twimg.com/media/Gd8qHala0AESz9u?format=jpg&name=4096x4096'
+
+
 ##exec_always feh --bg-fill Downloads/wpp/$(ls Downloads/wpp/ | shuf)
 
 # Sreen brightness controls
@@ -329,5 +332,9 @@ bar {
 exec --no-startup-id dunst &
 exec --no-startup-id ~/check_battery.sh &
 
-exec --no-startup-id xinput set-prop 9 "libinput Tapping Enabled" 1
+exec --no-startup-id xinput set-prop $(xinput list | grep "Touchpad" | awk -F'id=' '{print $2}' | awk '{print $1}') "libinput Tapping Enabled" 1 &
+exec --no-startup-id xrandr --output eDP-1 --same-as HDMI-1 &
+exec --no-startup-id xrandr --output eDP-1 --same-as HDMI-1 &
+
+
 

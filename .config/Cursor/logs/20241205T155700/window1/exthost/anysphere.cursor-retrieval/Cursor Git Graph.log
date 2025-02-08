@@ -1,0 +1,31 @@
+2024-12-05 15:57:04.394 [info] Using repo backend url https://repo42.cursor.sh
+2024-12-05 15:57:06.359 [error] Failed to get git graph client
+2024-12-05 16:00:00.191 [info] Using repo backend url https://repo42.cursor.sh
+2024-12-05 16:00:23.417 [info] Using repo backend url https://repo42.cursor.sh
+2024-12-05 16:00:29.021 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:00:29.022 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:00:29.022 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:00:29.022 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:00:29.022 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:00:29.023 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:00:29.023 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:00:35.947 [info] Git graph is enabled
+2024-12-05 16:00:39.150 [info] Using repo backend url https://repo42.cursor.sh
+2024-12-05 16:00:39.150 [info] Git graph is enabled
+2024-12-05 16:01:47.001 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:01:47.001 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/index.html
+2024-12-05 16:02:18.110 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.bolt/prompt
+2024-12-05 16:02:18.112 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.bolt/prompt
+2024-12-05 16:02:18.112 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.bolt/prompt
+2024-12-05 16:02:22.720 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.bolt/config.json
+2024-12-05 16:02:22.720 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.bolt/config.json
+2024-12-05 16:02:22.720 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.bolt/config.json
+2024-12-05 16:02:33.548 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/package.json
+2024-12-05 16:02:33.549 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/package.json
+2024-12-05 16:02:33.549 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/package.json
+2024-12-05 16:02:35.705 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.gitignore
+2024-12-05 16:02:35.705 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.gitignore
+2024-12-05 16:02:35.705 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/.gitignore
+2024-12-05 17:29:18.945 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/cursospinterest1
+2024-12-05 17:29:18.947 [error] Failed to get cached related files... falling back to uncached No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/cursospinterest1
+2024-12-05 17:29:18.948 [error] Failed to get related files No indexer found for file. Maybe not inside a git repo? /home/zero/Downloads/bolt-pinterest-clone_1_part/project/cursospinterest1

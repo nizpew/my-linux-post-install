@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ $# -eq 0 ]; then
+    echo "help: put the text to go to the commit message in the arguments"
+else
+
+
+git add .
+git commit -m "$@"
+git push origin main
+fi

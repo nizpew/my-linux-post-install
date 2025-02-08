@@ -1,0 +1,1258 @@
+2024-12-05 15:57:02.127 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-12-05 15:57:02.127 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-12-05 15:57:02.127 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-12-05 15:57:02.167 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.168 [warning] Missing property "notepadState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.168 [warning] Missing property "bugbotState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.168 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.168 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.168 [warning] Missing property "syncDevModeColorTheme" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.168 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.168 [warning] Missing property "autopilotFeatureEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "bigCmdKEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.169 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "hfUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.170 [warning] Missing property "agentDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "cacheChatPrompts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "hallucinatedFunctionsPersistentState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.171 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "chunkedStreamingEnabledV2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "cppCachedTypeaheadEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "cppManualTriggerWithOpToken" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.172 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "SPECIAL_KEY_lastUpdatedTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "aiHyperModeUXType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "isAiReviewInputExpanded" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.173 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "aiDocAgentEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "fastSemanticSearchEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "aiReviewPersistentStorage" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.174 [warning] Missing property "turboModeOptions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.175 [warning] Missing property "internalAnalyticsDebugMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.175 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.175 [warning] Missing property "hallucinatedFunctionsWorkspaceState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.175 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.175 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.175 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.175 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.175 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 15:57:02.206 [warning] Creation of workbench contribution 'workbench.contrib.onboarding.onStart.cursor' took 22ms.
+2024-12-05 15:57:02.477 [error] Unable to resolve nonexistent file '/home/zero/.vscode/extensions': Error: Unable to resolve nonexistent file '/home/zero/.vscode/extensions'
+    at l.resolve (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:1141:20482)
+    at async ye (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:4361:45914)
+2024-12-05 15:57:02.490 [info] Started local extension host with pid 27269.
+2024-12-05 15:57:02.503 [info] Started initializing default profile extensions in extensions installation folder. file:///home/zero/.cursor/extensions
+2024-12-05 15:57:02.817 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/zero/.cursor/extensions
+2024-12-05 15:57:05.805 [info] [perf] Render performance baseline is 24ms
+2024-12-05 15:57:06.539 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at Object.F [as unary] (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:3856:12076)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:266:139256)
+    at async li.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:4210:51089)
+    at async li.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:4225:1075)
+2024-12-05 15:57:48.161 [info] Starting polling for login
+2024-12-05 15:57:48.362 [info] Beginning of Login Poll
+2024-12-05 15:57:48.562 [info] Beginning of Login Poll
+2024-12-05 15:57:48.725 [info] Got login result 404
+2024-12-05 15:57:48.762 [info] Beginning of Login Poll
+2024-12-05 15:57:48.931 [info] Got login result 404
+2024-12-05 15:57:48.962 [info] Beginning of Login Poll
+2024-12-05 15:57:49.136 [info] Got login result 404
+2024-12-05 15:57:49.162 [info] Beginning of Login Poll
+2024-12-05 15:57:49.341 [info] Got login result 404
+2024-12-05 15:57:49.362 [info] Beginning of Login Poll
+2024-12-05 15:57:49.544 [info] Got login result 404
+2024-12-05 15:57:49.562 [info] Beginning of Login Poll
+2024-12-05 15:57:49.749 [info] Got login result 404
+2024-12-05 15:57:49.762 [info] Beginning of Login Poll
+2024-12-05 15:57:49.954 [info] Got login result 404
+2024-12-05 15:57:49.962 [info] Beginning of Login Poll
+2024-12-05 15:57:50.131 [info] Got login result 404
+2024-12-05 15:57:50.162 [info] Beginning of Login Poll
+2024-12-05 15:57:50.362 [info] Beginning of Login Poll
+2024-12-05 15:57:50.364 [info] Got login result 404
+2024-12-05 15:57:50.562 [info] Beginning of Login Poll
+2024-12-05 15:57:50.567 [info] Got login result 404
+2024-12-05 15:57:50.762 [info] Beginning of Login Poll
+2024-12-05 15:57:50.772 [info] Got login result 404
+2024-12-05 15:57:50.962 [info] Beginning of Login Poll
+2024-12-05 15:57:50.978 [info] Got login result 404
+2024-12-05 15:57:51.162 [info] Beginning of Login Poll
+2024-12-05 15:57:51.183 [info] Got login result 404
+2024-12-05 15:57:51.362 [info] Beginning of Login Poll
+2024-12-05 15:57:51.388 [info] Got login result 404
+2024-12-05 15:57:51.562 [info] Beginning of Login Poll
+2024-12-05 15:57:51.595 [info] Got login result 404
+2024-12-05 15:57:51.762 [info] Beginning of Login Poll
+2024-12-05 15:57:51.797 [info] Got login result 404
+2024-12-05 15:57:51.962 [info] Beginning of Login Poll
+2024-12-05 15:57:52.001 [info] Got login result 404
+2024-12-05 15:57:52.162 [info] Beginning of Login Poll
+2024-12-05 15:57:52.206 [info] Got login result 404
+2024-12-05 15:57:52.362 [info] Beginning of Login Poll
+2024-12-05 15:57:52.411 [info] Got login result 404
+2024-12-05 15:57:52.562 [info] Beginning of Login Poll
+2024-12-05 15:57:52.617 [info] Got login result 404
+2024-12-05 15:57:52.762 [info] Beginning of Login Poll
+2024-12-05 15:57:52.822 [info] Got login result 404
+2024-12-05 15:57:52.962 [info] Beginning of Login Poll
+2024-12-05 15:57:53.026 [info] Got login result 404
+2024-12-05 15:57:53.162 [info] Beginning of Login Poll
+2024-12-05 15:57:53.183 [info] Got login result 404
+2024-12-05 15:57:53.362 [info] Beginning of Login Poll
+2024-12-05 15:57:53.435 [info] Got login result 404
+2024-12-05 15:57:53.562 [info] Beginning of Login Poll
+2024-12-05 15:57:53.642 [info] Got login result 404
+2024-12-05 15:57:53.762 [info] Beginning of Login Poll
+2024-12-05 15:57:53.845 [info] Got login result 404
+2024-12-05 15:57:53.962 [info] Beginning of Login Poll
+2024-12-05 15:57:54.018 [info] Got login result 404
+2024-12-05 15:57:54.162 [info] Beginning of Login Poll
+2024-12-05 15:57:54.165 [info] Got login result 404
+2024-12-05 15:57:54.357 [info] Got login result 404
+2024-12-05 15:57:54.361 [info] Beginning of Login Poll
+2024-12-05 15:57:54.561 [info] Got login result 404
+2024-12-05 15:57:54.562 [info] Beginning of Login Poll
+2024-12-05 15:57:54.762 [info] Beginning of Login Poll
+2024-12-05 15:57:54.766 [info] Got login result 404
+2024-12-05 15:57:54.962 [info] Beginning of Login Poll
+2024-12-05 15:57:54.970 [info] Got login result 404
+2024-12-05 15:57:55.136 [info] Got login result 404
+2024-12-05 15:57:55.162 [info] Beginning of Login Poll
+2024-12-05 15:57:55.286 [info] Got login result 404
+2024-12-05 15:57:55.362 [info] Beginning of Login Poll
+2024-12-05 15:57:55.436 [info] Got login result 404
+2024-12-05 15:57:55.562 [info] Beginning of Login Poll
+2024-12-05 15:57:55.587 [info] Got login result 404
+2024-12-05 15:57:55.739 [info] Got login result 404
+2024-12-05 15:57:55.762 [info] Beginning of Login Poll
+2024-12-05 15:57:55.915 [info] Got login result 404
+2024-12-05 15:57:55.962 [info] Beginning of Login Poll
+2024-12-05 15:57:56.117 [info] Got login result 404
+2024-12-05 15:57:56.162 [info] Beginning of Login Poll
+2024-12-05 15:57:56.319 [info] Got login result 404
+2024-12-05 15:57:56.362 [info] Beginning of Login Poll
+2024-12-05 15:57:56.514 [info] Got login result 404
+2024-12-05 15:57:56.562 [info] Beginning of Login Poll
+2024-12-05 15:57:56.715 [info] Got login result 404
+2024-12-05 15:57:56.762 [info] Beginning of Login Poll
+2024-12-05 15:57:56.914 [info] Got login result 404
+2024-12-05 15:57:56.962 [info] Beginning of Login Poll
+2024-12-05 15:57:57.115 [info] Got login result 404
+2024-12-05 15:57:57.162 [info] Beginning of Login Poll
+2024-12-05 15:57:57.326 [info] Got login result 404
+2024-12-05 15:57:57.362 [info] Beginning of Login Poll
+2024-12-05 15:57:57.531 [info] Got login result 404
+2024-12-05 15:57:57.562 [info] Beginning of Login Poll
+2024-12-05 15:57:57.736 [info] Got login result 404
+2024-12-05 15:57:57.762 [info] Beginning of Login Poll
+2024-12-05 15:57:57.942 [info] Got login result 404
+2024-12-05 15:57:57.962 [info] Beginning of Login Poll
+2024-12-05 15:57:58.146 [info] Got login result 404
+2024-12-05 15:57:58.162 [info] Beginning of Login Poll
+2024-12-05 15:57:58.351 [info] Got login result 404
+2024-12-05 15:57:58.362 [info] Beginning of Login Poll
+2024-12-05 15:57:58.556 [info] Got login result 404
+2024-12-05 15:57:58.562 [info] Beginning of Login Poll
+2024-12-05 15:57:58.762 [info] Beginning of Login Poll
+2024-12-05 15:57:58.763 [info] Got login result 404
+2024-12-05 15:57:58.962 [info] Beginning of Login Poll
+2024-12-05 15:57:58.965 [info] Got login result 404
+2024-12-05 15:57:59.162 [info] Beginning of Login Poll
+2024-12-05 15:57:59.173 [info] Got login result 404
+2024-12-05 15:57:59.362 [info] Beginning of Login Poll
+2024-12-05 15:57:59.375 [info] Got login result 404
+2024-12-05 15:57:59.525 [info] Got login result 404
+2024-12-05 15:57:59.562 [info] Beginning of Login Poll
+2024-12-05 15:57:59.762 [info] Beginning of Login Poll
+2024-12-05 15:57:59.785 [info] Got login result 404
+2024-12-05 15:57:59.962 [info] Beginning of Login Poll
+2024-12-05 15:57:59.989 [info] Got login result 404
+2024-12-05 15:58:00.141 [info] Got login result 404
+2024-12-05 15:58:00.162 [info] Beginning of Login Poll
+2024-12-05 15:58:00.362 [info] Beginning of Login Poll
+2024-12-05 15:58:00.399 [info] Got login result 404
+2024-12-05 15:58:00.553 [info] Got login result 404
+2024-12-05 15:58:00.562 [info] Beginning of Login Poll
+2024-12-05 15:58:00.717 [info] Got login result 404
+2024-12-05 15:58:00.762 [info] Beginning of Login Poll
+2024-12-05 15:58:00.963 [info] Beginning of Login Poll
+2024-12-05 15:58:01.015 [info] Got login result 404
+2024-12-05 15:58:01.162 [info] Beginning of Login Poll
+2024-12-05 15:58:01.185 [info] Got login result 404
+2024-12-05 15:58:01.362 [info] Beginning of Login Poll
+2024-12-05 15:58:01.424 [info] Got login result 404
+2024-12-05 15:58:01.562 [info] Beginning of Login Poll
+2024-12-05 15:58:01.629 [info] Got login result 404
+2024-12-05 15:58:01.762 [info] Beginning of Login Poll
+2024-12-05 15:58:01.831 [info] Got login result 404
+2024-12-05 15:58:01.962 [info] Beginning of Login Poll
+2024-12-05 15:58:02.037 [info] Got login result 404
+2024-12-05 15:58:02.162 [info] Beginning of Login Poll
+2024-12-05 15:58:02.242 [info] Got login result 404
+2024-12-05 15:58:02.362 [info] Beginning of Login Poll
+2024-12-05 15:58:02.446 [info] Got login result 404
+2024-12-05 15:58:02.562 [info] Beginning of Login Poll
+2024-12-05 15:58:02.652 [info] Got login result 404
+2024-12-05 15:58:02.762 [info] Beginning of Login Poll
+2024-12-05 15:58:02.858 [info] Got login result 404
+2024-12-05 15:58:02.962 [info] Beginning of Login Poll
+2024-12-05 15:58:03.061 [info] Got login result 404
+2024-12-05 15:58:03.162 [info] Beginning of Login Poll
+2024-12-05 15:58:03.210 [info] Got login result 404
+2024-12-05 15:58:03.362 [info] Beginning of Login Poll
+2024-12-05 15:58:03.470 [info] Got login result 404
+2024-12-05 15:58:03.562 [info] Beginning of Login Poll
+2024-12-05 15:58:03.677 [info] Got login result 404
+2024-12-05 15:58:03.762 [info] Beginning of Login Poll
+2024-12-05 15:58:03.880 [info] Got login result 404
+2024-12-05 15:58:03.962 [info] Beginning of Login Poll
+2024-12-05 15:58:04.085 [info] Got login result 404
+2024-12-05 15:58:04.162 [info] Beginning of Login Poll
+2024-12-05 15:58:04.290 [info] Got login result 404
+2024-12-05 15:58:04.362 [info] Beginning of Login Poll
+2024-12-05 15:58:04.448 [info] Got login result 404
+2024-12-05 15:58:04.562 [info] Beginning of Login Poll
+2024-12-05 15:58:04.599 [info] Got login result 404
+2024-12-05 15:58:04.679 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at Object.F [as unary] (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:3856:12076)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:266:139256)
+    at async li.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:4210:51089)
+    at async li.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:4225:1075)
+2024-12-05 15:58:04.752 [info] Got login result 404
+2024-12-05 15:58:04.762 [info] Beginning of Login Poll
+2024-12-05 15:58:04.962 [info] Beginning of Login Poll
+2024-12-05 15:58:05.006 [info] Got login result 404
+2024-12-05 15:58:05.157 [info] Got login result 404
+2024-12-05 15:58:05.161 [info] Beginning of Login Poll
+2024-12-05 15:58:05.316 [info] Got login result 404
+2024-12-05 15:58:05.362 [info] Beginning of Login Poll
+2024-12-05 15:58:05.517 [info] Got login result 404
+2024-12-05 15:58:05.538 [info] Starting polling for login
+2024-12-05 15:58:05.739 [info] Beginning of Login Poll
+2024-12-05 15:58:05.939 [info] Beginning of Login Poll
+2024-12-05 15:58:06.047 [info] Got login result 404
+2024-12-05 15:58:06.139 [info] Beginning of Login Poll
+2024-12-05 15:58:06.199 [info] Got login result 404
+2024-12-05 15:58:06.339 [info] Beginning of Login Poll
+2024-12-05 15:58:06.350 [info] Got login result 404
+2024-12-05 15:58:06.498 [info] Got login result 404
+2024-12-05 15:58:06.539 [info] Beginning of Login Poll
+2024-12-05 15:58:06.691 [info] Got login result 404
+2024-12-05 15:58:06.739 [info] Beginning of Login Poll
+2024-12-05 15:58:06.892 [info] Got login result 404
+2024-12-05 15:58:06.938 [info] Beginning of Login Poll
+2024-12-05 15:58:07.091 [info] Got login result 404
+2024-12-05 15:58:07.139 [info] Beginning of Login Poll
+2024-12-05 15:58:07.292 [info] Got login result 404
+2024-12-05 15:58:07.339 [info] Beginning of Login Poll
+2024-12-05 15:58:07.494 [info] Got login result 404
+2024-12-05 15:58:07.539 [info] Beginning of Login Poll
+2024-12-05 15:58:07.692 [info] Got login result 404
+2024-12-05 15:58:07.739 [info] Beginning of Login Poll
+2024-12-05 15:58:07.892 [info] Got login result 404
+2024-12-05 15:58:07.939 [info] Beginning of Login Poll
+2024-12-05 15:58:08.091 [info] Got login result 404
+2024-12-05 15:58:08.139 [info] Beginning of Login Poll
+2024-12-05 15:58:08.292 [info] Got login result 404
+2024-12-05 15:58:08.339 [info] Beginning of Login Poll
+2024-12-05 15:58:08.491 [info] Got login result 404
+2024-12-05 15:58:08.539 [info] Beginning of Login Poll
+2024-12-05 15:58:08.691 [info] Got login result 404
+2024-12-05 15:58:08.739 [info] Beginning of Login Poll
+2024-12-05 15:58:08.892 [info] Got login result 404
+2024-12-05 15:58:08.939 [info] Beginning of Login Poll
+2024-12-05 15:58:09.093 [info] Got login result 404
+2024-12-05 15:58:09.139 [info] Beginning of Login Poll
+2024-12-05 15:58:09.295 [info] Got login result 404
+2024-12-05 15:58:09.339 [info] Beginning of Login Poll
+2024-12-05 15:58:09.491 [info] Got login result 404
+2024-12-05 15:58:09.539 [info] Beginning of Login Poll
+2024-12-05 15:58:09.693 [info] Got login result 404
+2024-12-05 15:58:09.738 [info] Beginning of Login Poll
+2024-12-05 15:58:09.891 [info] Got login result 404
+2024-12-05 15:58:09.939 [info] Beginning of Login Poll
+2024-12-05 15:58:10.093 [info] Got login result 404
+2024-12-05 15:58:10.139 [info] Beginning of Login Poll
+2024-12-05 15:58:10.291 [info] Got login result 404
+2024-12-05 15:58:10.338 [info] Beginning of Login Poll
+2024-12-05 15:58:10.511 [info] Got login result 404
+2024-12-05 15:58:10.539 [info] Beginning of Login Poll
+2024-12-05 15:58:10.692 [info] Got login result 404
+2024-12-05 15:58:10.740 [info] Beginning of Login Poll
+2024-12-05 15:58:10.895 [info] Got login result 404
+2024-12-05 15:58:10.939 [info] Beginning of Login Poll
+2024-12-05 15:58:11.093 [info] Got login result 404
+2024-12-05 15:58:11.139 [info] Beginning of Login Poll
+2024-12-05 15:58:11.294 [info] Got login result 404
+2024-12-05 15:58:11.339 [info] Beginning of Login Poll
+2024-12-05 15:58:11.496 [info] Got login result 404
+2024-12-05 15:58:11.539 [info] Beginning of Login Poll
+2024-12-05 15:58:11.692 [info] Got login result 404
+2024-12-05 15:58:11.739 [info] Beginning of Login Poll
+2024-12-05 15:58:11.892 [info] Got login result 404
+2024-12-05 15:58:11.938 [info] Beginning of Login Poll
+2024-12-05 15:58:12.093 [info] Got login result 404
+2024-12-05 15:58:12.139 [info] Beginning of Login Poll
+2024-12-05 15:58:12.292 [info] Got login result 404
+2024-12-05 15:58:12.338 [info] Beginning of Login Poll
+2024-12-05 15:58:12.491 [info] Got login result 404
+2024-12-05 15:58:12.539 [info] Beginning of Login Poll
+2024-12-05 15:58:12.695 [info] Got login result 404
+2024-12-05 15:58:12.739 [info] Beginning of Login Poll
+2024-12-05 15:58:12.894 [info] Got login result 404
+2024-12-05 15:58:12.939 [info] Beginning of Login Poll
+2024-12-05 15:58:13.092 [info] Got login result 404
+2024-12-05 15:58:13.139 [info] Beginning of Login Poll
+2024-12-05 15:58:13.294 [info] Got login result 404
+2024-12-05 15:58:13.339 [info] Beginning of Login Poll
+2024-12-05 15:58:13.496 [info] Got login result 404
+2024-12-05 15:58:13.539 [info] Beginning of Login Poll
+2024-12-05 15:58:13.695 [info] Got login result 404
+2024-12-05 15:58:13.739 [info] Beginning of Login Poll
+2024-12-05 15:58:13.894 [info] Got login result 404
+2024-12-05 15:58:13.938 [info] Beginning of Login Poll
+2024-12-05 15:58:14.093 [info] Got login result 404
+2024-12-05 15:58:14.138 [info] Beginning of Login Poll
+2024-12-05 15:58:14.291 [info] Got login result 404
+2024-12-05 15:58:14.339 [info] Beginning of Login Poll
+2024-12-05 15:58:14.496 [info] Got login result 404
+2024-12-05 15:58:14.539 [info] Beginning of Login Poll
+2024-12-05 15:58:14.695 [info] Got login result 404
+2024-12-05 15:58:14.739 [info] Beginning of Login Poll
+2024-12-05 15:58:14.895 [info] Got login result 404
+2024-12-05 15:58:14.938 [info] Beginning of Login Poll
+2024-12-05 15:58:15.094 [info] Got login result 404
+2024-12-05 15:58:15.139 [info] Beginning of Login Poll
+2024-12-05 15:58:15.339 [info] Beginning of Login Poll
+2024-12-05 15:58:15.350 [info] Got login result 404
+2024-12-05 15:58:15.539 [info] Beginning of Login Poll
+2024-12-05 15:58:15.554 [info] Got login result 404
+2024-12-05 15:58:15.739 [info] Beginning of Login Poll
+2024-12-05 15:58:15.759 [info] Got login result 404
+2024-12-05 15:58:15.939 [info] Beginning of Login Poll
+2024-12-05 15:58:15.966 [info] Got login result 404
+2024-12-05 15:58:16.139 [info] Beginning of Login Poll
+2024-12-05 15:58:16.170 [info] Got login result 404
+2024-12-05 15:58:16.339 [info] Beginning of Login Poll
+2024-12-05 15:58:16.375 [info] Got login result 404
+2024-12-05 15:58:16.538 [info] Beginning of Login Poll
+2024-12-05 15:58:16.583 [info] Got login result 404
+2024-12-05 15:58:16.739 [info] Beginning of Login Poll
+2024-12-05 15:58:16.784 [info] Got login result 404
+2024-12-05 15:58:16.939 [info] Beginning of Login Poll
+2024-12-05 15:58:16.987 [info] Got login result 404
+2024-12-05 15:58:17.139 [info] Beginning of Login Poll
+2024-12-05 15:58:17.192 [info] Got login result 404
+2024-12-05 15:58:17.339 [info] Beginning of Login Poll
+2024-12-05 15:58:17.399 [info] Got login result 404
+2024-12-05 15:58:17.539 [info] Beginning of Login Poll
+2024-12-05 15:58:17.551 [info] Got login result 404
+2024-12-05 15:58:17.740 [info] Beginning of Login Poll
+2024-12-05 15:58:17.808 [info] Got login result 404
+2024-12-05 15:58:17.939 [info] Beginning of Login Poll
+2024-12-05 15:58:18.013 [info] Got login result 404
+2024-12-05 15:58:18.139 [info] Beginning of Login Poll
+2024-12-05 15:58:18.218 [info] Got login result 404
+2024-12-05 15:58:18.339 [info] Beginning of Login Poll
+2024-12-05 15:58:18.422 [info] Got login result 404
+2024-12-05 15:58:18.539 [info] Beginning of Login Poll
+2024-12-05 15:58:18.626 [info] Got login result 404
+2024-12-05 15:58:18.738 [info] Beginning of Login Poll
+2024-12-05 15:58:18.833 [info] Got login result 404
+2024-12-05 15:58:18.939 [info] Beginning of Login Poll
+2024-12-05 15:58:19.038 [info] Got login result 404
+2024-12-05 15:58:19.140 [info] Beginning of Login Poll
+2024-12-05 15:58:19.243 [info] Got login result 404
+2024-12-05 15:58:19.339 [info] Beginning of Login Poll
+2024-12-05 15:58:19.447 [info] Got login result 404
+2024-12-05 15:58:19.539 [info] Beginning of Login Poll
+2024-12-05 15:58:19.651 [info] Got login result 404
+2024-12-05 15:58:19.739 [info] Beginning of Login Poll
+2024-12-05 15:58:19.856 [info] Got login result 404
+2024-12-05 15:58:19.939 [info] Beginning of Login Poll
+2024-12-05 15:58:20.061 [info] Got login result 404
+2024-12-05 15:58:20.139 [info] Beginning of Login Poll
+2024-12-05 15:58:20.266 [info] Got login result 404
+2024-12-05 15:58:20.339 [info] Beginning of Login Poll
+2024-12-05 15:58:20.472 [info] Got login result 404
+2024-12-05 15:58:20.606 [info] Beginning of Login Poll
+2024-12-05 15:58:20.674 [info] Got login result 404
+2024-12-05 15:58:20.881 [info] Got login result 404
+2024-12-05 15:58:21.386 [info] Beginning of Login Poll
+2024-12-05 15:58:21.597 [info] Got login result 404
+2024-12-05 15:58:22.386 [info] Beginning of Login Poll
+2024-12-05 15:58:22.555 [info] Got login result 404
+2024-12-05 15:58:23.384 [info] Beginning of Login Poll
+2024-12-05 15:58:23.645 [info] Got login result 404
+2024-12-05 15:58:24.384 [info] Beginning of Login Poll
+2024-12-05 15:58:24.566 [info] Got login result 404
+2024-12-05 15:58:25.384 [info] Beginning of Login Poll
+2024-12-05 15:58:25.591 [info] Got login result 404
+2024-12-05 15:58:26.384 [info] Beginning of Login Poll
+2024-12-05 15:58:26.613 [info] Got login result 404
+2024-12-05 15:58:27.384 [info] Beginning of Login Poll
+2024-12-05 15:58:27.638 [info] Got login result 404
+2024-12-05 15:58:28.384 [info] Beginning of Login Poll
+2024-12-05 15:58:28.559 [info] Got login result 404
+2024-12-05 15:58:29.385 [info] Beginning of Login Poll
+2024-12-05 15:58:29.545 [info] Got login result 404
+2024-12-05 15:58:30.384 [info] Beginning of Login Poll
+2024-12-05 15:58:30.544 [info] Got login result 404
+2024-12-05 15:58:31.384 [info] Beginning of Login Poll
+2024-12-05 15:58:31.631 [info] Got login result 404
+2024-12-05 15:58:32.385 [info] Beginning of Login Poll
+2024-12-05 15:58:32.552 [info] Got login result 404
+2024-12-05 15:58:33.384 [info] Beginning of Login Poll
+2024-12-05 15:58:33.578 [info] Got login result 404
+2024-12-05 15:58:34.384 [info] Beginning of Login Poll
+2024-12-05 15:58:34.602 [info] Got login result 404
+2024-12-05 15:58:35.384 [info] Beginning of Login Poll
+2024-12-05 15:58:35.625 [info] Got login result 404
+2024-12-05 15:58:36.384 [info] Beginning of Login Poll
+2024-12-05 15:58:36.548 [info] Got login result 404
+2024-12-05 15:58:37.384 [info] Beginning of Login Poll
+2024-12-05 15:58:37.570 [info] Got login result 404
+2024-12-05 15:58:38.384 [info] Beginning of Login Poll
+2024-12-05 15:58:38.596 [info] Got login result 404
+2024-12-05 15:58:39.384 [info] Beginning of Login Poll
+2024-12-05 15:58:39.538 [info] Got login result 404
+2024-12-05 15:58:40.384 [info] Beginning of Login Poll
+2024-12-05 15:58:40.541 [info] Got login result 404
+2024-12-05 15:58:41.384 [info] Beginning of Login Poll
+2024-12-05 15:58:41.540 [info] Got login result 404
+2024-12-05 15:58:42.384 [info] Beginning of Login Poll
+2024-12-05 15:58:42.537 [info] Got login result 404
+2024-12-05 15:58:43.383 [info] Beginning of Login Poll
+2024-12-05 15:58:43.613 [info] Got login result 404
+2024-12-05 15:58:44.384 [info] Beginning of Login Poll
+2024-12-05 15:58:44.543 [info] Beginning of Login Poll
+2024-12-05 15:58:44.636 [info] Got login result 404
+2024-12-05 15:58:44.739 [info] Beginning of Login Poll
+2024-12-05 15:58:44.842 [info] Got login result 404
+2024-12-05 15:58:44.940 [info] Beginning of Login Poll
+2024-12-05 15:58:45.047 [info] Got login result 404
+2024-12-05 15:58:45.139 [info] Beginning of Login Poll
+2024-12-05 15:58:45.217 [info] Got login result 404
+2024-12-05 15:58:45.339 [info] Beginning of Login Poll
+2024-12-05 15:58:45.457 [info] Got login result 404
+2024-12-05 15:58:45.539 [info] Beginning of Login Poll
+2024-12-05 15:58:45.661 [info] Got login result 404
+2024-12-05 15:58:45.738 [info] Beginning of Login Poll
+2024-12-05 15:58:45.867 [info] Got login result 404
+2024-12-05 15:58:45.938 [info] Beginning of Login Poll
+2024-12-05 15:58:46.069 [info] Got login result 404
+2024-12-05 15:58:46.138 [info] Beginning of Login Poll
+2024-12-05 15:58:46.276 [info] Got login result 404
+2024-12-05 15:58:46.339 [info] Beginning of Login Poll
+2024-12-05 15:58:46.433 [info] Got login result 404
+2024-12-05 15:58:46.539 [info] Beginning of Login Poll
+2024-12-05 15:58:46.687 [info] Got login result 404
+2024-12-05 15:58:46.739 [info] Beginning of Login Poll
+2024-12-05 15:58:46.893 [info] Starting polling for login
+2024-12-05 15:58:46.896 [info] Got login result 404
+2024-12-05 15:58:47.096 [info] Beginning of Login Poll
+2024-12-05 15:58:47.100 [info] Got login result 404
+2024-12-05 15:58:47.293 [info] Beginning of Login Poll
+2024-12-05 15:58:47.452 [info] Got login result 404
+2024-12-05 15:58:47.493 [info] Beginning of Login Poll
+2024-12-05 15:58:47.607 [info] Got login result 404
+2024-12-05 15:58:47.693 [info] Beginning of Login Poll
+2024-12-05 15:58:47.810 [info] Got login result 404
+2024-12-05 15:58:47.893 [info] Beginning of Login Poll
+2024-12-05 15:58:48.015 [info] Got login result 404
+2024-12-05 15:58:48.093 [info] Beginning of Login Poll
+2024-12-05 15:58:48.208 [info] Got login result 404
+2024-12-05 15:58:48.293 [info] Beginning of Login Poll
+2024-12-05 15:58:48.361 [info] Got login result 404
+2024-12-05 15:58:48.494 [info] Beginning of Login Poll
+2024-12-05 15:58:48.528 [info] Got login result 404
+2024-12-05 15:58:48.680 [info] Got login result 404
+2024-12-05 15:58:48.693 [info] Beginning of Login Poll
+2024-12-05 15:58:48.847 [info] Got login result 404
+2024-12-05 15:58:48.893 [info] Beginning of Login Poll
+2024-12-05 15:58:49.047 [info] Got login result 404
+2024-12-05 15:58:49.093 [info] Beginning of Login Poll
+2024-12-05 15:58:49.247 [info] Got login result 404
+2024-12-05 15:58:49.293 [info] Beginning of Login Poll
+2024-12-05 15:58:49.445 [info] Got login result 404
+2024-12-05 15:58:49.493 [info] Beginning of Login Poll
+2024-12-05 15:58:49.646 [info] Got login result 404
+2024-12-05 15:58:49.694 [info] Beginning of Login Poll
+2024-12-05 15:58:49.847 [info] Got login result 404
+2024-12-05 15:58:49.893 [info] Beginning of Login Poll
+2024-12-05 15:58:50.046 [info] Got login result 404
+2024-12-05 15:58:50.094 [info] Beginning of Login Poll
+2024-12-05 15:58:50.246 [info] Got login result 404
+2024-12-05 15:58:50.294 [info] Beginning of Login Poll
+2024-12-05 15:58:50.446 [info] Got login result 404
+2024-12-05 15:58:50.494 [info] Beginning of Login Poll
+2024-12-05 15:58:50.661 [info] Got login result 404
+2024-12-05 15:58:50.694 [info] Beginning of Login Poll
+2024-12-05 15:58:50.849 [info] Got login result 404
+2024-12-05 15:58:50.893 [info] Beginning of Login Poll
+2024-12-05 15:58:51.047 [info] Got login result 404
+2024-12-05 15:58:51.094 [info] Beginning of Login Poll
+2024-12-05 15:58:51.250 [info] Got login result 404
+2024-12-05 15:58:51.294 [info] Beginning of Login Poll
+2024-12-05 15:58:51.450 [info] Got login result 404
+2024-12-05 15:58:51.494 [info] Beginning of Login Poll
+2024-12-05 15:58:51.657 [info] Got login result 404
+2024-12-05 15:58:51.693 [info] Beginning of Login Poll
+2024-12-05 15:58:51.847 [info] Got login result 404
+2024-12-05 15:58:51.894 [info] Beginning of Login Poll
+2024-12-05 15:58:52.047 [info] Got login result 404
+2024-12-05 15:58:52.094 [info] Beginning of Login Poll
+2024-12-05 15:58:52.254 [info] Got login result 404
+2024-12-05 15:58:52.294 [info] Beginning of Login Poll
+2024-12-05 15:58:52.481 [info] Got login result 404
+2024-12-05 15:58:52.493 [info] Beginning of Login Poll
+2024-12-05 15:58:52.660 [info] Got login result 404
+2024-12-05 15:58:52.693 [info] Beginning of Login Poll
+2024-12-05 15:58:52.845 [info] Got login result 404
+2024-12-05 15:58:52.893 [info] Beginning of Login Poll
+2024-12-05 15:58:53.045 [info] Got login result 404
+2024-12-05 15:58:53.093 [info] Beginning of Login Poll
+2024-12-05 15:58:53.246 [info] Got login result 404
+2024-12-05 15:58:53.293 [info] Beginning of Login Poll
+2024-12-05 15:58:53.445 [info] Got login result 404
+2024-12-05 15:58:53.494 [info] Beginning of Login Poll
+2024-12-05 15:58:53.671 [info] Got login result 404
+2024-12-05 15:58:53.694 [info] Beginning of Login Poll
+2024-12-05 15:58:53.846 [info] Got login result 404
+2024-12-05 15:58:53.893 [info] Beginning of Login Poll
+2024-12-05 15:58:54.047 [info] Got login result 404
+2024-12-05 15:58:54.094 [info] Beginning of Login Poll
+2024-12-05 15:58:54.248 [info] Got login result 404
+2024-12-05 15:58:54.293 [info] Beginning of Login Poll
+2024-12-05 15:58:54.445 [info] Got login result 404
+2024-12-05 15:58:54.493 [info] Beginning of Login Poll
+2024-12-05 15:58:54.646 [info] Got login result 404
+2024-12-05 15:58:54.693 [info] Beginning of Login Poll
+2024-12-05 15:58:54.846 [info] Got login result 404
+2024-12-05 15:58:54.894 [info] Beginning of Login Poll
+2024-12-05 15:58:55.048 [info] Got login result 404
+2024-12-05 15:58:55.093 [info] Beginning of Login Poll
+2024-12-05 15:58:55.247 [info] Got login result 404
+2024-12-05 15:58:55.293 [info] Beginning of Login Poll
+2024-12-05 15:58:55.448 [info] Got login result 404
+2024-12-05 15:58:55.493 [info] Beginning of Login Poll
+2024-12-05 15:58:55.648 [info] Got login result 404
+2024-12-05 15:58:55.693 [info] Beginning of Login Poll
+2024-12-05 15:58:55.847 [info] Got login result 404
+2024-12-05 15:58:55.893 [info] Beginning of Login Poll
+2024-12-05 15:58:56.048 [info] Got login result 404
+2024-12-05 15:58:56.093 [info] Beginning of Login Poll
+2024-12-05 15:58:56.247 [info] Got login result 404
+2024-12-05 15:58:56.293 [info] Beginning of Login Poll
+2024-12-05 15:58:56.448 [info] Got login result 404
+2024-12-05 15:58:56.494 [info] Beginning of Login Poll
+2024-12-05 15:58:56.660 [info] Got login result 404
+2024-12-05 15:58:56.693 [info] Beginning of Login Poll
+2024-12-05 15:58:56.849 [info] Got login result 404
+2024-12-05 15:58:56.894 [info] Beginning of Login Poll
+2024-12-05 15:58:57.048 [info] Got login result 404
+2024-12-05 15:58:57.093 [info] Beginning of Login Poll
+2024-12-05 15:58:57.294 [info] Beginning of Login Poll
+2024-12-05 15:58:57.297 [info] Got login result 404
+2024-12-05 15:58:57.494 [info] Beginning of Login Poll
+2024-12-05 15:58:57.540 [info] Got login result 404
+2024-12-05 15:58:57.694 [info] Beginning of Login Poll
+2024-12-05 15:58:57.744 [info] Got login result 404
+2024-12-05 15:58:57.894 [info] Beginning of Login Poll
+2024-12-05 15:58:57.950 [info] Got login result 404
+2024-12-05 15:58:58.094 [info] Beginning of Login Poll
+2024-12-05 15:58:58.154 [info] Got login result 404
+2024-12-05 15:58:58.294 [info] Beginning of Login Poll
+2024-12-05 15:58:58.359 [info] Got login result 404
+2024-12-05 15:58:58.494 [info] Beginning of Login Poll
+2024-12-05 15:58:58.564 [info] Got login result 404
+2024-12-05 15:58:58.693 [info] Beginning of Login Poll
+2024-12-05 15:58:58.767 [info] Got login result 404
+2024-12-05 15:58:58.893 [info] Beginning of Login Poll
+2024-12-05 15:58:58.972 [info] Got login result 404
+2024-12-05 15:58:59.094 [info] Beginning of Login Poll
+2024-12-05 15:58:59.169 [info] Got login result 404
+2024-12-05 15:58:59.294 [info] Beginning of Login Poll
+2024-12-05 15:58:59.383 [info] Got login result 404
+2024-12-05 15:58:59.494 [info] Beginning of Login Poll
+2024-12-05 15:58:59.588 [info] Got login result 404
+2024-12-05 15:58:59.694 [info] Beginning of Login Poll
+2024-12-05 15:58:59.793 [info] Got login result 404
+2024-12-05 15:58:59.894 [info] Beginning of Login Poll
+2024-12-05 15:58:59.996 [info] Got login result 404
+2024-12-05 15:59:00.093 [info] Beginning of Login Poll
+2024-12-05 15:59:00.203 [info] Got login result 404
+2024-12-05 15:59:00.294 [info] Beginning of Login Poll
+2024-12-05 15:59:00.407 [info] Got login result 404
+2024-12-05 15:59:00.494 [info] Beginning of Login Poll
+2024-12-05 15:59:00.613 [info] Got login result 404
+2024-12-05 15:59:00.693 [info] Beginning of Login Poll
+2024-12-05 15:59:00.817 [info] Got login result 404
+2024-12-05 15:59:00.894 [info] Beginning of Login Poll
+2024-12-05 15:59:01.021 [info] Got login result 404
+2024-12-05 15:59:01.094 [info] Beginning of Login Poll
+2024-12-05 15:59:01.226 [info] Got login result 404
+2024-12-05 15:59:01.293 [info] Beginning of Login Poll
+2024-12-05 15:59:01.432 [info] Got login result 404
+2024-12-05 15:59:01.493 [info] Beginning of Login Poll
+2024-12-05 15:59:01.635 [info] Got login result 404
+2024-12-05 15:59:01.694 [info] Beginning of Login Poll
+2024-12-05 15:59:01.840 [info] Got login result 404
+2024-12-05 15:59:01.893 [info] Beginning of Login Poll
+2024-12-05 15:59:02.044 [info] Got login result 404
+2024-12-05 15:59:02.093 [info] Beginning of Login Poll
+2024-12-05 15:59:02.248 [info] Got login result 404
+2024-12-05 15:59:02.293 [info] Beginning of Login Poll
+2024-12-05 15:59:02.454 [info] Got login result 404
+2024-12-05 15:59:02.494 [info] Beginning of Login Poll
+2024-12-05 15:59:02.659 [info] Got login result 404
+2024-12-05 15:59:02.694 [info] Beginning of Login Poll
+2024-12-05 15:59:02.866 [info] Got login result 404
+2024-12-05 15:59:02.893 [info] Beginning of Login Poll
+2024-12-05 15:59:03.070 [info] Got login result 404
+2024-12-05 15:59:03.094 [info] Beginning of Login Poll
+2024-12-05 15:59:03.221 [info] Got login result 404
+2024-12-05 15:59:03.294 [info] Beginning of Login Poll
+2024-12-05 15:59:03.476 [info] Got login result 404
+2024-12-05 15:59:03.493 [info] Beginning of Login Poll
+2024-12-05 15:59:03.684 [info] Got login result 404
+2024-12-05 15:59:03.693 [info] Beginning of Login Poll
+2024-12-05 15:59:03.890 [info] Got login result 404
+2024-12-05 15:59:03.893 [info] Beginning of Login Poll
+2024-12-05 15:59:04.094 [info] Got login result 404
+2024-12-05 15:59:04.094 [info] Beginning of Login Poll
+2024-12-05 15:59:04.294 [info] Beginning of Login Poll
+2024-12-05 15:59:04.298 [info] Got login result 404
+2024-12-05 15:59:04.494 [info] Beginning of Login Poll
+2024-12-05 15:59:04.503 [info] Got login result 404
+2024-12-05 15:59:04.694 [info] Beginning of Login Poll
+2024-12-05 15:59:04.764 [info] Got login result 404
+2024-12-05 15:59:04.764 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at Object.F [as unary] (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:3856:12076)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:266:139256)
+    at async li.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:4210:51089)
+    at async li.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursorBbOWMk/resources/app/out/vs/workbench/workbench.desktop.main.js:4225:1075)
+2024-12-05 15:59:04.894 [info] Beginning of Login Poll
+2024-12-05 15:59:04.913 [info] Got login result 404
+2024-12-05 15:59:05.094 [info] Beginning of Login Poll
+2024-12-05 15:59:05.117 [info] Got login result 404
+2024-12-05 15:59:05.294 [info] Beginning of Login Poll
+2024-12-05 15:59:05.322 [info] Got login result 404
+2024-12-05 15:59:05.494 [info] Beginning of Login Poll
+2024-12-05 15:59:05.526 [info] Got login result 404
+2024-12-05 15:59:05.694 [info] Beginning of Login Poll
+2024-12-05 15:59:05.712 [info] Got login result 404
+2024-12-05 15:59:05.894 [info] Beginning of Login Poll
+2024-12-05 15:59:05.937 [info] Got login result 404
+2024-12-05 15:59:06.094 [info] Beginning of Login Poll
+2024-12-05 15:59:06.142 [info] Got login result 404
+2024-12-05 15:59:06.294 [info] Beginning of Login Poll
+2024-12-05 15:59:06.347 [info] Got login result 404
+2024-12-05 15:59:06.493 [info] Beginning of Login Poll
+2024-12-05 15:59:06.550 [info] Got login result 404
+2024-12-05 15:59:06.693 [info] Beginning of Login Poll
+2024-12-05 15:59:06.755 [info] Got login result 404
+2024-12-05 15:59:06.894 [info] Beginning of Login Poll
+2024-12-05 15:59:06.945 [info] Got login result 404
+2024-12-05 15:59:07.093 [info] Beginning of Login Poll
+2024-12-05 15:59:07.166 [info] Got login result 404
+2024-12-05 15:59:07.294 [info] Beginning of Login Poll
+2024-12-05 15:59:07.370 [info] Got login result 404
+2024-12-05 15:59:07.494 [info] Beginning of Login Poll
+2024-12-05 15:59:07.575 [info] Got login result 404
+2024-12-05 15:59:07.694 [info] Beginning of Login Poll
+2024-12-05 15:59:07.780 [info] Got login result 404
+2024-12-05 15:59:07.893 [info] Beginning of Login Poll
+2024-12-05 15:59:07.985 [info] Got login result 404
+2024-12-05 15:59:08.094 [info] Beginning of Login Poll
+2024-12-05 15:59:08.170 [info] Got login result 404
+2024-12-05 15:59:08.294 [info] Beginning of Login Poll
+2024-12-05 15:59:08.392 [info] Got login result 404
+2024-12-05 15:59:08.493 [info] Beginning of Login Poll
+2024-12-05 15:59:08.600 [info] Got login result 404
+2024-12-05 15:59:08.694 [info] Beginning of Login Poll
+2024-12-05 15:59:08.803 [info] Got login result 404
+2024-12-05 15:59:08.893 [info] Beginning of Login Poll
+2024-12-05 15:59:08.992 [info] Got login result 404
+2024-12-05 15:59:09.093 [info] Beginning of Login Poll
+2024-12-05 15:59:09.212 [info] Got login result 404
+2024-12-05 15:59:09.293 [info] Beginning of Login Poll
+2024-12-05 15:59:09.365 [info] Got login result 404
+2024-12-05 15:59:09.493 [info] Beginning of Login Poll
+2024-12-05 15:59:09.515 [info] Got login result 404
+2024-12-05 15:59:09.665 [info] Got login result 404
+2024-12-05 15:59:09.693 [info] Beginning of Login Poll
+2024-12-05 15:59:09.816 [info] Got login result 404
+2024-12-05 15:59:09.893 [info] Beginning of Login Poll
+2024-12-05 15:59:09.968 [info] Got login result 404
+2024-12-05 15:59:10.094 [info] Beginning of Login Poll
+2024-12-05 15:59:10.119 [info] Got login result 404
+2024-12-05 15:59:10.270 [info] Got login result 404
+2024-12-05 15:59:10.294 [info] Beginning of Login Poll
+2024-12-05 15:59:10.450 [info] Got login result 404
+2024-12-05 15:59:10.494 [info] Beginning of Login Poll
+2024-12-05 15:59:10.648 [info] Got login result 404
+2024-12-05 15:59:10.693 [info] Beginning of Login Poll
+2024-12-05 15:59:10.849 [info] Got login result 404
+2024-12-05 15:59:10.893 [info] Beginning of Login Poll
+2024-12-05 15:59:11.046 [info] Got login result 404
+2024-12-05 15:59:11.093 [info] Beginning of Login Poll
+2024-12-05 15:59:11.246 [info] Got login result 404
+2024-12-05 15:59:11.294 [info] Beginning of Login Poll
+2024-12-05 15:59:11.447 [info] Got login result 404
+2024-12-05 15:59:11.493 [info] Beginning of Login Poll
+2024-12-05 15:59:11.657 [info] Got login result 404
+2024-12-05 15:59:11.693 [info] Beginning of Login Poll
+2024-12-05 15:59:11.847 [info] Got login result 404
+2024-12-05 15:59:11.893 [info] Beginning of Login Poll
+2024-12-05 15:59:12.049 [info] Got login result 404
+2024-12-05 15:59:12.094 [info] Beginning of Login Poll
+2024-12-05 15:59:12.250 [info] Got login result 404
+2024-12-05 15:59:12.294 [info] Beginning of Login Poll
+2024-12-05 15:59:12.451 [info] Got login result 404
+2024-12-05 15:59:12.494 [info] Beginning of Login Poll
+2024-12-05 15:59:12.649 [info] Got login result 404
+2024-12-05 15:59:12.694 [info] Beginning of Login Poll
+2024-12-05 15:59:12.850 [info] Got login result 404
+2024-12-05 15:59:12.894 [info] Beginning of Login Poll
+2024-12-05 15:59:13.050 [info] Got login result 404
+2024-12-05 15:59:13.094 [info] Beginning of Login Poll
+2024-12-05 15:59:13.250 [info] Got login result 404
+2024-12-05 15:59:13.294 [info] Beginning of Login Poll
+2024-12-05 15:59:13.451 [info] Got login result 404
+2024-12-05 15:59:13.494 [info] Beginning of Login Poll
+2024-12-05 15:59:13.650 [info] Got login result 404
+2024-12-05 15:59:13.694 [info] Beginning of Login Poll
+2024-12-05 15:59:13.850 [info] Got login result 404
+2024-12-05 15:59:13.894 [info] Beginning of Login Poll
+2024-12-05 15:59:14.049 [info] Got login result 404
+2024-12-05 15:59:14.094 [info] Beginning of Login Poll
+2024-12-05 15:59:14.250 [info] Got login result 404
+2024-12-05 15:59:14.294 [info] Beginning of Login Poll
+2024-12-05 15:59:14.450 [info] Got login result 404
+2024-12-05 15:59:14.494 [info] Beginning of Login Poll
+2024-12-05 15:59:14.656 [info] Got login result 404
+2024-12-05 15:59:14.694 [info] Beginning of Login Poll
+2024-12-05 15:59:14.851 [info] Got login result 404
+2024-12-05 15:59:14.894 [info] Beginning of Login Poll
+2024-12-05 15:59:15.051 [info] Got login result 404
+2024-12-05 15:59:15.094 [info] Beginning of Login Poll
+2024-12-05 15:59:15.294 [info] Beginning of Login Poll
+2024-12-05 15:59:15.357 [info] Got login result 404
+2024-12-05 15:59:15.493 [info] Beginning of Login Poll
+2024-12-05 15:59:15.561 [info] Got login result 404
+2024-12-05 15:59:15.693 [info] Beginning of Login Poll
+2024-12-05 15:59:15.765 [info] Got login result 404
+2024-12-05 15:59:15.893 [info] Beginning of Login Poll
+2024-12-05 15:59:15.972 [info] Got login result 404
+2024-12-05 15:59:16.093 [info] Beginning of Login Poll
+2024-12-05 15:59:16.174 [info] Got login result 404
+2024-12-05 15:59:16.293 [info] Beginning of Login Poll
+2024-12-05 15:59:16.380 [info] Got login result 404
+2024-12-05 15:59:16.493 [info] Beginning of Login Poll
+2024-12-05 15:59:16.585 [info] Got login result 404
+2024-12-05 15:59:16.693 [info] Beginning of Login Poll
+2024-12-05 15:59:16.789 [info] Got login result 404
+2024-12-05 15:59:16.893 [info] Beginning of Login Poll
+2024-12-05 15:59:16.997 [info] Got login result 404
+2024-12-05 15:59:17.093 [info] Beginning of Login Poll
+2024-12-05 15:59:17.199 [info] Got login result 404
+2024-12-05 15:59:17.293 [info] Beginning of Login Poll
+2024-12-05 15:59:17.404 [info] Got login result 404
+2024-12-05 15:59:17.494 [info] Beginning of Login Poll
+2024-12-05 15:59:17.609 [info] Got login result 404
+2024-12-05 15:59:17.694 [info] Beginning of Login Poll
+2024-12-05 15:59:17.816 [info] Got login result 404
+2024-12-05 15:59:17.894 [info] Beginning of Login Poll
+2024-12-05 15:59:18.021 [info] Got login result 404
+2024-12-05 15:59:18.093 [info] Beginning of Login Poll
+2024-12-05 15:59:18.225 [info] Got login result 404
+2024-12-05 15:59:18.294 [info] Beginning of Login Poll
+2024-12-05 15:59:18.429 [info] Got login result 404
+2024-12-05 15:59:18.494 [info] Beginning of Login Poll
+2024-12-05 15:59:18.633 [info] Got login result 404
+2024-12-05 15:59:18.693 [info] Beginning of Login Poll
+2024-12-05 15:59:18.839 [info] Got login result 404
+2024-12-05 15:59:18.894 [info] Beginning of Login Poll
+2024-12-05 15:59:19.044 [info] Got login result 404
+2024-12-05 15:59:19.094 [info] Beginning of Login Poll
+2024-12-05 15:59:19.249 [info] Got login result 404
+2024-12-05 15:59:19.294 [info] Beginning of Login Poll
+2024-12-05 15:59:19.430 [info] Got login result 404
+2024-12-05 15:59:19.494 [info] Beginning of Login Poll
+2024-12-05 15:59:19.659 [info] Got login result 404
+2024-12-05 15:59:19.694 [info] Beginning of Login Poll
+2024-12-05 15:59:19.861 [info] Got login result 404
+2024-12-05 15:59:19.894 [info] Beginning of Login Poll
+2024-12-05 15:59:20.069 [info] Got login result 404
+2024-12-05 15:59:20.094 [info] Beginning of Login Poll
+2024-12-05 15:59:20.274 [info] Got login result 404
+2024-12-05 15:59:20.294 [info] Beginning of Login Poll
+2024-12-05 15:59:20.477 [info] Got login result 404
+2024-12-05 15:59:20.494 [info] Beginning of Login Poll
+2024-12-05 15:59:20.684 [info] Got login result 404
+2024-12-05 15:59:20.693 [info] Beginning of Login Poll
+2024-12-05 15:59:20.887 [info] Got login result 404
+2024-12-05 15:59:20.894 [info] Beginning of Login Poll
+2024-12-05 15:59:21.092 [info] Got login result 404
+2024-12-05 15:59:21.093 [info] Beginning of Login Poll
+2024-12-05 15:59:21.294 [info] Beginning of Login Poll
+2024-12-05 15:59:21.297 [info] Got login result 404
+2024-12-05 15:59:21.494 [info] Beginning of Login Poll
+2024-12-05 15:59:21.501 [info] Got login result 404
+2024-12-05 15:59:21.694 [info] Beginning of Login Poll
+2024-12-05 15:59:21.709 [info] Got login result 404
+2024-12-05 15:59:21.894 [info] Beginning of Login Poll
+2024-12-05 15:59:21.911 [info] Got login result 404
+2024-12-05 15:59:22.094 [info] Beginning of Login Poll
+2024-12-05 15:59:22.117 [info] Got login result 404
+2024-12-05 15:59:22.293 [info] Beginning of Login Poll
+2024-12-05 15:59:22.295 [info] Got login result 404
+2024-12-05 15:59:22.444 [info] Got login result 404
+2024-12-05 15:59:22.493 [info] Beginning of Login Poll
+2024-12-05 15:59:22.626 [info] Got login result 404
+2024-12-05 15:59:22.694 [info] Beginning of Login Poll
+2024-12-05 15:59:22.833 [info] Got login result 404
+2024-12-05 15:59:22.893 [info] Beginning of Login Poll
+2024-12-05 15:59:23.040 [info] Got login result 404
+2024-12-05 15:59:23.094 [info] Beginning of Login Poll
+2024-12-05 15:59:23.235 [info] Got login result 404
+2024-12-05 15:59:23.293 [info] Beginning of Login Poll
+2024-12-05 15:59:23.385 [info] Got login result 404
+2024-12-05 15:59:23.493 [info] Beginning of Login Poll
+2024-12-05 15:59:23.536 [info] Got login result 404
+2024-12-05 15:59:23.689 [info] Got login result 404
+2024-12-05 15:59:23.693 [info] Beginning of Login Poll
+2024-12-05 15:59:23.848 [info] Got login result 404
+2024-12-05 15:59:23.894 [info] Beginning of Login Poll
+2024-12-05 15:59:24.050 [info] Got login result 404
+2024-12-05 15:59:24.094 [info] Beginning of Login Poll
+2024-12-05 15:59:24.249 [info] Got login result 404
+2024-12-05 15:59:24.293 [info] Beginning of Login Poll
+2024-12-05 15:59:24.470 [info] Got login result 404
+2024-12-05 15:59:24.493 [info] Beginning of Login Poll
+2024-12-05 15:59:24.653 [info] Got login result 404
+2024-12-05 15:59:24.693 [info] Beginning of Login Poll
+2024-12-05 15:59:24.894 [info] Beginning of Login Poll
+2024-12-05 15:59:24.895 [info] Got login result 404
+2024-12-05 15:59:25.060 [info] Got login result 404
+2024-12-05 15:59:25.094 [info] Beginning of Login Poll
+2024-12-05 15:59:25.253 [info] Got login result 404
+2024-12-05 15:59:25.294 [info] Beginning of Login Poll
+2024-12-05 15:59:25.448 [info] Got login result 404
+2024-12-05 15:59:25.495 [info] Beginning of Login Poll
+2024-12-05 15:59:25.665 [info] Got login result 404
+2024-12-05 15:59:25.694 [info] Beginning of Login Poll
+2024-12-05 15:59:25.851 [info] Got login result 404
+2024-12-05 15:59:25.893 [info] Beginning of Login Poll
+2024-12-05 15:59:26.046 [info] Got login result 404
+2024-12-05 15:59:26.093 [info] Beginning of Login Poll
+2024-12-05 15:59:26.251 [info] Got login result 404
+2024-12-05 15:59:26.294 [info] Beginning of Login Poll
+2024-12-05 15:59:26.449 [info] Got login result 404
+2024-12-05 15:59:26.493 [info] Beginning of Login Poll
+2024-12-05 15:59:26.650 [info] Got login result 404
+2024-12-05 15:59:26.693 [info] Beginning of Login Poll
+2024-12-05 15:59:26.848 [info] Got login result 404
+2024-12-05 15:59:26.893 [info] Beginning of Login Poll
+2024-12-05 15:59:27.048 [info] Got login result 404
+2024-12-05 15:59:27.094 [info] Beginning of Login Poll
+2024-12-05 15:59:27.247 [info] Got login result 404
+2024-12-05 15:59:27.293 [info] Beginning of Login Poll
+2024-12-05 15:59:27.448 [info] Got login result 404
+2024-12-05 15:59:27.494 [info] Beginning of Login Poll
+2024-12-05 15:59:27.648 [info] Got login result 404
+2024-12-05 15:59:27.694 [info] Beginning of Login Poll
+2024-12-05 15:59:27.893 [info] Beginning of Login Poll
+2024-12-05 15:59:27.989 [info] Got login result 404
+2024-12-05 15:59:28.093 [info] Beginning of Login Poll
+2024-12-05 15:59:28.222 [info] Got login result 404
+2024-12-05 15:59:28.294 [info] Beginning of Login Poll
+2024-12-05 15:59:28.377 [info] Got login result 404
+2024-12-05 15:59:28.493 [info] Beginning of Login Poll
+2024-12-05 15:59:28.525 [info] Got login result 404
+2024-12-05 15:59:28.675 [info] Got login result 404
+2024-12-05 15:59:28.693 [info] Beginning of Login Poll
+2024-12-05 15:59:28.848 [info] Got login result 404
+2024-12-05 15:59:28.894 [info] Beginning of Login Poll
+2024-12-05 15:59:29.047 [info] Got login result 404
+2024-12-05 15:59:29.094 [info] Beginning of Login Poll
+2024-12-05 15:59:29.247 [info] Got login result 404
+2024-12-05 15:59:29.293 [info] Beginning of Login Poll
+2024-12-05 15:59:29.446 [info] Got login result 404
+2024-12-05 15:59:29.493 [info] Beginning of Login Poll
+2024-12-05 15:59:29.649 [info] Got login result 404
+2024-12-05 15:59:29.693 [info] Beginning of Login Poll
+2024-12-05 15:59:29.847 [info] Got login result 404
+2024-12-05 15:59:29.893 [info] Beginning of Login Poll
+2024-12-05 15:59:30.061 [info] Got login result 404
+2024-12-05 15:59:30.094 [info] Beginning of Login Poll
+2024-12-05 15:59:30.247 [info] Got login result 404
+2024-12-05 15:59:30.294 [info] Beginning of Login Poll
+2024-12-05 15:59:30.448 [info] Got login result 404
+2024-12-05 15:59:30.494 [info] Beginning of Login Poll
+2024-12-05 15:59:30.647 [info] Got login result 404
+2024-12-05 15:59:30.694 [info] Beginning of Login Poll
+2024-12-05 15:59:30.847 [info] Got login result 404
+2024-12-05 15:59:30.893 [info] Beginning of Login Poll
+2024-12-05 15:59:31.045 [info] Got login result 404
+2024-12-05 15:59:31.093 [info] Beginning of Login Poll
+2024-12-05 15:59:31.245 [info] Got login result 404
+2024-12-05 15:59:31.293 [info] Beginning of Login Poll
+2024-12-05 15:59:31.447 [info] Got login result 404
+2024-12-05 15:59:31.493 [info] Beginning of Login Poll
+2024-12-05 15:59:31.651 [info] Got login result 404
+2024-12-05 15:59:31.693 [info] Beginning of Login Poll
+2024-12-05 15:59:31.856 [info] Got login result 404
+2024-12-05 15:59:31.893 [info] Beginning of Login Poll
+2024-12-05 15:59:32.047 [info] Got login result 404
+2024-12-05 15:59:32.093 [info] Beginning of Login Poll
+2024-12-05 15:59:32.247 [info] Got login result 404
+2024-12-05 15:59:32.293 [info] Beginning of Login Poll
+2024-12-05 15:59:32.449 [info] Got login result 404
+2024-12-05 15:59:32.494 [info] Beginning of Login Poll
+2024-12-05 15:59:32.648 [info] Got login result 404
+2024-12-05 15:59:32.693 [info] Beginning of Login Poll
+2024-12-05 15:59:32.847 [info] Got login result 404
+2024-12-05 15:59:32.893 [info] Beginning of Login Poll
+2024-12-05 15:59:33.048 [info] Got login result 404
+2024-12-05 15:59:33.094 [info] Beginning of Login Poll
+2024-12-05 15:59:33.248 [info] Got login result 404
+2024-12-05 15:59:33.294 [info] Beginning of Login Poll
+2024-12-05 15:59:33.455 [info] Got login result 404
+2024-12-05 15:59:33.493 [info] Beginning of Login Poll
+2024-12-05 15:59:33.680 [info] Got login result 404
+2024-12-05 15:59:33.695 [info] Beginning of Login Poll
+2024-12-05 15:59:33.851 [info] Got login result 404
+2024-12-05 15:59:33.893 [info] Beginning of Login Poll
+2024-12-05 15:59:34.048 [info] Got login result 404
+2024-12-05 15:59:34.093 [info] Beginning of Login Poll
+2024-12-05 15:59:34.250 [info] Got login result 404
+2024-12-05 15:59:34.294 [info] Beginning of Login Poll
+2024-12-05 15:59:34.447 [info] Got login result 404
+2024-12-05 15:59:34.493 [info] Beginning of Login Poll
+2024-12-05 15:59:34.647 [info] Got login result 404
+2024-12-05 15:59:34.693 [info] Beginning of Login Poll
+2024-12-05 15:59:34.847 [info] Got login result 404
+2024-12-05 15:59:34.893 [info] Beginning of Login Poll
+2024-12-05 15:59:35.048 [info] Got login result 404
+2024-12-05 15:59:35.093 [info] Beginning of Login Poll
+2024-12-05 15:59:35.248 [info] Got login result 404
+2024-12-05 15:59:35.294 [info] Beginning of Login Poll
+2024-12-05 15:59:35.449 [info] Got login result 404
+2024-12-05 15:59:35.493 [info] Beginning of Login Poll
+2024-12-05 15:59:35.646 [info] Got login result 404
+2024-12-05 15:59:35.693 [info] Beginning of Login Poll
+2024-12-05 15:59:35.846 [info] Got login result 404
+2024-12-05 15:59:35.893 [info] Beginning of Login Poll
+2024-12-05 15:59:36.048 [info] Got login result 404
+2024-12-05 15:59:36.093 [info] Beginning of Login Poll
+2024-12-05 15:59:36.247 [info] Got login result 404
+2024-12-05 15:59:36.293 [info] Beginning of Login Poll
+2024-12-05 15:59:36.447 [info] Got login result 404
+2024-12-05 15:59:36.494 [info] Beginning of Login Poll
+2024-12-05 15:59:36.647 [info] Got login result 404
+2024-12-05 15:59:36.693 [info] Beginning of Login Poll
+2024-12-05 15:59:36.846 [info] Got login result 404
+2024-12-05 15:59:36.893 [info] Beginning of Login Poll
+2024-12-05 15:59:37.047 [info] Got login result 404
+2024-12-05 15:59:37.093 [info] Beginning of Login Poll
+2024-12-05 15:59:37.247 [info] Got login result 404
+2024-12-05 15:59:37.293 [info] Beginning of Login Poll
+2024-12-05 15:59:37.446 [info] Got login result 404
+2024-12-05 15:59:37.493 [info] Beginning of Login Poll
+2024-12-05 15:59:37.647 [info] Got login result 404
+2024-12-05 15:59:37.693 [info] Beginning of Login Poll
+2024-12-05 15:59:37.847 [info] Got login result 404
+2024-12-05 15:59:37.893 [info] Beginning of Login Poll
+2024-12-05 15:59:38.045 [info] Got login result 404
+2024-12-05 15:59:38.093 [info] Beginning of Login Poll
+2024-12-05 15:59:38.246 [info] Got login result 404
+2024-12-05 15:59:38.294 [info] Beginning of Login Poll
+2024-12-05 15:59:38.450 [info] Got login result 404
+2024-12-05 15:59:38.493 [info] Beginning of Login Poll
+2024-12-05 15:59:38.647 [info] Got login result 404
+2024-12-05 15:59:38.693 [info] Beginning of Login Poll
+2024-12-05 15:59:38.845 [info] Got login result 404
+2024-12-05 15:59:38.893 [info] Beginning of Login Poll
+2024-12-05 15:59:39.049 [info] Got login result 404
+2024-12-05 15:59:39.094 [info] Beginning of Login Poll
+2024-12-05 15:59:39.248 [info] Got login result 404
+2024-12-05 15:59:39.293 [info] Beginning of Login Poll
+2024-12-05 15:59:39.445 [info] Got login result 404
+2024-12-05 15:59:39.493 [info] Beginning of Login Poll
+2024-12-05 15:59:39.646 [info] Got login result 404
+2024-12-05 15:59:39.693 [info] Beginning of Login Poll
+2024-12-05 15:59:39.850 [info] Got login result 404
+2024-12-05 15:59:39.893 [info] Beginning of Login Poll
+2024-12-05 15:59:40.047 [info] Got login result 404
+2024-12-05 15:59:40.093 [info] Beginning of Login Poll
+2024-12-05 15:59:40.246 [info] Got login result 404
+2024-12-05 15:59:40.293 [info] Beginning of Login Poll
+2024-12-05 15:59:40.448 [info] Got login result 404
+2024-12-05 15:59:40.493 [info] Beginning of Login Poll
+2024-12-05 15:59:40.648 [info] Got login result 404
+2024-12-05 15:59:40.693 [info] Beginning of Login Poll
+2024-12-05 15:59:40.852 [info] Got login result 404
+2024-12-05 15:59:40.893 [info] Beginning of Login Poll
+2024-12-05 15:59:41.048 [info] Got login result 404
+2024-12-05 15:59:41.094 [info] Beginning of Login Poll
+2024-12-05 15:59:41.248 [info] Got login result 404
+2024-12-05 15:59:41.293 [info] Beginning of Login Poll
+2024-12-05 15:59:41.447 [info] Got login result 404
+2024-12-05 15:59:41.494 [info] Beginning of Login Poll
+2024-12-05 15:59:41.648 [info] Got login result 404
+2024-12-05 15:59:41.693 [info] Beginning of Login Poll
+2024-12-05 15:59:41.849 [info] Got login result 404
+2024-12-05 15:59:41.893 [info] Beginning of Login Poll
+2024-12-05 15:59:42.057 [info] Got login result 404
+2024-12-05 15:59:42.094 [info] Beginning of Login Poll
+2024-12-05 15:59:42.251 [info] Got login result 404
+2024-12-05 15:59:42.293 [info] Beginning of Login Poll
+2024-12-05 15:59:42.448 [info] Got login result 404
+2024-12-05 15:59:42.494 [info] Beginning of Login Poll
+2024-12-05 15:59:42.651 [info] Got login result 404
+2024-12-05 15:59:42.693 [info] Beginning of Login Poll
+2024-12-05 15:59:42.847 [info] Got login result 404
+2024-12-05 15:59:42.893 [info] Beginning of Login Poll
+2024-12-05 15:59:43.046 [info] Got login result 404
+2024-12-05 15:59:43.094 [info] Beginning of Login Poll
+2024-12-05 15:59:43.251 [info] Got login result 404
+2024-12-05 15:59:43.294 [info] Beginning of Login Poll
+2024-12-05 15:59:43.476 [info] Got login result 404
+2024-12-05 15:59:43.495 [info] Beginning of Login Poll
+2024-12-05 15:59:43.652 [info] Got login result 404
+2024-12-05 15:59:43.694 [info] Beginning of Login Poll
+2024-12-05 15:59:43.855 [info] Got login result 404
+2024-12-05 15:59:43.894 [info] Beginning of Login Poll
+2024-12-05 15:59:44.049 [info] Got login result 404
+2024-12-05 15:59:44.094 [info] Beginning of Login Poll
+2024-12-05 15:59:44.250 [info] Got login result 404
+2024-12-05 15:59:44.294 [info] Beginning of Login Poll
+2024-12-05 15:59:44.450 [info] Got login result 404
+2024-12-05 15:59:44.494 [info] Beginning of Login Poll
+2024-12-05 15:59:44.650 [info] Got login result 404
+2024-12-05 15:59:44.694 [info] Beginning of Login Poll
+2024-12-05 15:59:44.851 [info] Got login result 404
+2024-12-05 15:59:44.894 [info] Beginning of Login Poll
+2024-12-05 15:59:45.051 [info] Got login result 404
+2024-12-05 15:59:45.094 [info] Beginning of Login Poll
+2024-12-05 15:59:45.258 [info] Got login result 404
+2024-12-05 15:59:45.293 [info] Beginning of Login Poll
+2024-12-05 15:59:45.463 [info] Got login result 404
+2024-12-05 15:59:45.493 [info] Beginning of Login Poll
+2024-12-05 15:59:45.669 [info] Got login result 404
+2024-12-05 15:59:45.694 [info] Beginning of Login Poll
+2024-12-05 15:59:45.873 [info] Got login result 404
+2024-12-05 15:59:45.894 [info] Beginning of Login Poll
+2024-12-05 15:59:46.078 [info] Got login result 404
+2024-12-05 15:59:46.094 [info] Beginning of Login Poll
+2024-12-05 15:59:46.283 [info] Got login result 404
+2024-12-05 15:59:46.294 [info] Beginning of Login Poll
+2024-12-05 15:59:46.486 [info] Got login result 404
+2024-12-05 15:59:46.493 [info] Beginning of Login Poll
+2024-12-05 15:59:46.690 [info] Got login result 404
+2024-12-05 15:59:46.693 [info] Beginning of Login Poll
+2024-12-05 15:59:46.847 [info] Got login result 404
+2024-12-05 15:59:46.894 [info] Beginning of Login Poll
+2024-12-05 15:59:47.046 [info] Got login result 404
+2024-12-05 15:59:47.094 [info] Beginning of Login Poll
+2024-12-05 15:59:47.249 [info] Got login result 404
+2024-12-05 15:59:47.293 [info] Beginning of Login Poll
+2024-12-05 15:59:47.447 [info] Got login result 404
+2024-12-05 15:59:47.493 [info] Beginning of Login Poll
+2024-12-05 15:59:47.645 [info] Got login result 404
+2024-12-05 15:59:47.693 [info] Beginning of Login Poll
+2024-12-05 15:59:47.847 [info] Got login result 404
+2024-12-05 15:59:47.893 [info] Beginning of Login Poll
+2024-12-05 15:59:48.050 [info] Got login result 404
+2024-12-05 15:59:48.094 [info] Beginning of Login Poll
+2024-12-05 15:59:48.248 [info] Got login result 404
+2024-12-05 15:59:48.294 [info] Beginning of Login Poll
+2024-12-05 15:59:48.448 [info] Got login result 404
+2024-12-05 15:59:48.493 [info] Beginning of Login Poll
+2024-12-05 15:59:48.648 [info] Got login result 404
+2024-12-05 15:59:48.694 [info] Beginning of Login Poll
+2024-12-05 15:59:48.850 [info] Got login result 404
+2024-12-05 15:59:48.894 [info] Beginning of Login Poll
+2024-12-05 15:59:49.047 [info] Got login result 404
+2024-12-05 15:59:49.093 [info] Beginning of Login Poll
+2024-12-05 15:59:49.247 [info] Got login result 404
+2024-12-05 15:59:49.294 [info] Beginning of Login Poll
+2024-12-05 15:59:49.451 [info] Got login result 404
+2024-12-05 15:59:49.494 [info] Beginning of Login Poll
+2024-12-05 15:59:49.650 [info] Got login result 404
+2024-12-05 15:59:49.694 [info] Beginning of Login Poll
+2024-12-05 15:59:49.850 [info] Got login result 404
+2024-12-05 15:59:49.894 [info] Beginning of Login Poll
+2024-12-05 15:59:50.048 [info] Got login result 404
+2024-12-05 15:59:50.094 [info] Beginning of Login Poll
+2024-12-05 15:59:50.249 [info] Got login result 404
+2024-12-05 15:59:50.294 [info] Beginning of Login Poll
+2024-12-05 15:59:50.451 [info] Got login result 404
+2024-12-05 15:59:50.494 [info] Beginning of Login Poll
+2024-12-05 15:59:50.649 [info] Got login result 404
+2024-12-05 15:59:50.693 [info] Beginning of Login Poll
+2024-12-05 15:59:50.849 [info] Got login result 404
+2024-12-05 15:59:50.893 [info] Beginning of Login Poll
+2024-12-05 15:59:51.049 [info] Got login result 404
+2024-12-05 15:59:51.093 [info] Beginning of Login Poll
+2024-12-05 15:59:51.294 [info] Beginning of Login Poll
+2024-12-05 15:59:51.300 [info] Got login result 404
+2024-12-05 15:59:51.493 [info] Beginning of Login Poll
+2024-12-05 15:59:51.503 [info] Got login result 404
+2024-12-05 15:59:51.654 [info] Got login result 404
+2024-12-05 15:59:51.693 [info] Beginning of Login Poll
+2024-12-05 15:59:51.849 [info] Got login result 404
+2024-12-05 15:59:51.893 [info] Beginning of Login Poll
+2024-12-05 15:59:52.049 [info] Got login result 404
+2024-12-05 15:59:52.093 [info] Beginning of Login Poll
+2024-12-05 15:59:52.293 [info] Got login result 404
+2024-12-05 15:59:52.293 [info] Beginning of Login Poll
+2024-12-05 15:59:52.480 [info] Got login result 404
+2024-12-05 15:59:52.493 [info] Beginning of Login Poll
+2024-12-05 15:59:52.694 [info] Beginning of Login Poll
+2024-12-05 15:59:52.732 [info] Got login result 404
+2024-12-05 15:59:52.894 [info] Beginning of Login Poll
+2024-12-05 15:59:52.938 [info] Got login result 404
+2024-12-05 15:59:53.093 [info] Beginning of Login Poll
+2024-12-05 15:59:53.141 [info] Got login result 404
+2024-12-05 15:59:53.292 [info] Got login result 404
+2024-12-05 15:59:53.293 [info] Beginning of Login Poll
+2024-12-05 15:59:53.447 [info] Got login result 404
+2024-12-05 15:59:53.494 [info] Beginning of Login Poll
+2024-12-05 15:59:53.647 [info] Got login result 404
+2024-12-05 15:59:53.693 [info] Beginning of Login Poll
+2024-12-05 15:59:53.846 [info] Got login result 404
+2024-12-05 15:59:53.894 [info] Beginning of Login Poll
+2024-12-05 15:59:54.046 [info] Got login result 404
+2024-12-05 15:59:54.093 [info] Beginning of Login Poll
+2024-12-05 15:59:54.246 [info] Got login result 404
+2024-12-05 15:59:54.293 [info] Beginning of Login Poll
+2024-12-05 15:59:54.446 [info] Got login result 404
+2024-12-05 15:59:54.493 [info] Beginning of Login Poll
+2024-12-05 15:59:54.646 [info] Got login result 404
+2024-12-05 15:59:54.694 [info] Beginning of Login Poll
+2024-12-05 15:59:54.850 [info] Got login result 404
+2024-12-05 15:59:54.893 [info] Beginning of Login Poll
+2024-12-05 15:59:55.047 [info] Got login result 404
+2024-12-05 15:59:55.093 [info] Beginning of Login Poll
+2024-12-05 15:59:55.249 [info] Got login result 404
+2024-12-05 15:59:55.293 [info] Beginning of Login Poll
+2024-12-05 15:59:55.447 [info] Got login result 404
+2024-12-05 15:59:55.493 [info] Beginning of Login Poll
+2024-12-05 15:59:55.646 [info] Got login result 404
+2024-12-05 15:59:55.693 [info] Beginning of Login Poll
+2024-12-05 15:59:55.846 [info] Got login result 404
+2024-12-05 15:59:55.893 [info] Beginning of Login Poll
+2024-12-05 15:59:56.046 [info] Got login result 404
+2024-12-05 15:59:56.093 [info] Beginning of Login Poll
+2024-12-05 15:59:56.245 [info] Got login result 404
+2024-12-05 15:59:56.293 [info] Beginning of Login Poll
+2024-12-05 15:59:56.446 [info] Got login result 404
+2024-12-05 15:59:56.493 [info] Beginning of Login Poll
+2024-12-05 15:59:56.650 [info] Got login result 404
+2024-12-05 15:59:56.693 [info] Beginning of Login Poll
+2024-12-05 15:59:56.847 [info] Got login result 404
+2024-12-05 15:59:56.893 [info] Beginning of Login Poll
+2024-12-05 15:59:57.046 [info] Got login result 404
+2024-12-05 15:59:57.093 [info] Beginning of Login Poll
+2024-12-05 15:59:57.293 [info] Beginning of Login Poll
+2024-12-05 15:59:57.295 [info] Got login result 404
+2024-12-05 15:59:57.493 [info] Beginning of Login Poll
+2024-12-05 15:59:57.545 [info] Got login result 404
+2024-12-05 15:59:57.693 [info] Beginning of Login Poll
+2024-12-05 15:59:57.726 [info] Got login result 404
+2024-12-05 15:59:57.893 [info] Beginning of Login Poll
+2024-12-05 15:59:57.956 [info] Got login result 404
+2024-12-05 15:59:58.093 [info] Beginning of Login Poll
+2024-12-05 15:59:58.159 [info] Got login result 200
+2024-12-05 15:59:58.160 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","challenge":"aFaixYPUonHNiw5g6rC83zQpeJxxUsOy0J7oGbwOc3U","authId":"auth0|user_01JEC31KCQFR2M5QQY9NDB6KEN","uuid":"a4812107-9684-42d3-8c89-7516328e5af5"}
+2024-12-05 15:59:58.293 [info] Beginning of Login Poll
+2024-12-05 15:59:58.365 [info] Got login result 200
+2024-12-05 15:59:58.367 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","challenge":"aFaixYPUonHNiw5g6rC83zQpeJxxUsOy0J7oGbwOc3U","authId":"auth0|user_01JEC31KCQFR2M5QQY9NDB6KEN","uuid":"a4812107-9684-42d3-8c89-7516328e5af5"}
+2024-12-05 15:59:58.493 [info] Beginning of Login Poll
+2024-12-05 15:59:58.572 [info] Got login result 200
+2024-12-05 15:59:58.573 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","challenge":"aFaixYPUonHNiw5g6rC83zQpeJxxUsOy0J7oGbwOc3U","authId":"auth0|user_01JEC31KCQFR2M5QQY9NDB6KEN","uuid":"a4812107-9684-42d3-8c89-7516328e5af5"}
+2024-12-05 15:59:58.694 [info] Beginning of Login Poll
+2024-12-05 15:59:58.776 [info] Got login result 200
+2024-12-05 15:59:58.777 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","challenge":"aFaixYPUonHNiw5g6rC83zQpeJxxUsOy0J7oGbwOc3U","authId":"auth0|user_01JEC31KCQFR2M5QQY9NDB6KEN","uuid":"a4812107-9684-42d3-8c89-7516328e5af5"}
+2024-12-05 15:59:58.894 [info] Beginning of Login Poll
+2024-12-05 15:59:58.980 [info] Got login result 200
+2024-12-05 15:59:58.982 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","challenge":"aFaixYPUonHNiw5g6rC83zQpeJxxUsOy0J7oGbwOc3U","authId":"auth0|user_01JEC31KCQFR2M5QQY9NDB6KEN","uuid":"a4812107-9684-42d3-8c89-7516328e5af5"}
+2024-12-05 15:59:59.093 [info] Beginning of Login Poll
+2024-12-05 15:59:59.186 [info] Got login result 200
+2024-12-05 15:59:59.187 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","challenge":"aFaixYPUonHNiw5g6rC83zQpeJxxUsOy0J7oGbwOc3U","authId":"auth0|user_01JEC31KCQFR2M5QQY9NDB6KEN","uuid":"a4812107-9684-42d3-8c89-7516328e5af5"}
+2024-12-05 15:59:59.293 [info] Beginning of Login Poll
+2024-12-05 15:59:59.336 [info] Got login result 200
+2024-12-05 15:59:59.336 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","challenge":"aFaixYPUonHNiw5g6rC83zQpeJxxUsOy0J7oGbwOc3U","authId":"auth0|user_01JEC31KCQFR2M5QQY9NDB6KEN","uuid":"a4812107-9684-42d3-8c89-7516328e5af5"}
+2024-12-05 15:59:59.486 [info] Got login result 200
+2024-12-05 15:59:59.487 [info] Got login json {"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhdXRoMHx1c2VyXzAxSkVDMzFLQ1FGUjJNNVFRWTlOREI2S0VOIiwidGltZSI6IjE3MzM0MjUxOTgiLCJyYW5kb21uZXNzIjoiNTVjZDJhYTQtNWUxZS00YmM2IiwiZXhwIjo0MzI1NDI1MTk4LCJpc3MiOiJodHRwczovL2F1dGhlbnRpY2F0aW9uLmN1cnNvci5zaCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhdWQiOiJodHRwczovL2N1cnNvci5jb20ifQ.27xxB43fu8g2wiJUeBUMym1Xj4vHLsFJjNjHnsqg3k0","challenge":"aFaixYPUonHNiw5g6rC83zQpeJxxUsOy0J7oGbwOc3U","authId":"auth0|user_01JEC31KCQFR2M5QQY9NDB6KEN","uuid":"a4812107-9684-42d3-8c89-7516328e5af5"}
+2024-12-05 16:00:21.971 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-12-05 16:00:21.971 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-12-05 16:00:21.971 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-12-05 16:00:22.034 [warning] Missing property "isAgentModeSticky" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.034 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.034 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.035 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.035 [warning] Missing property "hallucinatedFunctionsWorkspaceState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.035 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.035 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.035 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.035 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.035 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2024-12-05 16:00:22.267 [info] Started local extension host with pid 28115.
+2024-12-05 16:00:25.435 [info] [perf] Render performance baseline is 28ms
+2024-12-05 16:09:19.546 [error] [Extension Host] Unexpected resource composer-code-block-anysphere://dfykvhdfvw
+2024-12-05 16:49:06.797 [error] [Extension Host] Unexpected resource composer-code-block-anysphere://pyfzdufuva
+2024-12-05 16:49:30.530 [error] [Extension Host] Unexpected resource composer-code-block-anysphere://erheavjsvs
