@@ -1,0 +1,22 @@
+2025-01-21 14:13:47.342 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-01-21 14:13:47.342 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-01-21 14:13:47.342 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-01-21 14:13:47.342 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:519:28)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)
+2025-01-21 14:13:47.370 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-01-21 14:13:47.649 [info] Creating merkle client.
+2025-01-21 14:13:47.649 [info] Done creating merkle client.
+2025-01-21 14:13:47.649 [info] Doing a startup handshake.
+2025-01-21 14:13:48.110 [info] Finished initializing merkle tree in 47.11184300000059 ms.
+2025-01-21 14:13:48.111 [info] Doing the initial handshake with hash: e9d9c3d1bb6f9a1f1b82fe02939dde7cb734710a000cdafefbd3039cf89b0509
+2025-01-21 14:13:48.124 [info] Handshake start

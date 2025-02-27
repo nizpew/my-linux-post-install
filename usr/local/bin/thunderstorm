@@ -4,6 +4,10 @@
 
 #rain sounds :D
 
-mpv --ao=pulse --volume=30 ./Documents/1HrThunderstorm.mp3 &
+
+
+mpv --no-video --quiet --log-file=/dev/null https://www.youtube.com/watch?v=mPZkdNFkNps > /dev/null 2>&1 & 
+##mpv --ao=pulse --volume=30 https://www.youtube.com/watch?v=mPZkdNFkNps &
+## ./Documents/1HrThunderstorm.mp3 &
 
 

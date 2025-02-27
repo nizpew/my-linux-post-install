@@ -1,0 +1,8 @@
+2025-01-21 14:17:23.395 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-21 14:17:23.408 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-21 14:17:23.408 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-21 14:17:23.699 [info] Started local extension host with pid 20286.
+2025-01-21 14:17:23.762 [info] Started initializing default profile extensions in extensions installation folder. file:///home/zero/.vscode-oss/extensions
+2025-01-21 14:17:23.911 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/zero/.vscode-oss/extensions
+2025-01-21 14:17:26.667 [info] [perf] Render performance baseline is 20ms
+2025-01-21 14:17:29.397 [error] Timed out waiting for authentication provider to register
