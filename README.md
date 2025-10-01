@@ -1,15 +1,16 @@
 
-# Dotfiles: Customize Your Linux Environment with Efficient Settings
+# What make this dotfile different?
 
 
-
-
-## make you i3 like this
+##  Its the uni branch, but with soundcloud frontend, studywithme integrated lives, an no Codium/Cursor .config folders, all that with a few command on the dmenu. Honestly, was never so easy to start focusing.
 
 <img width="1920" height="1078" alt="image" src="https://github.com/user-attachments/assets/6b73b090-5c4e-47df-bf15-1fe4b3d5fe11" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0749b2b5-e974-4d96-983c-e327ae27a4a9" />
 
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/6a00b032-697b-44ad-8cee-bd1388671eb6" />
 
+------------------------
 
 ## Description
 
