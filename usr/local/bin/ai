@@ -2,12 +2,9 @@
 
 
 
-piper $(tgpt -q << EOF 
-$1 
-EOF)& > /dev/null 2>&1 
 
 
  
-tgpt -q << EOF
+tgpt --provider duckduckgo -s  << EOF
 $1 
 EOF

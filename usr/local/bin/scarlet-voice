@@ -1,0 +1,6 @@
+#!/bin/bash
+pkill -9 piper
+
+cd ~/audio-to-text-scarlet
+python3 record_until_silence.py
+cd

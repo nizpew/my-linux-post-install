@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Verificando se o nome da branch foi passado como argumento
+if [ -z "$1" ]; then
+  echo "Por favor, forneça o nome da branch como argumento."
+  exit 1
+fi
+
+# Clonando o repositório
+
+
+
+
+
+# Criando uma nova branch com o nome fornecido como argumento e trocando para ela
+## git branch
+git checkout -b "$1"
+
+# Listando os arquivos e diretórios
+
+# Copiando todos os arquivos de /usr/local/bin para usr/local/bin
+
+
+
+
+# Preparando as alterações para commit no Git
+git add .
+git commit -m "new branch"
+
+# Enviando a nova branch para o GitHub
+git push -u origin "$1"
+
+# Instalando o git-filter-repo para remover arquivos grandes
+##sudo apt install git-filter-repo
+
+# Removendo arquivos grandes do histórico do Git
+##git filter-repo --path .config/.config/VSCodium/CachedExtensionVSIXs/.trash/rjmacarthy.twinny-3.21.13-linux-x64 --invert-paths
+
+# Finalizando o script
+cd ..
+

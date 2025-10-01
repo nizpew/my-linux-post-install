@@ -1,0 +1,4 @@
+#!/bin/bash
+cd
+cd ~/.wine/drive_c/users/zero/Terraria/                                                       
+wine Terraria.exe

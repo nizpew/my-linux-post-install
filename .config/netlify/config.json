@@ -1,0 +1,16 @@
+{
+	"telemetryDisabled": false,
+	"cliId": "8655e690-9ec8-4d63-a616-4d91553b5921",
+	"userId": "678ed67a736eac4e7940b38c",
+	"users": {
+		"678ed67a736eac4e7940b38c": {
+			"id": "678ed67a736eac4e7940b38c",
+			"name": "ADS ACCOUNT",
+			"email": "profissionalarb@proton.me",
+			"auth": {
+				"token": "nfc_r1UtiaU7keAK8f7p3ZtnRTFmUib39gej8e75",
+				"github": {}
+			}
+		}
+	}
+}

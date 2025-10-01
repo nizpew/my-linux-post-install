@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+
+
+
+echo CRMDF:
+echo "https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=4&examining_board_ids%5B%5D=2244"
+
+
+
+#echo https://perfil.alfaconcursos.com.br/vle/25585048
+#echo www.qconcursos.com/questoes-de-concursos/provas/cesgranrio-2023-banco-do-brasil-agente-de-tecnologia-microrregiao-158-ti
+#echo "abre o alfacon na materia especifica, abre o pdf da apostila no okular, resume com ia e faz anotação chain. Pode assistir a aula se voce achar melhor."
+echo "tecnicas de estudo que vou usar:
+
+estudar pela apostila.
+fazer uma chain unilateral 
+
+ex:
+Russia->URSS->comunismo->Guerra Fria-> Foguete"
+
+cd StudyHero---EZ-studying-shedule
+python3 main.py
+bash revision.sh

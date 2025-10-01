@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# ==============================
+# Script para limpar arquivos grandes, commitar e enviar ao GitHub
+# ==============================
+
+# Pega usuário do Git configurado
+GIT_USER=$(git config user.name)
+
+# Usa o nome da pasta atual como nome do repositório
+PROJECT_NAME=$(basename "$(pwd)").git
+
+echo "🔎 Projeto detectado: $PROJECT_NAME"
+echo "🔎 Usuário detectado: $GIT_USER"
+
+# Adiciona e commita alterações locais
+echo "📂 Adicionando arquivos modificados..."
+git add .
+
+if git diff --cached --quiet; then
+    echo "ℹ️ Nenhuma alteração para commitar."
+else
+    git commit -m "Auto commit: $(date '+%Y-%m-%d %H:%M:%S')"
+    echo "✅ Commit criado."
+fi
+
+# Instala git-filter-repo se necessário
+if ! command -v git-filter-repo &> /dev/null; then
+    echo "📦 Instalando git-filter-repo..."
+    sudo apt update && sudo apt install -y git-filter-repo
+else
+    echo "✅ git-filter-repo já instalado."
+fi
+
+# Remove arquivos grandes do histórico
+echo "🧹 Removendo arquivos maiores que 100MB do histórico..."
+git filter-repo --strip-blobs-bigger-than 100M --force
+
+# Ajusta remote
+git remote remove origin 2>/dev/null
+git remote add origin git@github.com:$GIT_USER/$PROJECT_NAME
+
+# Faz push forçado
+echo "🚀 Enviando para o GitHub..."
+git push origin main --force
+
+echo "✅ Processo concluído com sucesso!"
+

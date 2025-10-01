@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd StudyHero---EZ-studying-shedule
+python3 main.py

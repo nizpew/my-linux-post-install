@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Check for active VPN connections using nmcli
+if nmcli con show --active | grep -i vpn > /dev/null; then
+    echo "VPN is connected."
+else
+    echo "VPN is NOT connected."
+fi
+

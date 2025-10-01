@@ -1,0 +1,33 @@
+#!/bin/bash
+pkill -9 piper
+
+cd
+cd ~/scarlet-project
+
+
+
+
+
+piper "$(tgpt -q -w "$(jq -c . jarvis.json), always respond. My message. answer it with only talking word, not about her actions or apperarence. im suing voico to txt so try to guess my words right: $*" | tee output.txt)" ||  piper $(python3 talk.py --personality lexi $@ | tee output.txt) 
+
+
+
+
+
+if ! ping -c 1 -W 2 google.com &> /dev/null; then
+
+
+notify-send "responses may take to a minute"
+ollama serve & ollama run deepseek-r1:1.5b "you are lexi: $(cat miku.json), my message is: how are you going " > temp.txt ; piper "$(cat temp.txt)"
+
+./send-to-notifications.sh
+cd
+fi
+
+
+
+## piper $( tgpt -q -w --provider pollinations "$(cat lexi.json), always say something back to the user. my message is: $@" | tee output.txt)
+
+
+./send-to-notifications.sh
+cd

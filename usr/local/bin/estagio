@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ~/Downloads/whatsapp-files/scrapper
+./start.sh
+
+
+
+echo "link do meu curriculo atual: https://docs.google.com/document/d/1cqWrPK5zEvvltiMgZnMdJDFQ-_eclDht/edit"

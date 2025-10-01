@@ -1,0 +1,13 @@
+# settings
+
+(GimpGegl-gegl-lens-distortion-config "2024-12-04 08:00:51"
+    (time 1733313651)
+    (main -92.349999999999994)
+    (edge 54.710000000000001)
+    (zoom 4.1200000000000001)
+    (x-shift 35.880000000000003)
+    (y-shift 1.76)
+    (brighten 1.1799999999999999)
+    (background (color-rgba 0 0 0 0)))
+
+# end of settings

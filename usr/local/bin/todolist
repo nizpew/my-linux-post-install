@@ -6,7 +6,10 @@
 
 #no arg
 if [ "$#" = "0" ] ; then
-    cat ./Documents/constant-files/todolist
+    mdp ./Documents/constant-files/todolistvirgem
+
+    cat ./Documents/constant-files/todolistvirgem
+
 fi
 
 

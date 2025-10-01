@@ -1,0 +1,5 @@
+2025/10/01-06:39:56.287 6cc3 Creating DB /home/zero/.config/nebula/Local Storage/leveldb since it was missing.
+2025/10/01-06:39:56.348 6cc3 Reusing MANIFEST /home/zero/.config/nebula/Local Storage/leveldb/MANIFEST-000001
+2025/10/01-08:11:04.641 6cc2 Level-0 table #5: started
+2025/10/01-08:11:04.676 6cc2 Level-0 table #5: 14138 bytes OK
+2025/10/01-08:11:04.680 6cc2 Delete type=0 #3

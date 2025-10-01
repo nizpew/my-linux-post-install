@@ -1,0 +1,24 @@
+
+#!/bin/bash
+if [ $# -eq 0 ]; then
+    echo "help: put the text to go to the commit message in the arguments"
+else
+
+
+
+
+
+
+
+
+tubeup -q -a "$@" & > /dev/null 2>&1
+
+
+
+while true; do
+    if pgrep dunst > /dev/null; then
+        killall dunst
+    fi
+    sleep 0.1  & # Optional: Adjust the sleep duration as needed
+done 
+fi

@@ -1,0 +1,29 @@
+{
+	"version": "2.5.4",
+	"updatedAt": 0,
+	"lastLogin": null,
+	"auth": {
+		"refreshToken": null,
+		"expiresAt": null,
+		"token": null
+	},
+	"audio": {
+		"volume": 0.5,
+		"playbackDeviceId": null,
+		"muted": false
+	},
+	"repeat": null,
+	"shuffle": false,
+	"hideReposts": false,
+	"enableProxy": false,
+	"proxy": {},
+	"app": {
+		"analytics": false,
+		"crashReports": true,
+		"theme": "darkBlue",
+		"downloadPath": "/home/zero/Downloads",
+		"showTrackChangeNotification": true,
+		"logTrackChange": false,
+		"overrideClientId": null
+	}
+}

@@ -1,0 +1,12 @@
+
+--- 2025-03-24T20:02:41.196Z debug
+🪵  Writing logs to "/home/zero/.config/.wrangler/logs/wrangler-2025-03-24_20-02-41_061.log"
+---
+
+--- 2025-03-24T20:02:41.196Z debug
+.env file not found at ".dev.vars". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2025-03-24T20:02:41.367Z debug
+.env file not found at ".dev.vars". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---

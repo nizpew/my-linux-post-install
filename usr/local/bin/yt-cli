@@ -1,0 +1,2 @@
+#!/bin/bash
+ytfzf --force-youtube --ii=https://iv.nowhere.moe

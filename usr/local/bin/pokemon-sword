@@ -1,0 +1,5 @@
+#!/bin/bash
+cd
+cd ~/.wine/drive_c/users/zero/
+cd Pokemon\ -\ Sword\ \&\ Shield/
+wine yuzu.exe

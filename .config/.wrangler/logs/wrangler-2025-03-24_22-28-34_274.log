@@ -1,0 +1,128 @@
+
+--- 2025-03-24T22:28:34.569Z debug
+🪵  Writing logs to "/home/zero/.config/.wrangler/logs/wrangler-2025-03-24_22-28-34_274.log"
+---
+
+--- 2025-03-24T22:28:34.569Z debug
+No experimental flag store instantiated
+---
+
+--- 2025-03-24T22:28:34.571Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2025-03-24T22:28:34.584Z debug
+Configuration file belonging to ⚡️ Pages ⚡️ project detected.
+---
+
+--- 2025-03-24T22:28:34.589Z debug
+Failed to load .env file "/home/zero/Bolt.new-ALL-LLM/.dev.vars": Error: ENOENT: no such file or directory, open '/home/zero/Bolt.new-ALL-LLM/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getBindings (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:208529:10)
+    at getMiniflareOptionsFromConfig (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210539:20)
+    at /home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210515:11
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at run (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:152593:60)
+    at getPlatformProxy (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210509:34)
+    at configureServer (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:17)
+    at async _createServer (file:///home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async configResolved (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/plugin.js:750:27)
+    at async Promise.all (index 3)
+    at async resolveConfig (file:///home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:66626:3)
+    at async _createServer (file:///home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:62977:18)
+    at async dev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/dev.js:39:16)
+    at async Object.viteDev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/cli/commands.js:220:3)
+    at async Object.run (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/cli/run.js:271:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/zero/Bolt.new-ALL-LLM/.dev.vars'
+}
+---
+
+--- 2025-03-24T22:28:34.815Z debug
+Failed to load .env file "/home/zero/Bolt.new-ALL-LLM/.dev.vars": Error: ENOENT: no such file or directory, open '/home/zero/Bolt.new-ALL-LLM/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getPlatformProxy (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210523:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async configureServer (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:11)
+    at async _createServer (file:///home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async configResolved (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/plugin.js:750:27)
+    at async Promise.all (index 3)
+    at async resolveConfig (file:///home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:66626:3)
+    at async _createServer (file:///home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:62977:18)
+    at async dev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/dev.js:39:16)
+    at async Object.viteDev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/cli/commands.js:220:3)
+    at async Object.run (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/cli/run.js:271:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/zero/Bolt.new-ALL-LLM/.dev.vars'
+}
+---
+
+--- 2025-03-24T22:28:34.824Z debug
+No experimental flag store instantiated
+---
+
+--- 2025-03-24T22:28:34.824Z debug
+Attempted to use flag "JSON_CONFIG_FILE" which has not been instantiated
+---
+
+--- 2025-03-24T22:28:34.824Z debug
+Configuration file belonging to ⚡️ Pages ⚡️ project detected.
+---
+
+--- 2025-03-24T22:28:34.825Z debug
+Failed to load .env file "/home/zero/Bolt.new-ALL-LLM/.dev.vars": Error: ENOENT: no such file or directory, open '/home/zero/Bolt.new-ALL-LLM/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getBindings (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:208529:10)
+    at getMiniflareOptionsFromConfig (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210539:20)
+    at /home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210515:11
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at run (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:152593:60)
+    at getPlatformProxy (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210509:34)
+    at configureServer (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:17)
+    at async _createServer (file:///home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async dev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/dev.js:39:16)
+    at async Object.viteDev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/cli/commands.js:220:3)
+    at async Object.run (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/cli/run.js:271:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/zero/Bolt.new-ALL-LLM/.dev.vars'
+}
+---
+
+--- 2025-03-24T22:28:34.958Z debug
+Failed to load .env file "/home/zero/Bolt.new-ALL-LLM/.dev.vars": Error: ENOENT: no such file or directory, open '/home/zero/Bolt.new-ALL-LLM/.dev.vars'
+    at Object.openSync (node:fs:573:18)
+    at Object.readFileSync (node:fs:452:35)
+    at tryLoadDotEnv (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159140:72)
+    at loadDotEnv (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:159149:12)
+    at getVarsForDev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:198891:18)
+    at getPlatformProxy (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/wrangler@3.63.2_@cloudflare+workers-types@4.20240620.0/node_modules/wrangler/wrangler-dist/cli.js:210523:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async configureServer (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/cloudflare-proxy-plugin.js:55:11)
+    at async _createServer (file:///home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/vite@5.3.1_@types+node@20.14.9_sass@1.77.6/node_modules/vite/dist/node/chunks/dep-BcXSligG.js:63299:20)
+    at async dev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/vite/dev.js:39:16)
+    at async Object.viteDev (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/cli/commands.js:220:3)
+    at async Object.run (/home/zero/Bolt.new-ALL-LLM/node_modules/.pnpm/@remix-run+dev@2.10.0_@remix-run+react@2.10.2_react-dom@18.3.1_react@18.3.1__react@18.3_23634996b74ef00da8470674d9622471/node_modules/@remix-run/dev/dist/cli/run.js:271:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/home/zero/Bolt.new-ALL-LLM/.dev.vars'
+}
+---

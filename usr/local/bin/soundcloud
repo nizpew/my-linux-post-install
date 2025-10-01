@@ -1,0 +1,7 @@
+#!/bin/bash
+mpv 'https://www.youtube.com/playlist?list=PLQDk5c_14ibTBfYR76-u8r376mITBFqIC' &
+# Diretório de downloads
+DOWNLOADS_DIR="/home/$USER/Downloads"
+
+# Encontrar o arquivo mais recente do YouTube Music
+Downloads/Nebula-1.0.0.AppImage --no-sandbox & 2>/dev/nul

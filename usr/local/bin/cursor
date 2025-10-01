@@ -1,0 +1,2 @@
+#!/bin/bash
+nautilus ./Downloads/Cursor-0.47.9-x86_64.AppImage &

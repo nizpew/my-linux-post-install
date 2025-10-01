@@ -7,7 +7,7 @@ dir=$(uuidgen | cut -d'-' -f1)
 mkdir /tmp/$dir || { echo "Failed to create directory"; exit 1; }
 
 # Copy the specified file to the temporary directory
-cp "$1" /tmp/$dir || { echo "Failed to copy file"; exit 1; }
+cp -r "$1" /tmp/$dir || { echo "Failed to copy file"; exit 1; }
 
 # Create a zip archive of the directory
 zip -r /tmp/$dir.zip /tmp/$dir || { echo "Failed to create zip archive"; exit 1; }

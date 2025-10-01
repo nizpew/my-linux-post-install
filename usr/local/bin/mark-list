@@ -1,0 +1,14 @@
+#!/bin/sh
+# todo list, minimal and fast
+# args: l, k, a, d, r , rr, h.
+
+
+
+#no arg
+if [ "$#" = "0" ] ; then
+    mdp ./Documents/constant-files/marktodolistvirgem
+
+    cat ./Documents/constant-files/marktodolistvirgem
+
+fi
+

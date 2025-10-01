@@ -1,2 +1,5 @@
 #!/bin/bash
-curl -q https://www.bibliaon.com/palavra_do_dia/ | grep '<p>'                
+
+# Example command generating output
+output=$(palavra-do-dia3 | head -c 2000 | tgpt -q -w "summary in 4 lines, in english. mainly enphasizes the part where theres bible verses." | tgpt -q -w "take anything like 'The text emphasizes God's desire to spread His Word through Brazil and the world. It highlights daily Bible verses to inspire and improve one's day.' out, an returns only whats other than that, of the following text:" | tail -n 3 | tee /dev/tty | espeak)
+

@@ -1,5 +1,7 @@
 #!/bin/bash
 if [ "$#" = '0' ] ; then
+echo "Actual free space in the root disk: $(df -h --output=avail / | tail -n 1)"
+sleep 2
 /home/$USER/exfilemanager/exfilemanager-fzf-implementation
 fi
 
