@@ -1,8 +1,9 @@
 
-# Dotfiles: Customize Your Linux Environment with Efficient Settings
+# What make this dotfile different?
 
 
-## you can make i3 look like this
+##  Customized Linux Environment for Efficiency. Pomodoro integrated with notifysends, low RAM, clean for university students and organization entusiasts.
+
 ![image](https://github.com/user-attachments/assets/2e284ac2-3d96-4438-a843-cc5310eeff3b)
 
 
